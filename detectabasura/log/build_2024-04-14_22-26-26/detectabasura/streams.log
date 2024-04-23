@@ -1,0 +1,44 @@
+[0.060s] Invoking command in '/home/jetson/guali_ws/detectabasura/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4
+[0.358s] [35m[1mScanning dependencies of target video_publisher[0m
+[1.152s] [ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[13.036s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[13.037s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:57:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv_bridge::CvImage::CvImage(std_msgs::msg::Header, const char [5], cv::cuda::GpuMat&)[m[K’
+[13.040s]          auto msg0 = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cudaFrame0[01;31m[K)[m[K.toImageMsg();
+[13.042s]                                                                                    [01;31m[K^[m[K
+[13.045s] In file included from [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:3[m[K:
+[13.048s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)[m[K’
+[13.051s]    [01;36m[KCvImage[m[K(
+[13.051s]    [01;36m[K^~~~~~~[m[K
+[13.052s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kcv::cuda::GpuMat[m[K’ to ‘[01m[Kconst cv::Mat&[m[K’
+[13.054s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage()[m[K’
+[13.055s]    [01;36m[KCvImage[m[K() {}
+[13.055s]    [01;36m[K^~~~~~~[m[K
+[13.056s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[13.056s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)[m[K’
+[13.057s]  class CV_BRIDGE_EXPORT [01;36m[KCvImage[m[K
+[13.058s]                         [01;36m[K^~~~~~~[m[K
+[13.058s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[13.059s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)[m[K’
+[13.063s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[13.063s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:58:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv_bridge::CvImage::CvImage(std_msgs::msg::Header, const char [5], cv::cuda::GpuMat&)[m[K’
+[13.064s]          auto msg1 = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cudaFrame1[01;31m[K)[m[K.toImageMsg();
+[13.064s]                                                                                    [01;31m[K^[m[K
+[13.065s] In file included from [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:3[m[K:
+[13.065s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)[m[K’
+[13.066s]    [01;36m[KCvImage[m[K(
+[13.066s]    [01;36m[K^~~~~~~[m[K
+[13.066s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kcv::cuda::GpuMat[m[K’ to ‘[01m[Kconst cv::Mat&[m[K’
+[13.067s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage()[m[K’
+[13.067s]    [01;36m[KCvImage[m[K() {}
+[13.068s]    [01;36m[K^~~~~~~[m[K
+[13.068s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[13.068s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)[m[K’
+[13.069s]  class CV_BRIDGE_EXPORT [01;36m[KCvImage[m[K
+[13.069s]                         [01;36m[K^~~~~~~[m[K
+[13.070s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[13.070s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)[m[K’
+[13.071s] [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[16.926s] make[2]: *** [CMakeFiles/video_publisher.dir/build.make:63: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1
+[16.928s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/video_publisher.dir/all] Error 2
+[16.929s] make: *** [Makefile:141: all] Error 2
+[16.947s] Invoked command in '/home/jetson/guali_ws/detectabasura/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4

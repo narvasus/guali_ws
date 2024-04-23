@@ -1,0 +1,40 @@
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:57:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv_bridge::CvImage::CvImage(std_msgs::msg::Header, const char [5], cv::cuda::GpuMat&)[m[K’
+         auto msg0 = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cudaFrame0[01;31m[K)[m[K.toImageMsg();
+                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)[m[K’
+   [01;36m[KCvImage[m[K(
+   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kcv::cuda::GpuMat[m[K’ to ‘[01m[Kconst cv::Mat&[m[K’
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage()[m[K’
+   [01;36m[KCvImage[m[K() {}
+   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)[m[K’
+ class CV_BRIDGE_EXPORT [01;36m[KCvImage[m[K
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)[m[K’
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:58:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv_bridge::CvImage::CvImage(std_msgs::msg::Header, const char [5], cv::cuda::GpuMat&)[m[K’
+         auto msg1 = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cudaFrame1[01;31m[K)[m[K.toImageMsg();
+                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)[m[K’
+   [01;36m[KCvImage[m[K(
+   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kcv::cuda::GpuMat[m[K’ to ‘[01m[Kconst cv::Mat&[m[K’
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage()[m[K’
+   [01;36m[KCvImage[m[K() {}
+   [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 3 provided
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)[m[K’
+ class CV_BRIDGE_EXPORT [01;36m[KCvImage[m[K
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)[m[K’
+[01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+make[2]: *** [CMakeFiles/video_publisher.dir/build.make:63: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/video_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

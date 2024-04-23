@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.001175] (detectabasura) JobQueued: {'identifier': 'detectabasura', 'dependencies': OrderedDict()}
+[0.003218] (detectabasura) JobStarted: {'identifier': 'detectabasura'}
+[0.053113] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'cmake'}
+[0.056167] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'build'}
+[0.059693] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/guali_ws/detectabasura/build/detectabasura', '--', '-j4', '-l4'], 'cwd': '/home/jetson/guali_ws/detectabasura/build/detectabasura', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('JETSON_CUDA', '10.2.300'), ('SSH_AGENT_PID', '7724'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'xfce'), ('JETSON_TENSORRT', '8.0.1.6'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/jetson/guali_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1420123018788'), ('JETSON_CUDNN', '8.2.1.32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/7590,unix/nano:/tmp/.ICE-unix/7590'), ('JETSON_OPENCV', '4.6.0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':10.0'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('JETSON_L4T_REVISION', '6.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2e324525e9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-bstMMFIEVcmf/agent.7723'), ('AMENT_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'XFCE'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('JETSON_BOARDIDS', '3448'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/guali_ws/detectabasura/build/detectabasura'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xfce:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/usr/local/lib/python3.8/site-packages/cv2:/usr/local/lib/python3.8/site-packages/cv2:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy')]), 'shell': False}
+[0.099073] (-) TimerEvent: {}
+[0.200028] (-) TimerEvent: {}
+[0.301843] (-) TimerEvent: {}
+[0.361090] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target video_publisher\x1b[0m\n'}
+[0.402012] (-) TimerEvent: {}
+[0.503172] (-) TimerEvent: {}
+[0.603839] (-) TimerEvent: {}
+[0.708157] (-) TimerEvent: {}
+[0.810201] (-) TimerEvent: {}
+[0.910919] (-) TimerEvent: {}
+[1.011593] (-) TimerEvent: {}
+[1.112287] (-) TimerEvent: {}
+[1.154955] (detectabasura) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o\x1b[0m\n'}
+[1.212484] (-) TimerEvent: {}
+[1.313364] (-) TimerEvent: {}
+[1.415027] (-) TimerEvent: {}
+[1.515737] (-) TimerEvent: {}
+[1.616425] (-) TimerEvent: {}
+[1.717124] (-) TimerEvent: {}
+[1.817816] (-) TimerEvent: {}
+[1.919156] (-) TimerEvent: {}
+[2.020516] (-) TimerEvent: {}
+[2.121231] (-) TimerEvent: {}
+[2.222339] (-) TimerEvent: {}
+[2.324537] (-) TimerEvent: {}
+[2.426727] (-) TimerEvent: {}
+[2.528900] (-) TimerEvent: {}
+[2.634810] (-) TimerEvent: {}
+[2.736986] (-) TimerEvent: {}
+[2.842855] (-) TimerEvent: {}
+[2.946209] (-) TimerEvent: {}
+[3.047481] (-) TimerEvent: {}
+[3.148676] (-) TimerEvent: {}
+[3.253865] (-) TimerEvent: {}
+[3.354698] (-) TimerEvent: {}
+[3.459082] (-) TimerEvent: {}
+[3.562496] (-) TimerEvent: {}
+[3.664828] (-) TimerEvent: {}
+[3.767260] (-) TimerEvent: {}
+[3.875260] (-) TimerEvent: {}
+[3.981376] (-) TimerEvent: {}
+[4.083331] (-) TimerEvent: {}
+[4.198106] (-) TimerEvent: {}
+[4.302184] (-) TimerEvent: {}
+[4.404392] (-) TimerEvent: {}
+[4.505976] (-) TimerEvent: {}
+[4.607919] (-) TimerEvent: {}
+[4.709895] (-) TimerEvent: {}
+[4.812151] (-) TimerEvent: {}
+[4.914319] (-) TimerEvent: {}
+[5.017209] (-) TimerEvent: {}
+[5.128014] (-) TimerEvent: {}
+[5.229622] (-) TimerEvent: {}
+[5.336732] (-) TimerEvent: {}
+[5.439071] (-) TimerEvent: {}
+[5.546958] (-) TimerEvent: {}
+[5.650860] (-) TimerEvent: {}
+[5.752032] (-) TimerEvent: {}
+[5.853210] (-) TimerEvent: {}
+[5.961509] (-) TimerEvent: {}
+[6.064446] (-) TimerEvent: {}
+[6.175397] (-) TimerEvent: {}
+[6.278294] (-) TimerEvent: {}
+[6.379591] (-) TimerEvent: {}
+[6.480853] (-) TimerEvent: {}
+[6.583493] (-) TimerEvent: {}
+[6.698543] (-) TimerEvent: {}
+[6.799239] (-) TimerEvent: {}
+[6.900443] (-) TimerEvent: {}
+[7.001684] (-) TimerEvent: {}
+[7.109811] (-) TimerEvent: {}
+[7.211199] (-) TimerEvent: {}
+[7.318749] (-) TimerEvent: {}
+[7.420110] (-) TimerEvent: {}
+[7.522473] (-) TimerEvent: {}
+[7.623271] (-) TimerEvent: {}
+[7.725884] (-) TimerEvent: {}
+[7.828376] (-) TimerEvent: {}
+[7.930513] (-) TimerEvent: {}
+[8.032901] (-) TimerEvent: {}
+[8.134132] (-) TimerEvent: {}
+[8.236103] (-) TimerEvent: {}
+[8.338186] (-) TimerEvent: {}
+[8.440752] (-) TimerEvent: {}
+[8.549594] (-) TimerEvent: {}
+[8.651593] (-) TimerEvent: {}
+[8.752421] (-) TimerEvent: {}
+[8.856010] (-) TimerEvent: {}
+[8.956698] (-) TimerEvent: {}
+[9.060870] (-) TimerEvent: {}
+[9.161677] (-) TimerEvent: {}
+[9.263777] (-) TimerEvent: {}
+[9.365858] (-) TimerEvent: {}
+[9.467814] (-) TimerEvent: {}
+[9.570010] (-) TimerEvent: {}
+[9.672153] (-) TimerEvent: {}
+[9.774511] (-) TimerEvent: {}
+[9.877631] (-) TimerEvent: {}
+[9.982540] (-) TimerEvent: {}
+[10.089116] (-) TimerEvent: {}
+[10.192690] (-) TimerEvent: {}
+[10.295629] (-) TimerEvent: {}
+[10.398791] (-) TimerEvent: {}
+[10.500727] (-) TimerEvent: {}
+[10.602721] (-) TimerEvent: {}
+[10.704886] (-) TimerEvent: {}
+[10.805615] (-) TimerEvent: {}
+[10.906927] (-) TimerEvent: {}
+[11.009138] (-) TimerEvent: {}
+[11.111147] (-) TimerEvent: {}
+[11.213971] (-) TimerEvent: {}
+[11.316040] (-) TimerEvent: {}
+[11.416734] (-) TimerEvent: {}
+[11.517452] (-) TimerEvent: {}
+[11.621568] (-) TimerEvent: {}
+[11.722262] (-) TimerEvent: {}
+[11.823055] (-) TimerEvent: {}
+[11.923753] (-) TimerEvent: {}
+[12.025682] (-) TimerEvent: {}
+[12.127708] (-) TimerEvent: {}
+[12.228412] (-) TimerEvent: {}
+[12.330562] (-) TimerEvent: {}
+[12.442562] (-) TimerEvent: {}
+[12.543281] (-) TimerEvent: {}
+[12.646496] (-) TimerEvent: {}
+[12.747240] (-) TimerEvent: {}
+[12.848387] (-) TimerEvent: {}
+[12.949078] (-) TimerEvent: {}
+[13.037997] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.040570] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:57:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(std_msgs::msg::Header, const char [5], cv::cuda::GpuMat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.042773] (detectabasura) StderrLine: {'line': b'         auto msg0 = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cudaFrame0\x1b[01;31m\x1b[K)\x1b[m\x1b[K.toImageMsg();\n'}
+[13.045171] (detectabasura) StderrLine: {'line': b'                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.047797] (detectabasura) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[13.049821] (-) TimerEvent: {}
+[13.051018] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.053492] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[KCvImage\x1b[m\x1b[K(\n'}
+[13.054715] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.055187] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kcv::cuda::GpuMat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.055603] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.058202] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[KCvImage\x1b[m\x1b[K() {}\n'}
+[13.058773] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.059182] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[13.059589] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.060677] (detectabasura) StderrLine: {'line': b' class CV_BRIDGE_EXPORT \x1b[01;36m\x1b[KCvImage\x1b[m\x1b[K\n'}
+[13.061179] (detectabasura) StderrLine: {'line': b'                        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.061592] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.062010] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.062465] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.066719] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:58:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(std_msgs::msg::Header, const char [5], cv::cuda::GpuMat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.067223] (detectabasura) StderrLine: {'line': b'         auto msg1 = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", cudaFrame1\x1b[01;31m\x1b[K)\x1b[m\x1b[K.toImageMsg();\n'}
+[13.067614] (detectabasura) StderrLine: {'line': b'                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.068028] (detectabasura) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:3\x1b[m\x1b[K:\n'}
+[13.068454] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.068897] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[KCvImage\x1b[m\x1b[K(\n'}
+[13.069296] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.069656] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:100:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kcv::cuda::GpuMat\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.070050] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.070488] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[KCvImage\x1b[m\x1b[K() {}\n'}
+[13.070934] (detectabasura) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.071351] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:95:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 3 provided\n'}
+[13.071726] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.072072] (detectabasura) StderrLine: {'line': b' class CV_BRIDGE_EXPORT \x1b[01;36m\x1b[KCvImage\x1b[m\x1b[K\n'}
+[13.072463] (detectabasura) StderrLine: {'line': b'                        \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.072914] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.073427] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.073922] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:85:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 3 provided\n'}
+[13.150008] (-) TimerEvent: {}
+[13.250730] (-) TimerEvent: {}
+[13.351821] (-) TimerEvent: {}
+[13.453714] (-) TimerEvent: {}
+[13.554859] (-) TimerEvent: {}
+[13.656720] (-) TimerEvent: {}
+[13.758036] (-) TimerEvent: {}
+[13.866024] (-) TimerEvent: {}
+[13.968257] (-) TimerEvent: {}
+[14.069627] (-) TimerEvent: {}
+[14.171214] (-) TimerEvent: {}
+[14.271909] (-) TimerEvent: {}
+[14.380488] (-) TimerEvent: {}
+[14.481310] (-) TimerEvent: {}
+[14.582039] (-) TimerEvent: {}
+[14.682782] (-) TimerEvent: {}
+[14.784814] (-) TimerEvent: {}
+[14.886768] (-) TimerEvent: {}
+[14.987445] (-) TimerEvent: {}
+[15.088228] (-) TimerEvent: {}
+[15.190940] (-) TimerEvent: {}
+[15.292628] (-) TimerEvent: {}
+[15.393352] (-) TimerEvent: {}
+[15.495613] (-) TimerEvent: {}
+[15.602076] (-) TimerEvent: {}
+[15.702778] (-) TimerEvent: {}
+[15.806763] (-) TimerEvent: {}
+[15.908877] (-) TimerEvent: {}
+[16.010956] (-) TimerEvent: {}
+[16.113466] (-) TimerEvent: {}
+[16.215661] (-) TimerEvent: {}
+[16.319006] (-) TimerEvent: {}
+[16.420025] (-) TimerEvent: {}
+[16.520793] (-) TimerEvent: {}
+[16.626608] (-) TimerEvent: {}
+[16.727433] (-) TimerEvent: {}
+[16.833075] (-) TimerEvent: {}
+[16.929264] (detectabasura) StderrLine: {'line': b'make[2]: *** [CMakeFiles/video_publisher.dir/build.make:63: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1\n'}
+[16.931575] (detectabasura) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/video_publisher.dir/all] Error 2\n'}
+[16.932230] (detectabasura) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[16.934594] (-) TimerEvent: {}
+[16.947125] (detectabasura) CommandEnded: {'returncode': 2}
+[17.034804] (-) TimerEvent: {}
+[17.135596] (-) TimerEvent: {}
+[17.250759] (-) TimerEvent: {}
+[17.295394] (detectabasura) JobEnded: {'identifier': 'detectabasura', 'rc': 2}
+[17.309383] (-) EventReactorShutdown: {}

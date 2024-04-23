@@ -1,0 +1,10 @@
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/install/strip.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/install/local.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/install.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/list_install_components.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/rebuild_cache.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/edit_cache.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/test.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/video_publisher.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura_uninstall.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/uninstall.dir

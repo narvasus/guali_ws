@@ -1,0 +1,5 @@
+ros2 run detectabasura video_publisher
+ros2 run image_tools showimage image:=/image_right
+ros2 run image_tools showimage image:=/image_left
+
+

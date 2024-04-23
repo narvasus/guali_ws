@@ -1,0 +1,26 @@
+[0.050s] Invoking command in '/home/jetson/guali_ws/detectabasura/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4
+[0.419s] [35m[1mScanning dependencies of target video_publisher[0m
+[0.659s] [ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[11.263s] [100%] [32m[1mLinking CXX executable video_publisher[0m
+[14.222s] [100%] Built target video_publisher
+[14.299s] Invoked command in '/home/jetson/guali_ws/detectabasura/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4
+[14.586s] Invoking command in '/home/jetson/guali_ws/detectabasura/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/detectabasura/build/detectabasura
+[14.662s] -- Install configuration: ""
+[14.665s] -- Installing: /home/jetson/guali_ws/detectabasura/install/detectabasura/lib/detectabasura/video_publisher
+[14.667s] -- Set runtime path of "/home/jetson/guali_ws/detectabasura/install/detectabasura/lib/detectabasura/video_publisher" to ""
+[14.668s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura
+[14.669s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura
+[14.673s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/environment/ament_prefix_path.sh
+[14.674s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/environment/ament_prefix_path.dsv
+[14.675s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/environment/path.sh
+[14.675s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/environment/path.dsv
+[14.675s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/local_setup.bash
+[14.676s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/local_setup.sh
+[14.676s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/local_setup.zsh
+[14.677s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/local_setup.dsv
+[14.677s] -- Installing: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.dsv
+[14.678s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/ament_index/resource_index/packages/detectabasura
+[14.686s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig.cmake
+[14.687s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig-version.cmake
+[14.688s] -- Up-to-date: /home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.xml
+[14.689s] Invoked command in '/home/jetson/guali_ws/detectabasura/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/detectabasura/build/detectabasura

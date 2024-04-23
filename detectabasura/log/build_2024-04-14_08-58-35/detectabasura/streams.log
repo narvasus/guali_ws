@@ -1,0 +1,11 @@
+[0.103s] Invoking command in '/home/jetson/guali_ws/detectabasura/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4
+[0.804s] [35m[1mScanning dependencies of target video_publisher[0m
+[1.060s] [ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[2.669s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:15:10:[m[K [01;31m[Kfatal error: [m[KQApplication: No such file or directory
+[2.669s]  #include [01;31m[K<QApplication>[m[K
+[2.670s]           [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.670s] compilation terminated.
+[2.685s] make[2]: *** [CMakeFiles/video_publisher.dir/build.make:63: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1
+[2.686s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/video_publisher.dir/all] Error 2
+[2.687s] make: *** [Makefile:141: all] Error 2
+[2.704s] Invoked command in '/home/jetson/guali_ws/detectabasura/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4

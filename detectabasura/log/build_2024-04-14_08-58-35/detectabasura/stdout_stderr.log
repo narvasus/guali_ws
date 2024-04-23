@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target video_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:15:10:[m[K [01;31m[Kfatal error: [m[KQApplication: No such file or directory
+ #include [01;31m[K<QApplication>[m[K
+          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/video_publisher.dir/build.make:63: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/video_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

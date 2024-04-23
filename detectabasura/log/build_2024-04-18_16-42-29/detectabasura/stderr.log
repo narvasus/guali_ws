@@ -1,0 +1,15 @@
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:94:2:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+ }[01;31m[K#[m[Kinclude <sstream>
+  [01;31m[K^[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude[m[K’ does not name a type
+ }#[01;31m[Kinclude[m[K <sstream>
+   [01;31m[K^~~~~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:116:5:[m[K [01;31m[Kerror: [m[Kconflicting declaration of C function ‘[01m[Kint main()[m[K’
+ int [01;31m[Kmain[m[K() {
+     [01;31m[K^~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:57:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint main(int, char**)[m[K’
+ int [01;36m[Kmain[m[K(int argc, char *argv[])
+     [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/video_publisher.dir/build.make:63: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/video_publisher.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

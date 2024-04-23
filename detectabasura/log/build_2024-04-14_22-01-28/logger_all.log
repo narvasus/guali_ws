@@ -1,0 +1,104 @@
+[3.226s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.227s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb29ce2e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb29ce2e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb293ee20>)
+[5.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.769s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/guali_ws/detectabasura'
+[5.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.927s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'detectabasura'
+[5.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.047s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jetson/guali_ws/install
+[6.062s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[6.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.815s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_args' from command line to 'None'
+[6.815s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target' from command line to 'None'
+[6.816s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.816s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_cache' from command line to 'False'
+[6.816s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_first' from command line to 'False'
+[6.816s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_force_configure' from command line to 'False'
+[6.816s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'ament_cmake_args' from command line to 'None'
+[6.816s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_cmake_args' from command line to 'None'
+[6.817s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.817s] DEBUG:colcon.colcon_core.verb:Building package 'detectabasura' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/guali_ws/detectabasura/build/detectabasura', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/guali_ws/detectabasura/install/detectabasura', 'merge_install': False, 'path': '/home/jetson/guali_ws/detectabasura', 'symlink_install': False, 'test_result_base': None}
+[6.818s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.824s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/guali_ws/detectabasura' with build type 'ament_cmake'
+[6.825s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/guali_ws/detectabasura'
+[6.845s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/guali_ws/detectabasura/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4
+[52.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/guali_ws/detectabasura/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/detectabasura/build/detectabasura -- -j4 -l4
+[53.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/guali_ws/detectabasura/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/detectabasura/build/detectabasura
+[53.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[53.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/guali_ws/detectabasura/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/detectabasura/build/detectabasura
+[53.431s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura' for CMake module files
+[53.434s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura' for CMake config files
+[53.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[53.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[53.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[53.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[53.506s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/lib'
+[53.508s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/bin'
+[53.508s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[53.510s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/lib/python3.8/site-packages'
+[53.511s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/bin'
+[53.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.ps1'
+[53.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.dsv'
+[53.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.sh'
+[53.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.bash'
+[53.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.zsh'
+[53.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/guali_ws/detectabasura/install/detectabasura/share/colcon-core/packages/detectabasura)
+[53.905s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[53.908s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura' for CMake module files
+[53.913s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura' for CMake config files
+[53.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[53.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[53.935s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[53.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[53.945s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/lib'
+[53.945s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/bin'
+[53.946s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[53.960s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/lib/python3.8/site-packages'
+[53.961s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/detectabasura/install/detectabasura/bin'
+[53.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.ps1'
+[53.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.dsv'
+[54.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.sh'
+[54.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.bash'
+[54.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/detectabasura/install/detectabasura/share/detectabasura/package.zsh'
+[54.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/guali_ws/detectabasura/install/detectabasura/share/colcon-core/packages/detectabasura)
+[54.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[54.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[54.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[54.048s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[54.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[54.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[54.152s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[54.568s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[54.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/detectabasura/install/local_setup.ps1'
+[54.600s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/guali_ws/detectabasura/install/_local_setup_util_ps1.py'
+[54.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/detectabasura/install/setup.ps1'
+[54.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/detectabasura/install/local_setup.sh'
+[54.642s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/guali_ws/detectabasura/install/_local_setup_util_sh.py'
+[54.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/detectabasura/install/setup.sh'
+[54.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/detectabasura/install/local_setup.bash'
+[54.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/detectabasura/install/setup.bash'
+[54.676s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/detectabasura/install/local_setup.zsh'
+[54.684s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/detectabasura/install/setup.zsh'
