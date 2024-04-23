@@ -36,11 +36,6 @@ void publishImage(const cv::Mat &image, const std::string &topic_name, const std
 
 int main(int argc, char *argv[])
 {
-    
-    // Display OpenCV Build Information
-    std::cout << cv::getBuildInformation() << std::endl;
-
-
  // Define the GStreamer pipeline command for camera 0
     std::string pipeline0 = "nvarguscamerasrc sensor-id=0 ! video/x-raw(memory:NVMM), width=(int)640, height=(int)480, format=(string)NV12, framerate=(fraction)60/1 ! nvvidconv flip-method=0 ! video/x-raw, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! videoconvert ! video/x-raw, format=(string)BGR ! appsink";
 
