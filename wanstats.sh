@@ -8,8 +8,9 @@ bytes_to_mb() {
 while true; do
     clear
 
-    # Get network statistics for eth0
-    netstat_output=$(netstat -i | grep eth0)
+    # Get network statistics
+    #netstat_output=$(netstat -i | grep eth0)
+    netstat_output=$(netstat -i | grep wlan0)
 
     # Extract sent and received bytes
     received_bytes=$(echo "$netstat_output" | awk '{print $3}')
@@ -30,7 +31,7 @@ while true; do
     mb_per_hour=$(echo "scale=2; $total_mb * 60 / ${uptime//[^0-9]/}" | bc)
 
     # Display results
-    echo "Ethernet Interface (eth0) Statistics:"
+    echo "Data transmision in session Statistics:"
     echo "Sent:       $sent_mb MB"
     echo "Received:   $received_mb MB"
     echo "Total:      $total_mb MB"
