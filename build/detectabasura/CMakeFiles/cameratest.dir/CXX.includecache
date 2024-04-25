@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jetson/guali_ws/detectabasura/src/cameratest.cpp
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+stdint.h
+-
+sys/ioctl.h
+-
+sys/types.h
+-
+linux/i2c.h
+-
+linux/i2c-dev.h
+-
+

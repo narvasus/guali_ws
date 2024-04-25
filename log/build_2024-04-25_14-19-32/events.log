@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.001001] (detectabasura) JobQueued: {'identifier': 'detectabasura', 'dependencies': OrderedDict()}
+[0.001903] (detectabasura) JobStarted: {'identifier': 'detectabasura'}
+[0.036425] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'cmake'}
+[0.038923] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'build'}
+[0.041730] (detectabasura) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/jetson/guali_ws/build/detectabasura', '--', '-j4', '-l4'], 'cwd': '/home/jetson/guali_ws/build/detectabasura', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.168 45270 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-59e9be0b-fe68-492d-a35e-86aebc33ac63.sock'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('COLCON_PREFIX_PATH', '/home/jetson/guali_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1420123018788'), ('JETSON_CUDNN', '8.2.1.32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('JETSON_OPENCV', '4.6.0'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b4d6feb511.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 45270 192.168.1.163 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/usr/local/lib/python3.8/site-packages/cv2:/usr/local/lib/python3.8/site-packages/cv2:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy')]), 'shell': False}
+[0.099295] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.211858] (detectabasura) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o\x1b[0m\n'}
+[0.300251] (-) TimerEvent: {}
+[0.400961] (-) TimerEvent: {}
+[0.501964] (-) TimerEvent: {}
+[0.602654] (-) TimerEvent: {}
+[0.703300] (-) TimerEvent: {}
+[0.803969] (-) TimerEvent: {}
+[0.904713] (-) TimerEvent: {}
+[1.005356] (-) TimerEvent: {}
+[1.105994] (-) TimerEvent: {}
+[1.206664] (-) TimerEvent: {}
+[1.307312] (-) TimerEvent: {}
+[1.407953] (-) TimerEvent: {}
+[1.508712] (-) TimerEvent: {}
+[1.609394] (-) TimerEvent: {}
+[1.710107] (-) TimerEvent: {}
+[1.810839] (-) TimerEvent: {}
+[1.911526] (-) TimerEvent: {}
+[2.012191] (-) TimerEvent: {}
+[2.112946] (-) TimerEvent: {}
+[2.213722] (-) TimerEvent: {}
+[2.314822] (-) TimerEvent: {}
+[2.415959] (-) TimerEvent: {}
+[2.517485] (-) TimerEvent: {}
+[2.618152] (-) TimerEvent: {}
+[2.718812] (-) TimerEvent: {}
+[2.819491] (-) TimerEvent: {}
+[2.920153] (-) TimerEvent: {}
+[3.020906] (-) TimerEvent: {}
+[3.121571] (-) TimerEvent: {}
+[3.222235] (-) TimerEvent: {}
+[3.322900] (-) TimerEvent: {}
+[3.423581] (-) TimerEvent: {}
+[3.524317] (-) TimerEvent: {}
+[3.625070] (-) TimerEvent: {}
+[3.725768] (-) TimerEvent: {}
+[3.826717] (-) TimerEvent: {}
+[3.927452] (-) TimerEvent: {}
+[4.028182] (-) TimerEvent: {}
+[4.129216] (-) TimerEvent: {}
+[4.229946] (-) TimerEvent: {}
+[4.330892] (-) TimerEvent: {}
+[4.431558] (-) TimerEvent: {}
+[4.532225] (-) TimerEvent: {}
+[4.633020] (-) TimerEvent: {}
+[4.733709] (-) TimerEvent: {}
+[4.834413] (-) TimerEvent: {}
+[4.935134] (-) TimerEvent: {}
+[5.035810] (-) TimerEvent: {}
+[5.136496] (-) TimerEvent: {}
+[5.237251] (-) TimerEvent: {}
+[5.337907] (-) TimerEvent: {}
+[5.438567] (-) TimerEvent: {}
+[5.539246] (-) TimerEvent: {}
+[5.640185] (-) TimerEvent: {}
+[5.740858] (-) TimerEvent: {}
+[5.841853] (-) TimerEvent: {}
+[5.942503] (-) TimerEvent: {}
+[6.043162] (-) TimerEvent: {}
+[6.143835] (-) TimerEvent: {}
+[6.244506] (-) TimerEvent: {}
+[6.345216] (-) TimerEvent: {}
+[6.445870] (-) TimerEvent: {}
+[6.546526] (-) TimerEvent: {}
+[6.647187] (-) TimerEvent: {}
+[6.747912] (-) TimerEvent: {}
+[6.848593] (-) TimerEvent: {}
+[6.949979] (-) TimerEvent: {}
+[7.050655] (-) TimerEvent: {}
+[7.151389] (-) TimerEvent: {}
+[7.252056] (-) TimerEvent: {}
+[7.352748] (-) TimerEvent: {}
+[7.453432] (-) TimerEvent: {}
+[7.554099] (-) TimerEvent: {}
+[7.654764] (-) TimerEvent: {}
+[7.755435] (-) TimerEvent: {}
+[7.856106] (-) TimerEvent: {}
+[7.956802] (-) TimerEvent: {}
+[8.057462] (-) TimerEvent: {}
+[8.158140] (-) TimerEvent: {}
+[8.258808] (-) TimerEvent: {}
+[8.359465] (-) TimerEvent: {}
+[8.460121] (-) TimerEvent: {}
+[8.560848] (-) TimerEvent: {}
+[8.661516] (-) TimerEvent: {}
+[8.762206] (-) TimerEvent: {}
+[8.862900] (-) TimerEvent: {}
+[8.963570] (-) TimerEvent: {}
+[9.064238] (-) TimerEvent: {}
+[9.164970] (-) TimerEvent: {}
+[9.265629] (-) TimerEvent: {}
+[9.366278] (-) TimerEvent: {}
+[9.466945] (-) TimerEvent: {}
+[9.567608] (-) TimerEvent: {}
+[9.668275] (-) TimerEvent: {}
+[9.769025] (-) TimerEvent: {}
+[9.869682] (-) TimerEvent: {}
+[9.970350] (-) TimerEvent: {}
+[10.071012] (-) TimerEvent: {}
+[10.171677] (-) TimerEvent: {}
+[10.272342] (-) TimerEvent: {}
+[10.373147] (-) TimerEvent: {}
+[10.473811] (-) TimerEvent: {}
+[10.574482] (-) TimerEvent: {}
+[10.675157] (-) TimerEvent: {}
+[10.775828] (-) TimerEvent: {}
+[10.876521] (-) TimerEvent: {}
+[10.977248] (-) TimerEvent: {}
+[11.077913] (-) TimerEvent: {}
+[11.178571] (-) TimerEvent: {}
+[11.279235] (-) TimerEvent: {}
+[11.379915] (-) TimerEvent: {}
+[11.480575] (-) TimerEvent: {}
+[11.581344] (-) TimerEvent: {}
+[11.682001] (-) TimerEvent: {}
+[11.782657] (-) TimerEvent: {}
+[11.883314] (-) TimerEvent: {}
+[11.983984] (-) TimerEvent: {}
+[12.084755] (-) TimerEvent: {}
+[12.185410] (-) TimerEvent: {}
+[12.286064] (-) TimerEvent: {}
+[12.386724] (-) TimerEvent: {}
+[12.487374] (-) TimerEvent: {}
+[12.588033] (-) TimerEvent: {}
+[12.688781] (-) TimerEvent: {}
+[12.789427] (-) TimerEvent: {}
+[12.890085] (-) TimerEvent: {}
+[12.990753] (-) TimerEvent: {}
+[13.091431] (-) TimerEvent: {}
+[13.192091] (-) TimerEvent: {}
+[13.292764] (-) TimerEvent: {}
+[13.393423] (-) TimerEvent: {}
+[13.494082] (-) TimerEvent: {}
+[13.594743] (-) TimerEvent: {}
+[13.695392] (-) TimerEvent: {}
+[13.796089] (-) TimerEvent: {}
+[13.896816] (-) TimerEvent: {}
+[13.997476] (-) TimerEvent: {}
+[14.098150] (-) TimerEvent: {}
+[14.198817] (-) TimerEvent: {}
+[14.299775] (-) TimerEvent: {}
+[14.400442] (-) TimerEvent: {}
+[14.501207] (-) TimerEvent: {}
+[14.601873] (-) TimerEvent: {}
+[14.702604] (-) TimerEvent: {}
+[14.803271] (-) TimerEvent: {}
+[14.903927] (-) TimerEvent: {}
+[15.004600] (-) TimerEvent: {}
+[15.105348] (-) TimerEvent: {}
+[15.206018] (-) TimerEvent: {}
+[15.306674] (-) TimerEvent: {}
+[15.407349] (-) TimerEvent: {}
+[15.508000] (-) TimerEvent: {}
+[15.608729] (-) TimerEvent: {}
+[15.709382] (-) TimerEvent: {}
+[15.810053] (-) TimerEvent: {}
+[15.910801] (-) TimerEvent: {}
+[16.011487] (-) TimerEvent: {}
+[16.112160] (-) TimerEvent: {}
+[16.212821] (-) TimerEvent: {}
+[16.313470] (-) TimerEvent: {}
+[16.414125] (-) TimerEvent: {}
+[16.514781] (-) TimerEvent: {}
+[16.615443] (-) TimerEvent: {}
+[16.716107] (-) TimerEvent: {}
+[16.816764] (-) TimerEvent: {}
+[16.917454] (-) TimerEvent: {}
+[17.018116] (-) TimerEvent: {}
+[17.118771] (-) TimerEvent: {}
+[17.219419] (-) TimerEvent: {}
+[17.320080] (-) TimerEvent: {}
+[17.420809] (-) TimerEvent: {}
+[17.521464] (-) TimerEvent: {}
+[17.622129] (-) TimerEvent: {}
+[17.722801] (-) TimerEvent: {}
+[17.823457] (-) TimerEvent: {}
+[17.924119] (-) TimerEvent: {}
+[18.024787] (-) TimerEvent: {}
+[18.125448] (-) TimerEvent: {}
+[18.226116] (-) TimerEvent: {}
+[18.326778] (-) TimerEvent: {}
+[18.427854] (-) TimerEvent: {}
+[18.528511] (-) TimerEvent: {}
+[18.629237] (-) TimerEvent: {}
+[18.729891] (-) TimerEvent: {}
+[18.830563] (-) TimerEvent: {}
+[18.931223] (-) TimerEvent: {}
+[19.031880] (-) TimerEvent: {}
+[19.132549] (-) TimerEvent: {}
+[19.233273] (-) TimerEvent: {}
+[19.333934] (-) TimerEvent: {}
+[19.434590] (-) TimerEvent: {}
+[19.535281] (-) TimerEvent: {}
+[19.635944] (-) TimerEvent: {}
+[19.736613] (-) TimerEvent: {}
+[19.837350] (-) TimerEvent: {}
+[19.938011] (-) TimerEvent: {}
+[20.038658] (-) TimerEvent: {}
+[20.139317] (-) TimerEvent: {}
+[20.239973] (-) TimerEvent: {}
+[20.340613] (-) TimerEvent: {}
+[20.413823] (detectabasura) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable detectabasura/video_publisher\x1b[0m\n'}
+[20.440788] (-) TimerEvent: {}
+[20.541472] (-) TimerEvent: {}
+[20.642270] (-) TimerEvent: {}
+[20.743305] (-) TimerEvent: {}
+[20.844070] (-) TimerEvent: {}
+[20.944778] (-) TimerEvent: {}
+[21.045907] (-) TimerEvent: {}
+[21.146686] (-) TimerEvent: {}
+[21.247878] (-) TimerEvent: {}
+[21.348564] (-) TimerEvent: {}
+[21.449345] (-) TimerEvent: {}
+[21.550005] (-) TimerEvent: {}
+[21.650820] (-) TimerEvent: {}
+[21.751556] (-) TimerEvent: {}
+[21.852236] (-) TimerEvent: {}
+[21.953029] (-) TimerEvent: {}
+[22.053674] (-) TimerEvent: {}
+[22.154326] (-) TimerEvent: {}
+[22.255005] (-) TimerEvent: {}
+[22.355697] (-) TimerEvent: {}
+[22.456439] (-) TimerEvent: {}
+[22.557280] (-) TimerEvent: {}
+[22.657960] (-) TimerEvent: {}
+[22.758680] (-) TimerEvent: {}
+[22.811951] (detectabasura) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.406\n'}
+[22.845475] (detectabasura) StdoutLine: {'line': b'[100%] Built target video_publisher\n'}
+[22.858837] (-) TimerEvent: {}
+[22.880852] (detectabasura) CommandEnded: {'returncode': 0}
+[22.938435] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'install'}
+[22.955028] (detectabasura) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/jetson/guali_ws/build/detectabasura'], 'cwd': '/home/jetson/guali_ws/build/detectabasura', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.168 45270 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-59e9be0b-fe68-492d-a35e-86aebc33ac63.sock'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('COLCON_PREFIX_PATH', '/home/jetson/guali_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1420123018788'), ('JETSON_CUDNN', '8.2.1.32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.vscode-server/cli/servers/Stable-e170252f762678dec6ca2cc69aba1570769a5d39/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('JETSON_OPENCV', '4.6.0'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b4d6feb511.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 45270 192.168.1.163 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/usr/local/lib/python3.8/site-packages/cv2:/usr/local/lib/python3.8/site-packages/cv2:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy')]), 'shell': False}
+[22.961887] (-) TimerEvent: {}
+[22.971783] (detectabasura) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.972881] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher\n'}
+[22.975156] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher" to ""\n'}
+[22.976030] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura\n'}
+[22.977101] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura\n'}
+[22.979043] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.sh\n'}
+[22.980293] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.dsv\n'}
+[22.980895] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/path.sh\n'}
+[22.981845] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/path.dsv\n'}
+[22.983451] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.bash\n'}
+[22.989792] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.sh\n'}
+[22.990771] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.zsh\n'}
+[22.991538] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.dsv\n'}
+[22.992579] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv\n'}
+[22.993907] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/packages/detectabasura\n'}
+[22.994503] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig.cmake\n'}
+[22.995193] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig-version.cmake\n'}
+[22.996953] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.xml\n'}
+[22.998295] (detectabasura) CommandEnded: {'returncode': 0}
+[23.062089] (-) TimerEvent: {}
+[23.131783] (detectabasura) JobEnded: {'identifier': 'detectabasura', 'rc': 0}
+[23.134763] (-) EventReactorShutdown: {}
