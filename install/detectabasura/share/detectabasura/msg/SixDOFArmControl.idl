@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from detectabasura/msg/SixDOFArmControl.msg
+// generated code does not contain a copyright notice
+
+
+module detectabasura {
+  module msg {
+    @verbatim (language="comment", text=
+      " File: SixDOFArmControl.msg")
+    struct SixDOFArmControl {
+      uint8 servo_a_position;
+
+      uint8 servo_b_position;
+
+      uint8 servo_c_position;
+
+      uint8 servo_d_position;
+
+      uint8 servo_e_position;
+
+      uint8 servo_f_position;
+    };
+  };
+};

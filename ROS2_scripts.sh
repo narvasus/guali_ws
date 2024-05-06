@@ -15,6 +15,14 @@ export ROS_DISCOVERY_SERVER="$ip_address:11811"
 
 ###########test talker listener#########
 #ros2 run demo_nodes_cpp talker --ros-args --remap __node:=talker_discovery_server
-
+#xterm -geometry 63x10+1720+155 -hold -e "ros2 run detectabasura video_publisher"&
 ros2 run detectabasura video_publisher
-echo server running
+
+# Prompt the user to press a key
+echo "Press any key to close all runing programs..."
+read -n 1 -s
+pkill xterm
+
+
+
+

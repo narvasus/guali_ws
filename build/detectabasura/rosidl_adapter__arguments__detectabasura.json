@@ -1,0 +1,6 @@
+{
+  "package_name": "detectabasura",
+  "non_idl_tuples": [
+    "/home/jetson/guali_ws/detectabasura:msg/SixDOFArmControl.msg"
+  ]
+}

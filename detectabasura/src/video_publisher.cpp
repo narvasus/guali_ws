@@ -58,14 +58,14 @@ int main(int argc, char *argv[])
     }
 
     rclcpp::init(argc, argv);
-    auto node = rclcpp::Node::make_shared("stereo_cam_publisher");
+    auto node = rclcpp::Node::make_shared("stereo_cam");
 
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_left_pub =
         node->create_publisher<sensor_msgs::msg::Image>("image_left", 10);
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_right_pub =
         node->create_publisher<sensor_msgs::msg::Image>("image_right", 10);
 
-    rclcpp::Rate loop_rate(120); // Adjust the publishing rate as needed 120 works
+    rclcpp::Rate loop_rate(200); // Adjust the publishing rate as needed 120 works
     while (rclcpp::ok())
     {
         cv::Mat camera1_frame, camera0_frame;

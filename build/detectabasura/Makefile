@@ -68,40 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -124,6 +90,28 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -134,6 +122,18 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,6 +168,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_introspection_c__pyext
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_introspection_c__pyext: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_introspection_c__pyext
+.PHONY : detectabasura__rosidl_typesupport_introspection_c__pyext
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_introspection_c__pyext/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/build
+.PHONY : detectabasura__rosidl_typesupport_introspection_c__pyext/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_fastrtps_c__pyext
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_fastrtps_c__pyext: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_fastrtps_c__pyext
+.PHONY : detectabasura__rosidl_typesupport_fastrtps_c__pyext
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_fastrtps_c__pyext/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/build
+.PHONY : detectabasura__rosidl_typesupport_fastrtps_c__pyext/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
 # Target rules for targets named video_publisher
 
 # Build rule for target.
@@ -179,6 +218,19 @@ video_publisher: cmake_check_build_system
 video_publisher/fast:
 	$(MAKE) -f CMakeFiles/video_publisher.dir/build.make CMakeFiles/video_publisher.dir/build
 .PHONY : video_publisher/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_fastrtps_c
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_fastrtps_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_fastrtps_c
+.PHONY : detectabasura__rosidl_typesupport_fastrtps_c
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_fastrtps_c/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/build
+.PHONY : detectabasura__rosidl_typesupport_fastrtps_c/fast
 
 #=============================================================================
 # Target rules for targets named detectabasura_uninstall
@@ -194,17 +246,444 @@ detectabasura_uninstall/fast:
 .PHONY : detectabasura_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named uninstall
+# Target rules for targets named detectabasura__rosidl_generator_c
 
 # Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
+detectabasura__rosidl_generator_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_generator_c
+.PHONY : detectabasura__rosidl_generator_c
 
 # fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
+detectabasura__rosidl_generator_c/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_generator_c.dir/build.make CMakeFiles/detectabasura__rosidl_generator_c.dir/build
+.PHONY : detectabasura__rosidl_generator_c/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_fastrtps_cpp
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_fastrtps_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_fastrtps_cpp
+.PHONY : detectabasura__rosidl_typesupport_fastrtps_cpp
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_fastrtps_cpp/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/build
+.PHONY : detectabasura__rosidl_typesupport_fastrtps_cpp/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_introspection_c
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_introspection_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_introspection_c
+.PHONY : detectabasura__rosidl_typesupport_introspection_c
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_introspection_c/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/build
+.PHONY : detectabasura__rosidl_typesupport_introspection_c/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_introspection_cpp
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_introspection_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_introspection_cpp
+.PHONY : detectabasura__rosidl_typesupport_introspection_cpp
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_introspection_cpp/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build
+.PHONY : detectabasura__rosidl_typesupport_introspection_cpp/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_c
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_c
+.PHONY : detectabasura__rosidl_typesupport_c
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_c/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c.dir/build
+.PHONY : detectabasura__rosidl_typesupport_c/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__cpp
+
+# Build rule for target.
+detectabasura__cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__cpp
+.PHONY : detectabasura__cpp
+
+# fast build rule for target.
+detectabasura__cpp/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__cpp.dir/build.make CMakeFiles/detectabasura__cpp.dir/build
+.PHONY : detectabasura__cpp/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_c__pyext
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_c__pyext: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_c__pyext
+.PHONY : detectabasura__rosidl_typesupport_c__pyext
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_c__pyext/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/build
+.PHONY : detectabasura__rosidl_typesupport_c__pyext/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura
+
+# Build rule for target.
+detectabasura: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura
+.PHONY : detectabasura
+
+# fast build rule for target.
+detectabasura/fast:
+	$(MAKE) -f CMakeFiles/detectabasura.dir/build.make CMakeFiles/detectabasura.dir/build
+.PHONY : detectabasura/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__rosidl_typesupport_cpp
+
+# Build rule for target.
+detectabasura__rosidl_typesupport_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__rosidl_typesupport_cpp
+.PHONY : detectabasura__rosidl_typesupport_cpp
+
+# fast build rule for target.
+detectabasura__rosidl_typesupport_cpp/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build
+.PHONY : detectabasura__rosidl_typesupport_cpp/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__python
+
+# Build rule for target.
+detectabasura__python: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__python
+.PHONY : detectabasura__python
+
+# fast build rule for target.
+detectabasura__python/fast:
+	$(MAKE) -f CMakeFiles/detectabasura__python.dir/build.make CMakeFiles/detectabasura__python.dir/build
+.PHONY : detectabasura__python/fast
+
+#=============================================================================
+# Target rules for targets named detectabasura__py
+
+# Build rule for target.
+detectabasura__py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detectabasura__py
+.PHONY : detectabasura__py
+
+# fast build rule for target.
+detectabasura__py/fast:
+	$(MAKE) -f detectabasura__py/CMakeFiles/detectabasura__py.dir/build.make detectabasura__py/CMakeFiles/detectabasura__py.dir/build
+.PHONY : detectabasura__py/fast
+
+rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.o: rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.o
+
+.PHONY : rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.o
+
+# target to build an object file
+rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_generator_c.dir/build.make CMakeFiles/detectabasura__rosidl_generator_c.dir/rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.o
+.PHONY : rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.o
+
+rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.i: rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.i
+
+.PHONY : rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_generator_c.dir/build.make CMakeFiles/detectabasura__rosidl_generator_c.dir/rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.i
+.PHONY : rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.i
+
+rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.s: rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.s
+
+.PHONY : rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_generator_c.dir/build.make CMakeFiles/detectabasura__rosidl_generator_c.dir/rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.s
+.PHONY : rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.s
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.o
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.o
+
+# target to build an object file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.o
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.o
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.i: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.i
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.i
+
+# target to preprocess a source file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.i
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.i
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.s: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.s
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.s
+
+# target to generate assembly for a file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.s
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.s
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.o: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.o
+
+# target to build an object file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.i: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.i
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.i
+
+# target to preprocess a source file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.i
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.i
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.s: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.s
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.s
+
+# target to generate assembly for a file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.s
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.s
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.o: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.o
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.o
+
+# target to build an object file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.o
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.o
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.i: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.i
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.i
+
+# target to preprocess a source file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.i
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.i
+
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.s: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.s
+
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.s
+
+# target to generate assembly for a file
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.s
+.PHONY : rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.s
+
+rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.o: rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o
+
+.PHONY : rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.o
+
+# target to build an object file
+rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o:
+	$(MAKE) -f CMakeFiles/detectabasura__python.dir/build.make CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o
+.PHONY : rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o
+
+rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.i: rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i
+
+.PHONY : rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i:
+	$(MAKE) -f CMakeFiles/detectabasura__python.dir/build.make CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i
+.PHONY : rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i
+
+rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.s: rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s
+
+.PHONY : rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s:
+	$(MAKE) -f CMakeFiles/detectabasura__python.dir/build.make CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s
+.PHONY : rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s
+
+rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.o: rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c.dir/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o
+
+rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.i: rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c.dir/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.i
+
+rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.s: rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_c.dir/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.s
+
+rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.o: rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.o
+
+rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.i: rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.i
+
+rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.s: rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.o: rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.i: rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.s: rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.o: rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.i: rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.s: rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.s
+
+rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.o: rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.o
+
+rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.i: rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.i
+
+rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.s: rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.o: rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.i: rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.s: rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
 
 src/video_publisher.o: src/video_publisher.cpp.o
 
@@ -240,15 +719,62 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... list_install_components"
+	@echo "... detectabasura__rosidl_typesupport_introspection_c__pyext"
+	@echo "... install"
+	@echo "... detectabasura__rosidl_typesupport_fastrtps_c__pyext"
 	@echo "... test"
-	@echo "... video_publisher"
-	@echo "... detectabasura_uninstall"
 	@echo "... uninstall"
+	@echo "... video_publisher"
+	@echo "... detectabasura__rosidl_typesupport_fastrtps_c"
+	@echo "... detectabasura_uninstall"
+	@echo "... install/local"
+	@echo "... detectabasura__rosidl_generator_c"
+	@echo "... detectabasura__rosidl_typesupport_fastrtps_cpp"
+	@echo "... detectabasura__rosidl_typesupport_introspection_c"
+	@echo "... detectabasura__rosidl_typesupport_introspection_cpp"
+	@echo "... detectabasura__rosidl_typesupport_c"
+	@echo "... detectabasura__cpp"
+	@echo "... detectabasura__rosidl_typesupport_c__pyext"
+	@echo "... detectabasura"
+	@echo "... detectabasura__rosidl_typesupport_cpp"
+	@echo "... detectabasura__python"
+	@echo "... detectabasura__py"
+	@echo "... rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.o"
+	@echo "... rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.i"
+	@echo "... rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.s"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.o"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.i"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.s"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.o"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.i"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.s"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.o"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.i"
+	@echo "... rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.o"
+	@echo "... rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.i"
+	@echo "... rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.s"
+	@echo "... rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.o"
+	@echo "... rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.i"
+	@echo "... rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.s"
+	@echo "... rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.o"
+	@echo "... rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.i"
+	@echo "... rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.s"
 	@echo "... src/video_publisher.o"
 	@echo "... src/video_publisher.i"
 	@echo "... src/video_publisher.s"

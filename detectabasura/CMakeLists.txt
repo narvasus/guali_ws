@@ -12,13 +12,19 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(yaml-cpp REQUIRED)
-find_package(Qt5 COMPONENTS Widgets REQUIRED)  # Add this line to find Qt libraries
+find_package(Qt5 COMPONENTS Widgets REQUIRED) 
+find_package(rosidl_default_generators REQUIRED)  
+
 
 # Use OpenCV 4.6 from the specified path
 find_package(OpenCV 4.6 REQUIRED PATHS /usr/share/opencv4)
 
 set(EXEC_NAMES
   video_publisher
+)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/SixDOFArmControl.msg"  # Add this line to include SixDOFArmControl.msg
 )
 
 foreach(EXEC_NAME ${EXEC_NAMES})

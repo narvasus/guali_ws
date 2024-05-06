@@ -1,5 +1,0 @@
-[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher.cpp:81:20:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint system(const char*)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
-         [01;35m[Kstd::system("ros2 topic bw image_left image_right")[m[K;
-         [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.406
