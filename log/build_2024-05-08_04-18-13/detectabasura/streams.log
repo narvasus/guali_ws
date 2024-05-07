@@ -1,0 +1,53 @@
+[0.086s] Invoking command in '/home/wheeltec/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake /home/wheeltec/guali_ws/detectabasura -DCMAKE_INSTALL_PREFIX=/home/wheeltec/guali_ws/install/detectabasura
+[0.751s] -- The C compiler identification is GNU 9.4.0
+[1.271s] -- The CXX compiler identification is GNU 9.4.0
+[1.314s] -- Check for working C compiler: /usr/bin/cc
+[1.669s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.676s] -- Detecting C compiler ABI info
+[2.028s] -- Detecting C compiler ABI info - done
+[2.075s] -- Detecting C compile features
+[2.077s] -- Detecting C compile features - done
+[2.090s] -- Check for working CXX compiler: /usr/bin/c++
+[2.468s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.472s] -- Detecting CXX compiler ABI info
+[2.864s] -- Detecting CXX compiler ABI info - done
+[2.912s] -- Detecting CXX compile features
+[2.914s] -- Detecting CXX compile features - done
+[2.977s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.206s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.206s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.175s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[4.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.089s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.922s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.109s] -- Found FastRTPS: /opt/ros/galactic/include  
+[6.814s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.523s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[7.597s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[7.748s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.754s] -- Looking for pthread.h
+[8.162s] -- Looking for pthread.h - found
+[8.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.525s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.526s] -- Looking for pthread_create in pthreads
+[8.838s] -- Looking for pthread_create in pthreads - not found
+[8.839s] -- Looking for pthread_create in pthread
+[9.193s] -- Looking for pthread_create in pthread - found
+[9.197s] -- Found Threads: TRUE  
+[10.136s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[10.759s] -- Found cv_bridge: 2.2.1 (/opt/ros/galactic/share/cv_bridge/cmake)
+[11.088s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[11.338s] CMake Error at CMakeLists.txt:20 (find_package):
+[11.339s]   Could not find a configuration file for package "OpenCV" that is compatible
+[11.339s]   with requested version "4.6".
+[11.340s] 
+[11.340s]   The following configuration files were considered but not accepted:
+[11.340s] 
+[11.341s]     /usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.2.0
+[11.341s] 
+[11.341s] 
+[11.342s] 
+[11.349s] -- Configuring incomplete, errors occurred!
+[11.349s] See also "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/CMakeOutput.log".
+[11.350s] See also "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/CMakeError.log".
+[11.382s] Invoked command in '/home/wheeltec/guali_ws/build/detectabasura' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake /home/wheeltec/guali_ws/detectabasura -DCMAKE_INSTALL_PREFIX=/home/wheeltec/guali_ws/install/detectabasura

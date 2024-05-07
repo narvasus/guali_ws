@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c" "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o"
+  "/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c" "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -30,17 +30,17 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "rosidl_generator_cpp"
   "rosidl_typesupport_fastrtps_c"
   "rosidl_typesupport_fastrtps_cpp"
-  "/opt/ros/foxy/include"
-  "/opt/ros/foxy/include/foonathan_memory"
+  "/opt/ros/galactic/include"
+  "/opt/ros/galactic/include/foonathan_memory"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__python.dir/DependInfo.cmake"
-  "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
-  "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_c.dir/DependInfo.cmake"
-  "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_generator_c.dir/DependInfo.cmake"
-  "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake"
+  "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__python.dir/DependInfo.cmake"
+  "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
+  "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_generator_c.dir/DependInfo.cmake"
+  "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

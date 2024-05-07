@@ -1,0 +1,665 @@
+[0.000000] (-) TimerEvent: {}
+[0.002088] (detectabasura) JobQueued: {'identifier': 'detectabasura', 'dependencies': OrderedDict()}
+[0.003722] (detectabasura) JobStarted: {'identifier': 'detectabasura'}
+[0.096827] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'cmake'}
+[0.099627] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '/home/wheeltec/guali_ws/detectabasura', '-DCMAKE_INSTALL_PREFIX=/home/wheeltec/guali_ws/install/detectabasura'], 'cwd': '/home/wheeltec/guali_ws/build/detectabasura', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wheeltec'), ('SSH_CLIENT', '192.168.1.168 49222 22'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wheeltec/wheeltec_ros2/install/serial/lib:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar/lib:/home/wheeltec/wheeltec_ros2/install/pcl_ros/lib:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller/lib:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries/lib:/home/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs/lib:/home/wheeltec/wheeltec_ros2/install/astra_camera/lib:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/arm64'), ('BROWSER', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wheeltec'), ('OLDPWD', '/home/wheeltec/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-db5cb8d6-d195-463f-9d64-40266a9db3e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wheeltec'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/remote-cli:/home/wheeltec/.local/bin:/opt/ros/galactic/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e70ff5ff0b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wheeltec/wheeltec_ros2/install/web_video_server:/home/wheeltec/wheeltec_ros2/install/usb_cam:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wheeltec/wheeltec_ros2/install/serial:/home/wheeltec/wheeltec_ros2/install/rplidar_ros2:/home/wheeltec/wheeltec_ros2/install/realsense2_description:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar:/home/wheeltec/wheeltec_ros2/install/perception_pcl:/home/wheeltec/wheeltec_ros2/install/pcl_ros:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_decoder:/home/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wheeltec/wheeltec_ros2/install/pcl_conversions:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wheeltec/wheeltec_ros2/install/nav2_system_tests:/home/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wheeltec/wheeltec_ros2/install/navigation2:/home/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wheeltec/wheeltec_ros2/install/dwb_core:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries:/home/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wheeltec/wheeltec_ros2/install/nav2_core:/home/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wheeltec/wheeltec_ros2/install/nav2_util:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/nav2_common:/home/wheeltec/wheeltec_ros2/install/lsn10:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_driver:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs:/home/wheeltec/wheeltec_ros2/install/lidar_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_06_ros2:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/home/wheeltec/wheeltec_ros2/install/astra_camera:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('ROS_MASTER_URI', 'http://192.168.0.100:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wheeltec/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 49222 192.168.1.208 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/tf2_tools/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/dwb_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_common/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/camera_calibration/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.100'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wheeltec/wheeltec_ros2/install/web_video_server:/home/wheeltec/wheeltec_ros2/install/usb_cam:/home/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wheeltec/wheeltec_ros2/install/serial:/home/wheeltec/wheeltec_ros2/install/rplidar_ros2:/home/wheeltec/wheeltec_ros2/install/realsense2_description:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar:/home/wheeltec/wheeltec_ros2/install/perception_pcl:/home/wheeltec/wheeltec_ros2/install/pcl_ros:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_decoder:/home/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wheeltec/wheeltec_ros2/install/pcl_conversions:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wheeltec/wheeltec_ros2/install/nav2_system_tests:/home/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wheeltec/wheeltec_ros2/install/navigation2:/home/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wheeltec/wheeltec_ros2/install/dwb_core:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries:/home/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wheeltec/wheeltec_ros2/install/nav2_core:/home/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wheeltec/wheeltec_ros2/install/nav2_util:/home/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_common:/home/wheeltec/wheeltec_ros2/install/lsn10:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_driver:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs:/home/wheeltec/wheeltec_ros2/install/lidar_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_06_ros2:/home/wheeltec/wheeltec_ros2/install/astra_camera:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic')]), 'shell': False}
+[0.103621] (-) TimerEvent: {}
+[0.204490] (-) TimerEvent: {}
+[0.209582] (detectabasura) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.304677] (-) TimerEvent: {}
+[0.339859] (detectabasura) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.404855] (-) TimerEvent: {}
+[0.505832] (-) TimerEvent: {}
+[0.606541] (-) TimerEvent: {}
+[0.680355] (detectabasura) StdoutLine: {'line': b'-- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.706745] (-) TimerEvent: {}
+[0.807424] (-) TimerEvent: {}
+[0.890858] (detectabasura) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.905882] (detectabasura) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.908468] (-) TimerEvent: {}
+[1.009109] (-) TimerEvent: {}
+[1.110382] (-) TimerEvent: {}
+[1.211480] (-) TimerEvent: {}
+[1.312518] (-) TimerEvent: {}
+[1.413539] (-) TimerEvent: {}
+[1.515127] (-) TimerEvent: {}
+[1.616156] (-) TimerEvent: {}
+[1.651231] (detectabasura) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.716373] (-) TimerEvent: {}
+[1.817444] (-) TimerEvent: {}
+[1.879824] (detectabasura) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.904531] (detectabasura) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.917646] (-) TimerEvent: {}
+[2.000992] (detectabasura) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.017857] (-) TimerEvent: {}
+[2.118828] (-) TimerEvent: {}
+[2.219509] (-) TimerEvent: {}
+[2.320251] (-) TimerEvent: {}
+[2.420950] (-) TimerEvent: {}
+[2.521704] (-) TimerEvent: {}
+[2.621287] (detectabasura) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[2.621899] (-) TimerEvent: {}
+[2.722526] (-) TimerEvent: {}
+[2.823246] (-) TimerEvent: {}
+[2.923929] (-) TimerEvent: {}
+[3.024652] (-) TimerEvent: {}
+[3.120330] (detectabasura) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/galactic/share/cv_bridge/cmake)\n'}
+[3.124768] (-) TimerEvent: {}
+[3.225382] (-) TimerEvent: {}
+[3.263838] (detectabasura) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[3.325603] (-) TimerEvent: {}
+[3.376759] (detectabasura) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4.2") \n'}
+[3.425812] (-) TimerEvent: {}
+[3.494676] (detectabasura) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.526034] (-) TimerEvent: {}
+[3.627099] (-) TimerEvent: {}
+[3.727827] (-) TimerEvent: {}
+[3.828522] (-) TimerEvent: {}
+[3.929270] (-) TimerEvent: {}
+[4.029933] (-) TimerEvent: {}
+[4.130671] (-) TimerEvent: {}
+[4.183004] (detectabasura) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[4.230876] (-) TimerEvent: {}
+[4.331616] (-) TimerEvent: {}
+[4.432322] (-) TimerEvent: {}
+[4.533086] (-) TimerEvent: {}
+[4.634138] (-) TimerEvent: {}
+[4.735010] (-) TimerEvent: {}
+[4.835760] (-) TimerEvent: {}
+[4.936534] (-) TimerEvent: {}
+[5.037291] (-) TimerEvent: {}
+[5.043832] (detectabasura) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.125380] (detectabasura) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.137465] (-) TimerEvent: {}
+[5.238094] (-) TimerEvent: {}
+[5.268269] (detectabasura) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.316665] (detectabasura) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[5.338319] (-) TimerEvent: {}
+[5.439411] (-) TimerEvent: {}
+[5.483056] (detectabasura) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.484841] (detectabasura) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.485361] (detectabasura) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.485672] (detectabasura) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[5.539557] (-) TimerEvent: {}
+[5.603156] (detectabasura) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.639721] (-) TimerEvent: {}
+[5.740407] (-) TimerEvent: {}
+[5.841550] (-) TimerEvent: {}
+[5.942203] (-) TimerEvent: {}
+[6.042910] (-) TimerEvent: {}
+[6.143605] (-) TimerEvent: {}
+[6.244361] (-) TimerEvent: {}
+[6.345085] (-) TimerEvent: {}
+[6.445809] (-) TimerEvent: {}
+[6.546550] (-) TimerEvent: {}
+[6.647241] (-) TimerEvent: {}
+[6.747962] (-) TimerEvent: {}
+[6.848731] (-) TimerEvent: {}
+[6.949493] (-) TimerEvent: {}
+[7.050658] (-) TimerEvent: {}
+[7.151483] (-) TimerEvent: {}
+[7.252226] (-) TimerEvent: {}
+[7.352967] (-) TimerEvent: {}
+[7.423655] (detectabasura) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.453121] (-) TimerEvent: {}
+[7.553892] (-) TimerEvent: {}
+[7.614180] (detectabasura) StdoutLine: {'line': b'-- Generating done\n'}
+[7.627372] (detectabasura) StdoutLine: {'line': b'-- Build files have been written to: /home/wheeltec/guali_ws/build/detectabasura\n'}
+[7.654149] (-) TimerEvent: {}
+[7.663670] (detectabasura) CommandEnded: {'returncode': 0}
+[7.666117] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'build'}
+[7.669615] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wheeltec/guali_ws/build/detectabasura', '--', '-j4', '-l4'], 'cwd': '/home/wheeltec/guali_ws/build/detectabasura', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wheeltec'), ('SSH_CLIENT', '192.168.1.168 49222 22'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wheeltec/wheeltec_ros2/install/serial/lib:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar/lib:/home/wheeltec/wheeltec_ros2/install/pcl_ros/lib:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller/lib:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries/lib:/home/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs/lib:/home/wheeltec/wheeltec_ros2/install/astra_camera/lib:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/arm64'), ('BROWSER', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wheeltec'), ('OLDPWD', '/home/wheeltec/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-db5cb8d6-d195-463f-9d64-40266a9db3e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wheeltec'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/remote-cli:/home/wheeltec/.local/bin:/opt/ros/galactic/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e70ff5ff0b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wheeltec/wheeltec_ros2/install/web_video_server:/home/wheeltec/wheeltec_ros2/install/usb_cam:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wheeltec/wheeltec_ros2/install/serial:/home/wheeltec/wheeltec_ros2/install/rplidar_ros2:/home/wheeltec/wheeltec_ros2/install/realsense2_description:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar:/home/wheeltec/wheeltec_ros2/install/perception_pcl:/home/wheeltec/wheeltec_ros2/install/pcl_ros:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_decoder:/home/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wheeltec/wheeltec_ros2/install/pcl_conversions:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wheeltec/wheeltec_ros2/install/nav2_system_tests:/home/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wheeltec/wheeltec_ros2/install/navigation2:/home/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wheeltec/wheeltec_ros2/install/dwb_core:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries:/home/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wheeltec/wheeltec_ros2/install/nav2_core:/home/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wheeltec/wheeltec_ros2/install/nav2_util:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/nav2_common:/home/wheeltec/wheeltec_ros2/install/lsn10:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_driver:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs:/home/wheeltec/wheeltec_ros2/install/lidar_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_06_ros2:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/home/wheeltec/wheeltec_ros2/install/astra_camera:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('ROS_MASTER_URI', 'http://192.168.0.100:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wheeltec/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 49222 192.168.1.208 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/tf2_tools/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/dwb_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_common/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/camera_calibration/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.100'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wheeltec/wheeltec_ros2/install/web_video_server:/home/wheeltec/wheeltec_ros2/install/usb_cam:/home/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wheeltec/wheeltec_ros2/install/serial:/home/wheeltec/wheeltec_ros2/install/rplidar_ros2:/home/wheeltec/wheeltec_ros2/install/realsense2_description:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar:/home/wheeltec/wheeltec_ros2/install/perception_pcl:/home/wheeltec/wheeltec_ros2/install/pcl_ros:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_decoder:/home/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wheeltec/wheeltec_ros2/install/pcl_conversions:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wheeltec/wheeltec_ros2/install/nav2_system_tests:/home/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wheeltec/wheeltec_ros2/install/navigation2:/home/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wheeltec/wheeltec_ros2/install/dwb_core:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries:/home/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wheeltec/wheeltec_ros2/install/nav2_core:/home/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wheeltec/wheeltec_ros2/install/nav2_util:/home/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_common:/home/wheeltec/wheeltec_ros2/install/lsn10:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_driver:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs:/home/wheeltec/wheeltec_ros2/install/lidar_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_06_ros2:/home/wheeltec/wheeltec_ros2/install/astra_camera:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic')]), 'shell': False}
+[7.754407] (-) TimerEvent: {}
+[7.855191] (-) TimerEvent: {}
+[7.930121] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__cpp\x1b[0m\n'}
+[7.943961] (detectabasura) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.955425] (-) TimerEvent: {}
+[7.964342] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target video_publisher\x1b[0m\n'}
+[8.003986] (detectabasura) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.055573] (-) TimerEvent: {}
+[8.157459] (-) TimerEvent: {}
+[8.259406] (-) TimerEvent: {}
+[8.360114] (-) TimerEvent: {}
+[8.461581] (-) TimerEvent: {}
+[8.562943] (-) TimerEvent: {}
+[8.581683] (detectabasura) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o\x1b[0m\n'}
+[8.663100] (-) TimerEvent: {}
+[8.763730] (-) TimerEvent: {}
+[8.864367] (-) TimerEvent: {}
+[8.965067] (-) TimerEvent: {}
+[9.065682] (-) TimerEvent: {}
+[9.166325] (-) TimerEvent: {}
+[9.267046] (-) TimerEvent: {}
+[9.368475] (-) TimerEvent: {}
+[9.469897] (-) TimerEvent: {}
+[9.476693] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_generator_c\x1b[0m\n'}
+[9.523966] (detectabasura) StdoutLine: {'line': b'[  9%] Built target detectabasura__cpp\n'}
+[9.556744] (detectabasura) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/detectabasura__rosidl_generator_c.dir/rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.c.o\x1b[0m\n'}
+[9.570070] (-) TimerEvent: {}
+[9.594450] (detectabasura) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.598276] (detectabasura) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.670222] (-) TimerEvent: {}
+[9.772276] (-) TimerEvent: {}
+[9.874070] (-) TimerEvent: {}
+[9.975496] (-) TimerEvent: {}
+[10.077397] (-) TimerEvent: {}
+[10.179064] (-) TimerEvent: {}
+[10.286634] (-) TimerEvent: {}
+[10.350268] (detectabasura) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libdetectabasura__rosidl_generator_c.so\x1b[0m\n'}
+[10.386807] (-) TimerEvent: {}
+[10.488318] (-) TimerEvent: {}
+[10.589328] (-) TimerEvent: {}
+[10.656216] (detectabasura) StdoutLine: {'line': b'[ 21%] Built target detectabasura__rosidl_generator_c\n'}
+[10.689495] (-) TimerEvent: {}
+[10.757287] (detectabasura) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.789682] (-) TimerEvent: {}
+[10.853945] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_cpp\x1b[0m\n'}
+[10.889853] (-) TimerEvent: {}
+[10.951512] (detectabasura) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/detectabasura/msg/six_dof_arm_control__type_support.cpp.o\x1b[0m\n'}
+[10.990038] (-) TimerEvent: {}
+[11.004510] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.090216] (-) TimerEvent: {}
+[11.159201] (detectabasura) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/detectabasura/msg/detail/dds_fastrtps/six_dof_arm_control__type_support.cpp.o\x1b[0m\n'}
+[11.190400] (-) TimerEvent: {}
+[11.291131] (-) TimerEvent: {}
+[11.391845] (-) TimerEvent: {}
+[11.492561] (-) TimerEvent: {}
+[11.593262] (-) TimerEvent: {}
+[11.693960] (-) TimerEvent: {}
+[11.795131] (-) TimerEvent: {}
+[11.895853] (-) TimerEvent: {}
+[11.996572] (-) TimerEvent: {}
+[12.097304] (-) TimerEvent: {}
+[12.198032] (-) TimerEvent: {}
+[12.299509] (-) TimerEvent: {}
+[12.400892] (-) TimerEvent: {}
+[12.502435] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[12.503257] (-) TimerEvent: {}
+[12.596452] (detectabasura) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.o\x1b[0m\n'}
+[12.602022] (detectabasura) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libdetectabasura__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[12.605083] (-) TimerEvent: {}
+[12.706244] (-) TimerEvent: {}
+[12.807374] (-) TimerEvent: {}
+[12.908426] (-) TimerEvent: {}
+[12.913690] (detectabasura) StdoutLine: {'line': b'[ 36%] Built target detectabasura__rosidl_typesupport_cpp\n'}
+[12.992233] (detectabasura) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.008626] (-) TimerEvent: {}
+[13.109362] (-) TimerEvent: {}
+[13.210065] (-) TimerEvent: {}
+[13.310817] (-) TimerEvent: {}
+[13.412884] (-) TimerEvent: {}
+[13.515259] (-) TimerEvent: {}
+[13.601863] (detectabasura) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libdetectabasura__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.615430] (-) TimerEvent: {}
+[13.716159] (-) TimerEvent: {}
+[13.816965] (-) TimerEvent: {}
+[13.918975] (-) TimerEvent: {}
+[14.020956] (-) TimerEvent: {}
+[14.123125] (-) TimerEvent: {}
+[14.219948] (detectabasura) StdoutLine: {'line': b'[ 42%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp\n'}
+[14.223290] (-) TimerEvent: {}
+[14.237952] (detectabasura) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libdetectabasura__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.304137] (detectabasura) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.323508] (-) TimerEvent: {}
+[14.425763] (-) TimerEvent: {}
+[14.448346] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_c\x1b[0m\n'}
+[14.511466] (detectabasura) StdoutLine: {'line': b'[ 48%] Built target detectabasura__rosidl_typesupport_introspection_cpp\n'}
+[14.525933] (-) TimerEvent: {}
+[14.561871] (detectabasura) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/detectabasura__rosidl_typesupport_c.dir/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o\x1b[0m\n'}
+[14.588363] (detectabasura) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.626115] (-) TimerEvent: {}
+[14.728297] (-) TimerEvent: {}
+[14.744886] (detectabasura) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libdetectabasura__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.828462] (-) TimerEvent: {}
+[14.930276] (-) TimerEvent: {}
+[14.993880] (detectabasura) StdoutLine: {'line': b'[ 57%] Built target detectabasura__rosidl_typesupport_c\n'}
+[15.030634] (-) TimerEvent: {}
+[15.132553] (-) TimerEvent: {}
+[15.233865] (-) TimerEvent: {}
+[15.335219] (-) TimerEvent: {}
+[15.436538] (-) TimerEvent: {}
+[15.537819] (-) TimerEvent: {}
+[15.639620] (-) TimerEvent: {}
+[15.741525] (-) TimerEvent: {}
+[15.743948] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.841745] (-) TimerEvent: {}
+[15.851182] (detectabasura) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp.o\x1b[0m\n'}
+[15.935530] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.941907] (-) TimerEvent: {}
+[16.027125] (detectabasura) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/detectabasura__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c.o\x1b[0m\n'}
+[16.042153] (-) TimerEvent: {}
+[16.143298] (-) TimerEvent: {}
+[16.245352] (-) TimerEvent: {}
+[16.347379] (-) TimerEvent: {}
+[16.448101] (-) TimerEvent: {}
+[16.487757] (detectabasura) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libdetectabasura__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.548281] (-) TimerEvent: {}
+[16.649031] (-) TimerEvent: {}
+[16.685212] (detectabasura) StdoutLine: {'line': b'[ 66%] Built target detectabasura__rosidl_typesupport_introspection_c\n'}
+[16.749261] (-) TimerEvent: {}
+[16.850041] (-) TimerEvent: {}
+[16.950760] (-) TimerEvent: {}
+[17.051450] (-) TimerEvent: {}
+[17.158641] (-) TimerEvent: {}
+[17.259323] (-) TimerEvent: {}
+[17.360122] (-) TimerEvent: {}
+[17.461491] (-) TimerEvent: {}
+[17.562894] (-) TimerEvent: {}
+[17.615133] (detectabasura) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libdetectabasura__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.663064] (-) TimerEvent: {}
+[17.764680] (-) TimerEvent: {}
+[17.866120] (-) TimerEvent: {}
+[17.967688] (-) TimerEvent: {}
+[18.018260] (detectabasura) StdoutLine: {'line': b'[ 69%] Built target detectabasura__rosidl_typesupport_fastrtps_c\n'}
+[18.067901] (-) TimerEvent: {}
+[18.084775] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura\x1b[0m\n'}
+[18.152783] (detectabasura) StdoutLine: {'line': b'[ 69%] Built target detectabasura\n'}
+[18.168079] (-) TimerEvent: {}
+[18.220562] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__py\x1b[0m\n'}
+[18.270645] (-) TimerEvent: {}
+[18.297057] (detectabasura) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.370856] (-) TimerEvent: {}
+[18.472109] (-) TimerEvent: {}
+[18.572792] (-) TimerEvent: {}
+[18.673478] (-) TimerEvent: {}
+[18.774188] (-) TimerEvent: {}
+[18.874951] (-) TimerEvent: {}
+[18.975595] (-) TimerEvent: {}
+[19.076280] (-) TimerEvent: {}
+[19.177633] (-) TimerEvent: {}
+[19.278982] (-) TimerEvent: {}
+[19.380039] (-) TimerEvent: {}
+[19.481079] (-) TimerEvent: {}
+[19.582443] (-) TimerEvent: {}
+[19.683611] (-) TimerEvent: {}
+[19.784675] (-) TimerEvent: {}
+[19.885748] (-) TimerEvent: {}
+[19.987132] (-) TimerEvent: {}
+[20.088192] (-) TimerEvent: {}
+[20.188918] (-) TimerEvent: {}
+[20.289691] (-) TimerEvent: {}
+[20.391277] (-) TimerEvent: {}
+[20.492624] (-) TimerEvent: {}
+[20.593630] (-) TimerEvent: {}
+[20.694639] (-) TimerEvent: {}
+[20.795705] (-) TimerEvent: {}
+[20.896815] (-) TimerEvent: {}
+[20.998632] (-) TimerEvent: {}
+[21.032930] (detectabasura) StdoutLine: {'line': b'[ 72%] Built target detectabasura__py\n'}
+[21.098860] (-) TimerEvent: {}
+[21.099964] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__python\x1b[0m\n'}
+[21.199025] (-) TimerEvent: {}
+[21.268838] (detectabasura) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o\x1b[0m\n'}
+[21.299191] (-) TimerEvent: {}
+[21.399990] (-) TimerEvent: {}
+[21.500643] (-) TimerEvent: {}
+[21.601682] (-) TimerEvent: {}
+[21.703199] (-) TimerEvent: {}
+[21.804428] (-) TimerEvent: {}
+[21.905487] (-) TimerEvent: {}
+[22.006817] (-) TimerEvent: {}
+[22.108309] (-) TimerEvent: {}
+[22.145993] (detectabasura) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/detectabasura/libdetectabasura__python.so\x1b[0m\n'}
+[22.208491] (-) TimerEvent: {}
+[22.309262] (-) TimerEvent: {}
+[22.397884] (detectabasura) StdoutLine: {'line': b'[ 78%] Built target detectabasura__python\n'}
+[22.409444] (-) TimerEvent: {}
+[22.467382] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[22.472907] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[22.482830] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target detectabasura__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[22.509638] (-) TimerEvent: {}
+[22.610359] (-) TimerEvent: {}
+[22.679528] (detectabasura) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.710561] (-) TimerEvent: {}
+[22.713835] (detectabasura) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/detectabasura__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.731606] (detectabasura) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.810726] (-) TimerEvent: {}
+[22.911768] (-) TimerEvent: {}
+[23.013409] (-) TimerEvent: {}
+[23.115118] (-) TimerEvent: {}
+[23.217138] (-) TimerEvent: {}
+[23.320142] (-) TimerEvent: {}
+[23.420887] (-) TimerEvent: {}
+[23.457227] (detectabasura) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/detectabasura/detectabasura_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.460936] (detectabasura) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/detectabasura/detectabasura_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.521071] (-) TimerEvent: {}
+[23.531185] (detectabasura) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/detectabasura/detectabasura_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[23.623814] (-) TimerEvent: {}
+[23.685252] (detectabasura) StdoutLine: {'line': b'[ 96%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext\n'}
+[23.686364] (detectabasura) StdoutLine: {'line': b'[ 96%] Built target detectabasura__rosidl_typesupport_c__pyext\n'}
+[23.724043] (-) TimerEvent: {}
+[23.825209] (-) TimerEvent: {}
+[23.861899] (detectabasura) StdoutLine: {'line': b'[ 96%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.925453] (-) TimerEvent: {}
+[24.026258] (-) TimerEvent: {}
+[24.127111] (-) TimerEvent: {}
+[24.227916] (-) TimerEvent: {}
+[24.328736] (-) TimerEvent: {}
+[24.430008] (-) TimerEvent: {}
+[24.531350] (-) TimerEvent: {}
+[24.632631] (-) TimerEvent: {}
+[24.733903] (-) TimerEvent: {}
+[24.835186] (-) TimerEvent: {}
+[24.935885] (-) TimerEvent: {}
+[25.036534] (-) TimerEvent: {}
+[25.137893] (-) TimerEvent: {}
+[25.239321] (-) TimerEvent: {}
+[25.342064] (-) TimerEvent: {}
+[25.443436] (-) TimerEvent: {}
+[25.544756] (-) TimerEvent: {}
+[25.646091] (-) TimerEvent: {}
+[25.747468] (-) TimerEvent: {}
+[25.848812] (-) TimerEvent: {}
+[25.950158] (-) TimerEvent: {}
+[26.051549] (-) TimerEvent: {}
+[26.152870] (-) TimerEvent: {}
+[26.254174] (-) TimerEvent: {}
+[26.354970] (-) TimerEvent: {}
+[26.455694] (-) TimerEvent: {}
+[26.556465] (-) TimerEvent: {}
+[26.657237] (-) TimerEvent: {}
+[26.758023] (-) TimerEvent: {}
+[26.858784] (-) TimerEvent: {}
+[26.959910] (-) TimerEvent: {}
+[27.060690] (-) TimerEvent: {}
+[27.161469] (-) TimerEvent: {}
+[27.262567] (-) TimerEvent: {}
+[27.363745] (-) TimerEvent: {}
+[27.464536] (-) TimerEvent: {}
+[27.565291] (-) TimerEvent: {}
+[27.666065] (-) TimerEvent: {}
+[27.766820] (-) TimerEvent: {}
+[27.867515] (-) TimerEvent: {}
+[27.968665] (-) TimerEvent: {}
+[28.069425] (-) TimerEvent: {}
+[28.170244] (-) TimerEvent: {}
+[28.271025] (-) TimerEvent: {}
+[28.371782] (-) TimerEvent: {}
+[28.472555] (-) TimerEvent: {}
+[28.573326] (-) TimerEvent: {}
+[28.674117] (-) TimerEvent: {}
+[28.775316] (-) TimerEvent: {}
+[28.876086] (-) TimerEvent: {}
+[28.976854] (-) TimerEvent: {}
+[29.077955] (-) TimerEvent: {}
+[29.178904] (-) TimerEvent: {}
+[29.279684] (-) TimerEvent: {}
+[29.380455] (-) TimerEvent: {}
+[29.481554] (-) TimerEvent: {}
+[29.582244] (-) TimerEvent: {}
+[29.683008] (-) TimerEvent: {}
+[29.783744] (-) TimerEvent: {}
+[29.884834] (-) TimerEvent: {}
+[29.985534] (-) TimerEvent: {}
+[30.086315] (-) TimerEvent: {}
+[30.187114] (-) TimerEvent: {}
+[30.287821] (-) TimerEvent: {}
+[30.388620] (-) TimerEvent: {}
+[30.489797] (-) TimerEvent: {}
+[30.590637] (-) TimerEvent: {}
+[30.691405] (-) TimerEvent: {}
+[30.792180] (-) TimerEvent: {}
+[30.892936] (-) TimerEvent: {}
+[30.993699] (-) TimerEvent: {}
+[31.094437] (-) TimerEvent: {}
+[31.195257] (-) TimerEvent: {}
+[31.295983] (-) TimerEvent: {}
+[31.396766] (-) TimerEvent: {}
+[31.497507] (-) TimerEvent: {}
+[31.598669] (-) TimerEvent: {}
+[31.699373] (-) TimerEvent: {}
+[31.800152] (-) TimerEvent: {}
+[31.900866] (-) TimerEvent: {}
+[32.001599] (-) TimerEvent: {}
+[32.102691] (-) TimerEvent: {}
+[32.203372] (-) TimerEvent: {}
+[32.304053] (-) TimerEvent: {}
+[32.404792] (-) TimerEvent: {}
+[32.505539] (-) TimerEvent: {}
+[32.606325] (-) TimerEvent: {}
+[32.707084] (-) TimerEvent: {}
+[32.807822] (-) TimerEvent: {}
+[32.908900] (-) TimerEvent: {}
+[33.009644] (-) TimerEvent: {}
+[33.110882] (-) TimerEvent: {}
+[33.211556] (-) TimerEvent: {}
+[33.312229] (-) TimerEvent: {}
+[33.412955] (-) TimerEvent: {}
+[33.513708] (-) TimerEvent: {}
+[33.614446] (-) TimerEvent: {}
+[33.715275] (-) TimerEvent: {}
+[33.816019] (-) TimerEvent: {}
+[33.916750] (-) TimerEvent: {}
+[34.017484] (-) TimerEvent: {}
+[34.118219] (-) TimerEvent: {}
+[34.218973] (-) TimerEvent: {}
+[34.319666] (-) TimerEvent: {}
+[34.420365] (-) TimerEvent: {}
+[34.521094] (-) TimerEvent: {}
+[34.621880] (-) TimerEvent: {}
+[34.722655] (-) TimerEvent: {}
+[34.823365] (-) TimerEvent: {}
+[34.924051] (-) TimerEvent: {}
+[35.024778] (-) TimerEvent: {}
+[35.125513] (-) TimerEvent: {}
+[35.226304] (-) TimerEvent: {}
+[35.327075] (-) TimerEvent: {}
+[35.427732] (-) TimerEvent: {}
+[35.528414] (-) TimerEvent: {}
+[35.629191] (-) TimerEvent: {}
+[35.730212] (-) TimerEvent: {}
+[35.831009] (-) TimerEvent: {}
+[35.931753] (-) TimerEvent: {}
+[36.032504] (-) TimerEvent: {}
+[36.133304] (-) TimerEvent: {}
+[36.234083] (-) TimerEvent: {}
+[36.334910] (-) TimerEvent: {}
+[36.435581] (-) TimerEvent: {}
+[36.536723] (-) TimerEvent: {}
+[36.637487] (-) TimerEvent: {}
+[36.738225] (-) TimerEvent: {}
+[36.839013] (-) TimerEvent: {}
+[36.939814] (-) TimerEvent: {}
+[37.040693] (-) TimerEvent: {}
+[37.141412] (-) TimerEvent: {}
+[37.242144] (-) TimerEvent: {}
+[37.342987] (-) TimerEvent: {}
+[37.443782] (-) TimerEvent: {}
+[37.544554] (-) TimerEvent: {}
+[37.645300] (-) TimerEvent: {}
+[37.746072] (-) TimerEvent: {}
+[37.846910] (-) TimerEvent: {}
+[37.947644] (-) TimerEvent: {}
+[38.048341] (-) TimerEvent: {}
+[38.149019] (-) TimerEvent: {}
+[38.249741] (-) TimerEvent: {}
+[38.350851] (-) TimerEvent: {}
+[38.451642] (-) TimerEvent: {}
+[38.552407] (-) TimerEvent: {}
+[38.653146] (-) TimerEvent: {}
+[38.753933] (-) TimerEvent: {}
+[38.854688] (-) TimerEvent: {}
+[38.955365] (-) TimerEvent: {}
+[39.056103] (-) TimerEvent: {}
+[39.156877] (-) TimerEvent: {}
+[39.257656] (-) TimerEvent: {}
+[39.358445] (-) TimerEvent: {}
+[39.459262] (-) TimerEvent: {}
+[39.560028] (-) TimerEvent: {}
+[39.660829] (-) TimerEvent: {}
+[39.761615] (-) TimerEvent: {}
+[39.862406] (-) TimerEvent: {}
+[39.963276] (-) TimerEvent: {}
+[40.063959] (-) TimerEvent: {}
+[40.164698] (-) TimerEvent: {}
+[40.265455] (-) TimerEvent: {}
+[40.366220] (-) TimerEvent: {}
+[40.467031] (-) TimerEvent: {}
+[40.580015] (-) TimerEvent: {}
+[40.680731] (-) TimerEvent: {}
+[40.781620] (-) TimerEvent: {}
+[40.882398] (-) TimerEvent: {}
+[40.983172] (-) TimerEvent: {}
+[41.005338] (detectabasura) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable detectabasura/video_publisher\x1b[0m\n'}
+[41.083322] (-) TimerEvent: {}
+[41.184024] (-) TimerEvent: {}
+[41.285686] (-) TimerEvent: {}
+[41.386410] (-) TimerEvent: {}
+[41.487136] (-) TimerEvent: {}
+[41.587861] (-) TimerEvent: {}
+[41.688647] (-) TimerEvent: {}
+[41.789400] (-) TimerEvent: {}
+[41.890128] (-) TimerEvent: {}
+[41.991024] (-) TimerEvent: {}
+[42.091770] (-) TimerEvent: {}
+[42.192507] (-) TimerEvent: {}
+[42.293307] (-) TimerEvent: {}
+[42.394337] (-) TimerEvent: {}
+[42.495275] (-) TimerEvent: {}
+[42.596106] (-) TimerEvent: {}
+[42.696816] (-) TimerEvent: {}
+[42.797583] (-) TimerEvent: {}
+[42.899112] (-) TimerEvent: {}
+[43.000330] (-) TimerEvent: {}
+[43.101054] (-) TimerEvent: {}
+[43.201920] (-) TimerEvent: {}
+[43.303228] (-) TimerEvent: {}
+[43.403962] (-) TimerEvent: {}
+[43.504794] (-) TimerEvent: {}
+[43.605586] (-) TimerEvent: {}
+[43.706417] (-) TimerEvent: {}
+[43.807288] (-) TimerEvent: {}
+[43.908004] (-) TimerEvent: {}
+[44.008788] (-) TimerEvent: {}
+[44.061002] (detectabasura) StdoutLine: {'line': b'[100%] Built target video_publisher\n'}
+[44.109015] (-) TimerEvent: {}
+[44.123504] (detectabasura) CommandEnded: {'returncode': 0}
+[44.209286] (-) TimerEvent: {}
+[44.310105] (-) TimerEvent: {}
+[44.410776] (-) TimerEvent: {}
+[44.511717] (-) TimerEvent: {}
+[44.549206] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'install'}
+[44.612223] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wheeltec/guali_ws/build/detectabasura'], 'cwd': '/home/wheeltec/guali_ws/build/detectabasura', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wheeltec'), ('SSH_CLIENT', '192.168.1.168 49222 22'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wheeltec/wheeltec_ros2/install/serial/lib:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar/lib:/home/wheeltec/wheeltec_ros2/install/pcl_ros/lib:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller/lib:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries/lib:/home/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs/lib:/home/wheeltec/wheeltec_ros2/install/astra_camera/lib:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs/lib:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/aarch64-linux-gnu:/opt/ros/galactic/lib:/home/wheeltec/wheeltec_ros2/src/ros2_astra_camera-main/ros2_astra_camera/lib/openni2_redist/arm64'), ('BROWSER', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wheeltec'), ('OLDPWD', '/home/wheeltec/.vscode-server'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-db5cb8d6-d195-463f-9d64-40266a9db3e0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'wheeltec'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wheeltec/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/remote-cli:/home/wheeltec/.local/bin:/opt/ros/galactic/bin:/home/wheeltec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e70ff5ff0b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wheeltec/wheeltec_ros2/install/web_video_server:/home/wheeltec/wheeltec_ros2/install/usb_cam:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wheeltec/wheeltec_ros2/install/serial:/home/wheeltec/wheeltec_ros2/install/rplidar_ros2:/home/wheeltec/wheeltec_ros2/install/realsense2_description:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar:/home/wheeltec/wheeltec_ros2/install/perception_pcl:/home/wheeltec/wheeltec_ros2/install/pcl_ros:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_decoder:/home/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wheeltec/wheeltec_ros2/install/pcl_conversions:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wheeltec/wheeltec_ros2/install/nav2_system_tests:/home/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wheeltec/wheeltec_ros2/install/navigation2:/home/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wheeltec/wheeltec_ros2/install/dwb_core:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries:/home/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wheeltec/wheeltec_ros2/install/nav2_core:/home/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wheeltec/wheeltec_ros2/install/nav2_util:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/nav2_common:/home/wheeltec/wheeltec_ros2/install/lsn10:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_driver:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs:/home/wheeltec/wheeltec_ros2/install/lidar_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_06_ros2:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/home/wheeltec/wheeltec_ros2/install/astra_camera:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('ROS_MASTER_URI', 'http://192.168.0.100:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/wheeltec/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 49222 192.168.1.208 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/tf2_tools/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/dwb_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/nav2_common/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/camera_calibration/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs/lib/python3.8/site-packages:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.100'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wheeltec/wheeltec_ros2/install/web_video_server:/home/wheeltec/wheeltec_ros2/install/usb_cam:/home/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wheeltec/wheeltec_ros2/install/serial:/home/wheeltec/wheeltec_ros2/install/rplidar_ros2:/home/wheeltec/wheeltec_ros2/install/realsense2_description:/home/wheeltec/wheeltec_ros2/install/realsense2_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar:/home/wheeltec/wheeltec_ros2/install/perception_pcl:/home/wheeltec/wheeltec_ros2/install/pcl_ros:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_decoder:/home/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wheeltec/wheeltec_ros2/install/pcl_conversions:/home/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wheeltec/wheeltec_ros2/install/nav2_system_tests:/home/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wheeltec/wheeltec_ros2/install/navigation2:/home/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wheeltec/wheeltec_ros2/install/dwb_core:/home/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wheeltec/wheeltec_ros2/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_ros2/install/nav2_recoveries:/home/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wheeltec/wheeltec_ros2/install/nav2_core:/home/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wheeltec/wheeltec_ros2/install/nav2_util:/home/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wheeltec/wheeltec_ros2/install/nav2_common:/home/wheeltec/wheeltec_ros2/install/lsn10:/home/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_driver:/home/wheeltec/wheeltec_ros2/install/lslidar_m10_msgs:/home/wheeltec/wheeltec_ros2/install/lidar_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_ros2/install/ldlidar_06_ros2:/home/wheeltec/wheeltec_ros2/install/astra_camera:/home/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wheeltec/wheeltec_ros2/install/ar_track_alvar_msgs:/home/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic')]), 'shell': False}
+[44.615693] (-) TimerEvent: {}
+[44.665897] (detectabasura) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[44.676346] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/rosidl_interfaces/detectabasura\n'}
+[44.677342] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura\n'}
+[44.678691] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[44.679282] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[44.679733] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.h\n'}
+[44.680112] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.h\n'}
+[44.680504] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.c\n'}
+[44.680860] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.h\n'}
+[44.681196] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.h\n'}
+[44.681522] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.681864] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.sh\n'}
+[44.682202] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.dsv\n'}
+[44.682608] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_generator_c.so\n'}
+[44.682989] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_generator_c.so" to ""\n'}
+[44.683336] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura\n'}
+[44.683679] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[44.684014] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[44.684370] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h\n'}
+[44.685335] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[44.685795] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_c.so\n'}
+[44.686163] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[44.690138] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura\n'}
+[44.690717] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[44.691354] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[44.691772] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/dds_fastrtps\n'}
+[44.692170] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.692746] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[44.693154] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_cpp.so\n'}
+[44.693510] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[44.694721] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura\n'}
+[44.695100] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[44.695619] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[44.696291] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h\n'}
+[44.696680] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.c\n'}
+[44.697126] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[44.697529] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_c.so\n'}
+[44.697972] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_c.so" to ""\n'}
+[44.698477] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_c.so\n'}
+[44.699134] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_c.so" to ""\n'}
+[44.699504] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura\n'}
+[44.699922] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[44.700266] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[44.700630] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.hpp\n'}
+[44.700975] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__builder.hpp\n'}
+[44.701337] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__traits.hpp\n'}
+[44.701788] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.hpp\n'}
+[44.702125] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura\n'}
+[44.702449] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[44.702852] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[44.703331] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.703680] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp\n'}
+[44.704034] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_cpp.so\n'}
+[44.704478] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[44.704814] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_cpp.so\n'}
+[44.705460] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_cpp.so" to ""\n'}
+[44.705976] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.sh\n'}
+[44.706437] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.dsv\n'}
+[44.707118] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/__init__.py\n'}
+[44.715895] (-) TimerEvent: {}
+[44.816525] (-) TimerEvent: {}
+[44.901696] (detectabasura) StdoutLine: {'line': b"Compiling '/home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/__init__.py'...\n"}
+[44.916834] (-) TimerEvent: {}
+[44.922236] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg\n'}
+[44.923257] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/__init__.py\n'}
+[44.923988] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control_s.c\n'}
+[44.925027] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control.py\n'}
+[44.928567] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[44.930440] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[44.932562] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[44.934639] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[44.936560] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[44.938370] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[44.939867] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__python.so\n'}
+[44.941203] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__python.so" to ""\n'}
+[44.941670] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.idl\n'}
+[44.942209] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.msg\n'}
+[44.950190] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/lib/detectabasura/video_publisher\n'}
+[44.961164] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/wheeltec/guali_ws/install/detectabasura/lib/detectabasura/video_publisher" to ""\n'}
+[44.961742] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura\n'}
+[44.962146] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura\n'}
+[44.962584] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.sh\n'}
+[44.963032] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.dsv\n'}
+[44.963526] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/path.sh\n'}
+[44.963995] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/path.dsv\n'}
+[44.964351] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.bash\n'}
+[44.964708] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.sh\n'}
+[44.965081] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.zsh\n'}
+[44.965580] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.dsv\n'}
+[44.965953] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.dsv\n'}
+[44.966374] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/packages/detectabasura\n'}
+[44.966758] (detectabasura) StdoutLine: {'line': b'-- Old export file "/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport-release.cmake].\n'}
+[44.967154] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport.cmake\n'}
+[44.971494] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport-release.cmake\n'}
+[44.972280] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport.cmake\n'}
+[44.973203] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[44.973918] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport.cmake\n'}
+[44.974470] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport-release.cmake\n'}
+[44.975101] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cppExport.cmake\n'}
+[44.975512] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[44.975957] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[44.976409] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport.cmake\n'}
+[44.976754] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport-release.cmake\n'}
+[44.978543] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake-extras.cmake\n'}
+[44.979036] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[44.980543] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[44.981152] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[44.981666] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[44.982037] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[44.982415] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[44.982919] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig.cmake\n'}
+[44.983309] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig-version.cmake\n'}
+[44.983692] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.xml\n'}
+[44.987810] (detectabasura) CommandEnded: {'returncode': 0}
+[45.017098] (-) TimerEvent: {}
+[45.118355] (-) TimerEvent: {}
+[45.219273] (-) TimerEvent: {}
+[45.319860] (-) TimerEvent: {}
+[45.420852] (-) TimerEvent: {}
+[45.521596] (-) TimerEvent: {}
+[45.557737] (detectabasura) JobEnded: {'identifier': 'detectabasura', 'rc': 0}
+[45.560663] (-) EventReactorShutdown: {}

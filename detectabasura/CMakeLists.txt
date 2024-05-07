@@ -16,8 +16,8 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(rosidl_default_generators REQUIRED)  
 
 
-# Use OpenCV 4.6 from the specified path
-find_package(OpenCV 4.6 REQUIRED PATHS /usr/share/opencv4)
+# Use OpenCV 4.2 from the specified path
+find_package(OpenCV 4.2 REQUIRED PATHS /usr/share/opencv4)
 
 set(EXEC_NAMES
   video_publisher

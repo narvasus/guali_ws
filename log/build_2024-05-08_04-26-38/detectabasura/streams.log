@@ -1,0 +1,115 @@
+[0.116s] Invoking command in '/home/wheeltec/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/wheeltec/guali_ws/build/detectabasura -- -j4 -l4
+[0.642s] [  3%] Built target detectabasura__cpp
+[0.931s] [  9%] Built target video_publisher
+[1.113s] [ 18%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[1.260s] [ 27%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[1.418s] [ 36%] Built target detectabasura__rosidl_typesupport_cpp
+[1.563s] [ 45%] Built target detectabasura__rosidl_generator_c
+[1.738s] [ 54%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[1.892s] [ 63%] Built target detectabasura__rosidl_typesupport_c
+[2.039s] [ 72%] Built target detectabasura__rosidl_typesupport_introspection_c
+[2.174s] [ 72%] Built target detectabasura
+[2.319s] [ 75%] Built target detectabasura__py
+[2.516s] [ 81%] Built target detectabasura__python
+[2.694s] [ 87%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[2.891s] [ 93%] Built target detectabasura__rosidl_typesupport_c__pyext
+[3.071s] [100%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[3.135s] Invoked command in '/home/wheeltec/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/wheeltec/guali_ws/build/detectabasura -- -j4 -l4
+[3.664s] Invoking command in '/home/wheeltec/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/wheeltec/guali_ws/build/detectabasura
+[3.719s] -- Install configuration: "Release"
+[3.720s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/rosidl_interfaces/detectabasura
+[3.721s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura
+[3.721s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg
+[3.722s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[3.722s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.h
+[3.723s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.h
+[3.723s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.c
+[3.723s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.h
+[3.724s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.h
+[3.724s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_generator_c__visibility_control.h
+[3.725s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.sh
+[3.726s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.dsv
+[3.726s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_generator_c.so
+[3.727s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura
+[3.727s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg
+[3.727s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[3.728s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h
+[3.728s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.729s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_c.so
+[3.729s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura
+[3.730s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg
+[3.730s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[3.730s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/dds_fastrtps
+[3.731s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_cpp.hpp
+[3.731s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.732s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_cpp.so
+[3.732s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura
+[3.733s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg
+[3.733s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[3.734s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h
+[3.734s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.c
+[3.735s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.735s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_c.so
+[3.736s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_c.so
+[3.736s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura
+[3.736s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg
+[3.737s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[3.737s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.hpp
+[3.737s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__builder.hpp
+[3.738s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__traits.hpp
+[3.738s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.hpp
+[3.739s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura
+[3.739s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg
+[3.739s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[3.740s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_cpp.hpp
+[3.740s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp
+[3.740s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_cpp.so
+[3.741s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_cpp.so
+[3.741s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.sh
+[3.742s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.dsv
+[3.742s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/__init__.py
+[3.943s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg
+[3.943s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/__init__.py
+[3.944s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control_s.c
+[3.944s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control.py
+[3.945s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.946s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.948s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.950s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/libdetectabasura__python.so
+[3.951s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.idl
+[3.951s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.msg
+[3.954s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/lib/detectabasura/video_publisher
+[3.955s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura
+[3.955s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura
+[3.956s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.sh
+[3.956s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.dsv
+[3.957s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/path.sh
+[3.957s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/environment/path.dsv
+[3.958s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.bash
+[3.958s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.sh
+[3.958s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.zsh
+[3.959s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/local_setup.dsv
+[3.959s] -- Installing: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.dsv
+[3.960s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/ament_index/resource_index/packages/detectabasura
+[3.960s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport.cmake
+[3.960s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport-release.cmake
+[3.961s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport.cmake
+[3.961s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport-release.cmake
+[3.962s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport.cmake
+[3.962s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport-release.cmake
+[3.962s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cppExport.cmake
+[3.963s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport.cmake
+[3.963s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.964s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport.cmake
+[3.964s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport-release.cmake
+[3.964s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake-extras.cmake
+[3.965s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.965s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_libraries-extras.cmake
+[3.966s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_targets-extras.cmake
+[3.966s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.966s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.967s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.967s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig.cmake
+[3.967s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig-version.cmake
+[3.968s] -- Up-to-date: /home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.xml
+[3.975s] Invoked command in '/home/wheeltec/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/wheeltec/guali_ws/build/detectabasura

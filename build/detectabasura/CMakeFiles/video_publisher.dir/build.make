@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
 
 # Include any dependencies generated for this target.
 include CMakeFiles/video_publisher.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/video_publisher.dir/progress.make
 include CMakeFiles/video_publisher.dir/flags.make
 
 CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o: CMakeFiles/video_publisher.dir/flags.make
-CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o: /home/jetson/guali_ws/detectabasura/src/video_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o -c /home/jetson/guali_ws/detectabasura/src/video_publisher.cpp
+CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o: /home/wheeltec/guali_ws/detectabasura/src/video_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o -c /home/wheeltec/guali_ws/detectabasura/src/video_publisher.cpp
 
 CMakeFiles/video_publisher.dir/src/video_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_publisher.dir/src/video_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jetson/guali_ws/detectabasura/src/video_publisher.cpp > CMakeFiles/video_publisher.dir/src/video_publisher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wheeltec/guali_ws/detectabasura/src/video_publisher.cpp > CMakeFiles/video_publisher.dir/src/video_publisher.cpp.i
 
 CMakeFiles/video_publisher.dir/src/video_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_publisher.dir/src/video_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jetson/guali_ws/detectabasura/src/video_publisher.cpp -o CMakeFiles/video_publisher.dir/src/video_publisher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wheeltec/guali_ws/detectabasura/src/video_publisher.cpp -o CMakeFiles/video_publisher.dir/src/video_publisher.cpp.s
 
 # Object files for target video_publisher
 video_publisher_OBJECTS = \
@@ -79,142 +79,118 @@ video_publisher_EXTERNAL_OBJECTS =
 
 detectabasura/video_publisher: CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o
 detectabasura/video_publisher: CMakeFiles/video_publisher.dir/build.make
-detectabasura/video_publisher: /opt/ros/foxy/lib/librclcpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libcv_bridge.so
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_gapi.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_alphamat.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_aruco.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_barcode.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_bgsegm.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_bioinspired.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_ccalib.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudabgsegm.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudafeatures2d.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudaobjdetect.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudastereo.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dnn_objdetect.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dnn_superres.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dpm.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_face.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_freetype.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_fuzzy.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_hdf.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_hfs.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_img_hash.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_intensity_transform.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_line_descriptor.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_mcc.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_quality.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_rapid.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_reg.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_rgbd.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_saliency.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_sfm.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_stereo.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_structured_light.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_superres.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_surface_matching.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_tracking.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_videostab.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_wechat_qrcode.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_xfeatures2d.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.6.0
+detectabasura/video_publisher: /opt/ros/galactic/lib/librclcpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libcv_bridge.so
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_aruco.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_bgsegm.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_bioinspired.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_ccalib.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dpm.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_face.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_freetype.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_fuzzy.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_hdf.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_hfs.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_img_hash.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_quality.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_reg.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_rgbd.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_saliency.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_stereo.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_structured_light.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_superres.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_surface_matching.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_tracking.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_videostab.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_viz.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.2.0
 detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.12.8
-detectabasura/video_publisher: /opt/ros/foxy/lib/liblibstatistics_collector.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librmw_implementation.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librmw.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_logging_spdlog.so
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libspdlog.so.1.5.0
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcl_yaml_param_parser.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libyaml.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libtracetools.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosidl_typesupport_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librosidl_runtime_c.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcpputils.so
-detectabasura/video_publisher: /opt/ros/foxy/lib/librcutils.so
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_text.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_phase_unwrapping.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudacodec.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudaoptflow.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudalegacy.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudawarping.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_optflow.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_ximgproc.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudaimgproc.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudafilters.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudaarithm.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.6.0
-detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_cudev.so.4.6.0
+detectabasura/video_publisher: /opt/ros/galactic/lib/libament_index_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/liblibstatistics_collector.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_interfaces__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librmw_implementation.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_logging_spdlog.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_logging_interface.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcl_yaml_param_parser.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librmw.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libyaml.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosgraph_msgs__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libtracetools.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libsensor_msgs__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstd_msgs__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libstd_msgs__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_generator_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosidl_typesupport_introspection_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosidl_typesupport_introspection_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosidl_typesupport_cpp.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosidl_typesupport_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcpputils.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librosidl_runtime_c.so
+detectabasura/video_publisher: /opt/ros/galactic/lib/librcutils.so
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_text.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_optflow.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_ximgproc.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.2.0
+detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.2.0
 detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.12.8
 detectabasura/video_publisher: /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.12.8
 detectabasura/video_publisher: CMakeFiles/video_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable detectabasura/video_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable detectabasura/video_publisher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/video_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -227,6 +203,6 @@ CMakeFiles/video_publisher.dir/clean:
 .PHONY : CMakeFiles/video_publisher.dir/clean
 
 CMakeFiles/video_publisher.dir/depend:
-	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura/CMakeFiles/video_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/video_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/video_publisher.dir/depend
 

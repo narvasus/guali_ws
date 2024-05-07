@@ -43,17 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
 
 # Utility rule file for detectabasura.
 
 # Include the progress variables for this target.
 include CMakeFiles/detectabasura.dir/progress.make
 
-CMakeFiles/detectabasura: /home/jetson/guali_ws/detectabasura/msg/SixDOFArmControl.msg
+CMakeFiles/detectabasura: /home/wheeltec/guali_ws/detectabasura/msg/SixDOFArmControl.msg
 
 
 detectabasura: CMakeFiles/detectabasura
@@ -71,6 +71,6 @@ CMakeFiles/detectabasura.dir/clean:
 .PHONY : CMakeFiles/detectabasura.dir/clean
 
 CMakeFiles/detectabasura.dir/depend:
-	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/detectabasura.dir/depend
 

@@ -8,8 +8,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "rcutils/allocator.h"
-
 
 bool
 detectabasura__msg__SixDOFArmControl__init(detectabasura__msg__SixDOFArmControl * msg)
@@ -99,15 +97,14 @@ detectabasura__msg__SixDOFArmControl__copy(
 detectabasura__msg__SixDOFArmControl *
 detectabasura__msg__SixDOFArmControl__create()
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  detectabasura__msg__SixDOFArmControl * msg = (detectabasura__msg__SixDOFArmControl *)allocator.allocate(sizeof(detectabasura__msg__SixDOFArmControl), allocator.state);
+  detectabasura__msg__SixDOFArmControl * msg = (detectabasura__msg__SixDOFArmControl *)malloc(sizeof(detectabasura__msg__SixDOFArmControl));
   if (!msg) {
     return NULL;
   }
   memset(msg, 0, sizeof(detectabasura__msg__SixDOFArmControl));
   bool success = detectabasura__msg__SixDOFArmControl__init(msg);
   if (!success) {
-    allocator.deallocate(msg, allocator.state);
+    free(msg);
     return NULL;
   }
   return msg;
@@ -116,11 +113,10 @@ detectabasura__msg__SixDOFArmControl__create()
 void
 detectabasura__msg__SixDOFArmControl__destroy(detectabasura__msg__SixDOFArmControl * msg)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (msg) {
     detectabasura__msg__SixDOFArmControl__fini(msg);
   }
-  allocator.deallocate(msg, allocator.state);
+  free(msg);
 }
 
 
@@ -130,11 +126,9 @@ detectabasura__msg__SixDOFArmControl__Sequence__init(detectabasura__msg__SixDOFA
   if (!array) {
     return false;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   detectabasura__msg__SixDOFArmControl * data = NULL;
-
   if (size) {
-    data = (detectabasura__msg__SixDOFArmControl *)allocator.zero_allocate(size, sizeof(detectabasura__msg__SixDOFArmControl), allocator.state);
+    data = (detectabasura__msg__SixDOFArmControl *)calloc(size, sizeof(detectabasura__msg__SixDOFArmControl));
     if (!data) {
       return false;
     }
@@ -151,7 +145,7 @@ detectabasura__msg__SixDOFArmControl__Sequence__init(detectabasura__msg__SixDOFA
       for (; i > 0; --i) {
         detectabasura__msg__SixDOFArmControl__fini(&data[i - 1]);
       }
-      allocator.deallocate(data, allocator.state);
+      free(data);
       return false;
     }
   }
@@ -167,8 +161,6 @@ detectabasura__msg__SixDOFArmControl__Sequence__fini(detectabasura__msg__SixDOFA
   if (!array) {
     return;
   }
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-
   if (array->data) {
     // ensure that data and capacity values are consistent
     assert(array->capacity > 0);
@@ -176,7 +168,7 @@ detectabasura__msg__SixDOFArmControl__Sequence__fini(detectabasura__msg__SixDOFA
     for (size_t i = 0; i < array->capacity; ++i) {
       detectabasura__msg__SixDOFArmControl__fini(&array->data[i]);
     }
-    allocator.deallocate(array->data, allocator.state);
+    free(array->data);
     array->data = NULL;
     array->size = 0;
     array->capacity = 0;
@@ -190,14 +182,13 @@ detectabasura__msg__SixDOFArmControl__Sequence__fini(detectabasura__msg__SixDOFA
 detectabasura__msg__SixDOFArmControl__Sequence *
 detectabasura__msg__SixDOFArmControl__Sequence__create(size_t size)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
-  detectabasura__msg__SixDOFArmControl__Sequence * array = (detectabasura__msg__SixDOFArmControl__Sequence *)allocator.allocate(sizeof(detectabasura__msg__SixDOFArmControl__Sequence), allocator.state);
+  detectabasura__msg__SixDOFArmControl__Sequence * array = (detectabasura__msg__SixDOFArmControl__Sequence *)malloc(sizeof(detectabasura__msg__SixDOFArmControl__Sequence));
   if (!array) {
     return NULL;
   }
   bool success = detectabasura__msg__SixDOFArmControl__Sequence__init(array, size);
   if (!success) {
-    allocator.deallocate(array, allocator.state);
+    free(array);
     return NULL;
   }
   return array;
@@ -206,11 +197,10 @@ detectabasura__msg__SixDOFArmControl__Sequence__create(size_t size)
 void
 detectabasura__msg__SixDOFArmControl__Sequence__destroy(detectabasura__msg__SixDOFArmControl__Sequence * array)
 {
-  rcutils_allocator_t allocator = rcutils_get_default_allocator();
   if (array) {
     detectabasura__msg__SixDOFArmControl__Sequence__fini(array);
   }
-  allocator.deallocate(array, allocator.state);
+  free(array);
 }
 
 bool

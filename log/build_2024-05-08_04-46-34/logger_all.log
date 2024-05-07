@@ -1,0 +1,158 @@
+[1.803s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.804s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f993119d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f993119d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f98b120a0>)
+[2.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.179s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wheeltec/guali_ws'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.252s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extensions ['ignore', 'ignore_ament_install']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'ignore'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'ignore_ament_install'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extensions ['colcon_pkg']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'colcon_pkg'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extensions ['colcon_meta']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'colcon_meta'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extensions ['ros']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'ros'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extensions ['cmake', 'python']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'cmake'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'python'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extensions ['python_setup_py']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(calibrationdata) by extension 'python_setup_py'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['ignore', 'ignore_ament_install']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ignore'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ignore_ament_install'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['colcon_pkg']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'colcon_pkg'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['colcon_meta']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'colcon_meta'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['ros']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ros'
+[2.274s] DEBUG:colcon.colcon_core.package_identification:Package 'detectabasura' with type 'ros.ament_cmake' and name 'detectabasura'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/wheeltec/guali_ws/install
+[2.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 75 installed packages in /home/wheeltec/wheeltec_ros2/install
+[2.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/galactic
+[2.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.201s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_args' from command line to 'None'
+[3.201s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target' from command line to 'None'
+[3.201s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.201s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_cache' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_first' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_force_configure' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'ament_cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_cmake_args' from command line to 'None'
+[3.203s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.203s] DEBUG:colcon.colcon_core.verb:Building package 'detectabasura' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/guali_ws/build/detectabasura', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/guali_ws/install/detectabasura', 'merge_install': False, 'path': '/home/wheeltec/guali_ws/detectabasura', 'symlink_install': False, 'test_result_base': None}
+[3.206s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wheeltec/guali_ws/detectabasura' with build type 'ament_cmake'
+[3.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wheeltec/guali_ws/detectabasura'
+[3.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/wheeltec/guali_ws/build/detectabasura -- -j4 -l4
+[46.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/wheeltec/guali_ws/build/detectabasura -- -j4 -l4
+[47.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/wheeltec/guali_ws/build/detectabasura
+[47.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[47.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_ros2/install/simple_follower_ros2:/home/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wheeltec/wheeltec_ros2/install/nav2_gazebo_spawner:/home/wheeltec/wheeltec_ros2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/wheeltec/guali_ws/build/detectabasura
+[47.353s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura' for CMake module files
+[47.357s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura' for CMake config files
+[47.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[47.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[47.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[47.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[47.373s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/lib'
+[47.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'ld_library_path_lib')
+[47.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.ps1'
+[47.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.dsv'
+[47.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.sh'
+[47.380s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/bin'
+[47.380s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[47.381s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages'
+[47.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'pythonpath')
+[47.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.ps1'
+[47.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.dsv'
+[47.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.sh'
+[47.388s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/bin'
+[47.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.ps1'
+[47.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.dsv'
+[47.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.sh'
+[47.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.bash'
+[47.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.zsh'
+[47.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/guali_ws/install/detectabasura/share/colcon-core/packages/detectabasura)
+[47.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[47.868s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura' for CMake module files
+[47.871s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura' for CMake config files
+[47.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[47.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[47.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[47.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[47.881s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/lib'
+[47.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'ld_library_path_lib')
+[47.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.ps1'
+[47.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.dsv'
+[47.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.sh'
+[47.888s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/bin'
+[47.889s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[47.890s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/lib/python3.8/site-packages'
+[47.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'pythonpath')
+[47.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.ps1'
+[47.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.dsv'
+[47.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.sh'
+[47.897s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/guali_ws/install/detectabasura/bin'
+[47.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.ps1'
+[47.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.dsv'
+[47.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.sh'
+[47.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.bash'
+[47.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/guali_ws/install/detectabasura/share/detectabasura/package.zsh'
+[47.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/guali_ws/install/detectabasura/share/colcon-core/packages/detectabasura)
+[47.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.912s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.913s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[47.914s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.948s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[47.983s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[47.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/guali_ws/install/local_setup.ps1'
+[47.992s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/guali_ws/install/_local_setup_util_ps1.py'
+[48.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/guali_ws/install/setup.ps1'
+[48.021s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/guali_ws/install/local_setup.sh'
+[48.026s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/guali_ws/install/_local_setup_util_sh.py'
+[48.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/guali_ws/install/setup.sh'
+[48.047s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/guali_ws/install/local_setup.bash'
+[48.050s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/guali_ws/install/setup.bash'
+[48.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/guali_ws/install/local_setup.zsh'
+[48.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/guali_ws/install/setup.zsh'

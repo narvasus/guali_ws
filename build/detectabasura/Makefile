@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles /home/jetson/guali_ws/build/detectabasura/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
