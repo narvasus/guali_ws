@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/six_dof_arm_control__type_support_c.cpp
 detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -16,27 +16,27 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 detectabasura/msg/detail/six_dof_arm_control__struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__struct.h
 detectabasura/msg/detail/six_dof_arm_control__functions.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__functions.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__functions.h
 fastcdr/Cdr.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/fastcdr/Cdr.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_fastrtps_c/detectabasura/msg/detail/fastcdr/Cdr.h
 
-/opt/ros/galactic/include/fastcdr/Cdr.h
+/opt/ros/foxy/include/fastcdr/Cdr.h
 fastcdr_dll.h
-/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
+/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
 FastBuffer.h
-/opt/ros/galactic/include/fastcdr/FastBuffer.h
+/opt/ros/foxy/include/fastcdr/FastBuffer.h
 exceptions/NotEnoughMemoryException.h
-/opt/ros/galactic/include/fastcdr/exceptions/NotEnoughMemoryException.h
+/opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
 stdint.h
 -
 string
@@ -54,9 +54,9 @@ stdlib.h
 array
 -
 
-/opt/ros/galactic/include/fastcdr/FastBuffer.h
+/opt/ros/foxy/include/fastcdr/FastBuffer.h
 fastcdr_dll.h
-/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
+/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
 stdint.h
 -
 cstdio
@@ -68,35 +68,35 @@ cstddef
 utility
 -
 
-/opt/ros/galactic/include/fastcdr/config.h
+/opt/ros/foxy/include/fastcdr/config.h
 
-/opt/ros/galactic/include/fastcdr/eProsima_auto_link.h
+/opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
 
-/opt/ros/galactic/include/fastcdr/exceptions/Exception.h
+/opt/ros/foxy/include/fastcdr/exceptions/Exception.h
 ../fastcdr_dll.h
-/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
+/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
 string
 -
 exception
 -
 
-/opt/ros/galactic/include/fastcdr/exceptions/NotEnoughMemoryException.h
+/opt/ros/foxy/include/fastcdr/exceptions/NotEnoughMemoryException.h
 Exception.h
-/opt/ros/galactic/include/fastcdr/exceptions/Exception.h
+/opt/ros/foxy/include/fastcdr/exceptions/Exception.h
 
-/opt/ros/galactic/include/fastcdr/fastcdr_dll.h
+/opt/ros/foxy/include/fastcdr/fastcdr_dll.h
 fastcdr/config.h
 -
 eProsima_auto_link.h
-/opt/ros/galactic/include/fastcdr/eProsima_auto_link.h
+/opt/ros/foxy/include/fastcdr/eProsima_auto_link.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 stdbool.h
 -
 stddef.h
@@ -104,35 +104,35 @@ stddef.h
 stdint.h
 -
 
-/opt/ros/galactic/include/rosidl_runtime_c/u16string.h
+/opt/ros/foxy/include/rosidl_runtime_c/u16string.h
 stddef.h
 -
 rosidl_runtime_c/primitives_sequence.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/identifier.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 string
 -
 rosidl_runtime_c/u16string.h
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/rosidl_runtime_c/u16string.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/rosidl_runtime_c/u16string.h
 rosidl_typesupport_fastrtps_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 rosidl_runtime_c/message_type_support_struct.h
-/opt/ros/galactic/include/rosidl_typesupport_fastrtps_cpp/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_fastrtps_cpp/rosidl_runtime_c/message_type_support_struct.h
 fastcdr/Cdr.h
 -
 
-/opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
 rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.h
 stdbool.h

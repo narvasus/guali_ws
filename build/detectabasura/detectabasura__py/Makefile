@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_progress_start /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py/CMakeFiles/progress.marks
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles 0
+	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles /home/jetson/guali_ws/build/detectabasura/detectabasura__py/CMakeFiles/progress.marks
+	cd /home/jetson/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/clean
+	cd /home/jetson/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/preinstall
+	cd /home/jetson/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/preinstall
+	cd /home/jetson/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 detectabasura__py/CMakeFiles/detectabasura__py.dir/rule:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/CMakeFiles/detectabasura__py.dir/rule
+	cd /home/jetson/guali_ws/build/detectabasura && $(MAKE) -f CMakeFiles/Makefile2 detectabasura__py/CMakeFiles/detectabasura__py.dir/rule
 .PHONY : detectabasura__py/CMakeFiles/detectabasura__py.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ detectabasura__py: detectabasura__py/CMakeFiles/detectabasura__py.dir/rule
 
 # fast build rule for target.
 detectabasura__py/fast:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(MAKE) -f detectabasura__py/CMakeFiles/detectabasura__py.dir/build.make detectabasura__py/CMakeFiles/detectabasura__py.dir/build
+	cd /home/jetson/guali_ws/build/detectabasura && $(MAKE) -f detectabasura__py/CMakeFiles/detectabasura__py.dir/build.make detectabasura__py/CMakeFiles/detectabasura__py.dir/build
 .PHONY : detectabasura__py/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

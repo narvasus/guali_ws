@@ -122,7 +122,7 @@ static bool _SixDOFArmControl__cdr_deserialize(
   }
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_detectabasura
 size_t get_serialized_size_detectabasura__msg__SixDOFArmControl(

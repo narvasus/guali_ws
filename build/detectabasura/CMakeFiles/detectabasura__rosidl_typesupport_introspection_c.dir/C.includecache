@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/six_dof_arm_control__type_support.c
 stddef.h
 -
 detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h
 detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h
 rosidl_typesupport_introspection_c/field_types.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/rosidl_typesupport_introspection_c/field_types.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/rosidl_typesupport_introspection_c/field_types.h
 rosidl_typesupport_introspection_c/identifier.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/rosidl_typesupport_introspection_c/identifier.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/rosidl_typesupport_introspection_c/identifier.h
 rosidl_typesupport_introspection_c/message_introspection.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/rosidl_typesupport_introspection_c/message_introspection.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/rosidl_typesupport_introspection_c/message_introspection.h
 detectabasura/msg/detail/six_dof_arm_control__functions.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__functions.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__functions.h
 detectabasura/msg/detail/six_dof_arm_control__struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_introspection_c/detectabasura/msg/detail/detectabasura/msg/detail/six_dof_arm_control__struct.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/message_initialization.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_initialization.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/field_types.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/field_types.h
 stdint.h
 -
 
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/identifier.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/identifier.h
 rosidl_typesupport_introspection_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/message_introspection.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/message_introspection.h
 stdbool.h
 -
 stddef.h
@@ -52,13 +52,13 @@ stddef.h
 stdint.h
 -
 rosidl_runtime_c/message_initialization.h
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/message_initialization.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/message_initialization.h
 rosidl_runtime_c/message_type_support_struct.h
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_runtime_c/message_type_support_struct.h
 rosidl_typesupport_introspection_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_introspection_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_typesupport_introspection_c/visibility_control.h
 
 rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.h
 stdbool.h

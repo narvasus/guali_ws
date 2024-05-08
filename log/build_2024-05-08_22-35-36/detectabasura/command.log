@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura
+Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura

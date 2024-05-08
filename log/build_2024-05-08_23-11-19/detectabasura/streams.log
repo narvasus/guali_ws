@@ -1,0 +1,30 @@
+[0.063s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[0.254s] [35m[1mScanning dependencies of target video_publisher_usb[0m
+[0.312s] [  2%] Built target detectabasura__cpp
+[0.418s] [ 11%] Built target detectabasura__rosidl_generator_c
+[0.442s] [ 17%] Built target video_publisher
+[0.462s] [ 20%] [32mBuilding CXX object CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o[0m
+[0.498s] [ 28%] Built target detectabasura__rosidl_typesupport_cpp
+[0.599s] [ 37%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[0.604s] [ 45%] Built target detectabasura__rosidl_typesupport_introspection_c
+[0.641s] [ 54%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[0.719s] [ 62%] Built target detectabasura__rosidl_typesupport_c
+[0.748s] [ 71%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[0.821s] [ 71%] Built target detectabasura
+[0.896s] [ 74%] Built target detectabasura__py
+[1.019s] [ 80%] Built target detectabasura__python
+[1.185s] [ 85%] Built target detectabasura__rosidl_typesupport_c__pyext
+[1.206s] [ 91%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[1.216s] [ 97%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[9.879s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.879s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibration_msg[m[K’ was not declared in this scope
+[9.880s]          calibration_publisher->publish(*[01;31m[Kcalibration_msg[m[K);
+[9.880s]                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.895s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:57:41:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcalibration_publisher[m[K’
+[9.895s]          calibration_publisher->publish(*[01;36m[Kcalibration_msg[m[K);
+[9.896s]                                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[9.896s]                                          [32m[Kcalibration_publisher[m[K
+[13.563s] make[2]: *** [CMakeFiles/video_publisher_usb.dir/build.make:63: CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o] Error 1
+[13.564s] make[1]: *** [CMakeFiles/Makefile2:554: CMakeFiles/video_publisher_usb.dir/all] Error 2
+[13.566s] make: *** [Makefile:141: all] Error 2
+[13.572s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4

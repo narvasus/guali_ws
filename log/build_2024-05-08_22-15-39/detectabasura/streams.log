@@ -1,0 +1,6 @@
+[0.072s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[0.205s] CMake Error: The current CMakeCache.txt directory /home/jetson/guali_ws/build/detectabasura/CMakeCache.txt is different than the directory /home/wheeltec/guali_ws/build/detectabasura where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.256s] CMake Error: The source directory "/home/wheeltec/guali_ws/detectabasura" does not exist.
+[0.256s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.259s] make: *** [Makefile:792: cmake_check_build_system] Error 1
+[0.266s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4

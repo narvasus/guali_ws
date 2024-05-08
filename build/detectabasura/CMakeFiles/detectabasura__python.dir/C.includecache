@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c
 Python.h
 -
 stdbool.h
 -
 numpy/ndarrayobject.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/numpy/ndarrayobject.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/numpy/ndarrayobject.h
 rosidl_runtime_c/visibility_control.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/rosidl_runtime_c/visibility_control.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/rosidl_runtime_c/visibility_control.h
 detectabasura/msg/detail/six_dof_arm_control__struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/detectabasura/msg/detail/six_dof_arm_control__struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/detectabasura/msg/detail/six_dof_arm_control__struct.h
 detectabasura/msg/detail/six_dof_arm_control__functions.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/detectabasura/msg/detail/six_dof_arm_control__functions.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/detectabasura/msg/detail/six_dof_arm_control__functions.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
 /usr/include/python3.8/Python.h
 patchlevel.h

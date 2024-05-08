@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target video_publisher_usb[0m
+[  2%] Built target detectabasura__cpp
+[ 11%] Built target detectabasura__rosidl_generator_c
+[ 20%] Built target video_publisher
+[ 25%] Built target detectabasura__rosidl_typesupport_cpp
+[ 28%] [32mBuilding CXX object CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o[0m
+[ 37%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[ 54%] Built target detectabasura__rosidl_typesupport_introspection_c
+[ 62%] Built target detectabasura__rosidl_typesupport_c
+[ 71%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[ 71%] Built target detectabasura
+[ 74%] Built target detectabasura__py
+[ 80%] Built target detectabasura__python
+[ 85%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target detectabasura__rosidl_typesupport_c__pyext
+[ 97%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:57:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalibration_msg[m[K’ was not declared in this scope
+         calibration_publisher->publish(*[01;31m[Kcalibration_msg[m[K);
+                                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:57:41:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcalibration_publisher[m[K’
+         calibration_publisher->publish(*[01;36m[Kcalibration_msg[m[K);
+                                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+                                         [32m[Kcalibration_publisher[m[K
+make[2]: *** [CMakeFiles/video_publisher_usb.dir/build.make:63: CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:554: CMakeFiles/video_publisher_usb.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

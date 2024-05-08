@@ -1,0 +1,59 @@
+[0.058s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake /home/jetson/guali_ws/detectabasura -DCMAKE_INSTALL_PREFIX=/home/jetson/guali_ws/install/detectabasura
+[0.653s] -- The C compiler identification is GNU 8.4.0
+[1.130s] -- The CXX compiler identification is GNU 8.4.0
+[1.158s] -- Check for working C compiler: /usr/bin/cc
+[1.386s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.391s] -- Detecting C compiler ABI info
+[1.621s] -- Detecting C compiler ABI info - done
+[1.671s] -- Detecting C compile features
+[1.673s] -- Detecting C compile features - done
+[1.686s] -- Check for working CXX compiler: /usr/bin/c++
+[1.946s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.949s] -- Detecting CXX compiler ABI info
+[2.214s] -- Detecting CXX compiler ABI info - done
+[2.263s] -- Detecting CXX compile features
+[2.265s] -- Detecting CXX compile features - done
+[2.291s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.401s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.402s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.471s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.757s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.151s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.269s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.931s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.939s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.944s] -- Looking for pthread.h
+[5.211s] -- Looking for pthread.h - found
+[5.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.456s] -- Looking for pthread_create in pthreads
+[5.679s] -- Looking for pthread_create in pthreads - not found
+[5.680s] -- Looking for pthread_create in pthread
+[5.915s] -- Looking for pthread_create in pthread - found
+[5.921s] -- Found Threads: TRUE  
+[6.963s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.509s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[7.588s] -- Found CUDA: /usr/local/cuda (found suitable exact version "10.2") 
+[7.807s] CMake Error at CMakeLists.txt:14 (find_package):
+[7.807s]   By not providing "Findyaml-cpp.cmake" in CMAKE_MODULE_PATH this project has
+[7.807s]   asked CMake to find a package configuration file provided by "yaml-cpp",
+[7.808s]   but CMake did not find one.
+[7.808s] 
+[7.808s]   Could not find a package configuration file provided by "yaml-cpp" with any
+[7.809s]   of the following names:
+[7.809s] 
+[7.809s]     yaml-cppConfig.cmake
+[7.810s]     yaml-cpp-config.cmake
+[7.810s] 
+[7.810s]   Add the installation prefix of "yaml-cpp" to CMAKE_PREFIX_PATH or set
+[7.811s]   "yaml-cpp_DIR" to a directory containing one of the above files.  If
+[7.811s]   "yaml-cpp" provides a separate development package or SDK, be sure it has
+[7.812s]   been installed.
+[7.812s] 
+[7.812s] 
+[7.815s] -- Configuring incomplete, errors occurred!
+[7.816s] See also "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/CMakeOutput.log".
+[7.816s] See also "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/CMakeError.log".
+[7.846s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '1': CMAKE_PREFIX_PATH=/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake /home/jetson/guali_ws/detectabasura -DCMAKE_INSTALL_PREFIX=/home/jetson/guali_ws/install/detectabasura

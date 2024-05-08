@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
 
 # Utility rule file for detectabasura__py.
 
@@ -61,22 +61,22 @@ detectabasura__py/CMakeFiles/detectabasura__py: rosidl_generator_py/detectabasur
 detectabasura__py/CMakeFiles/detectabasura__py: rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c
 
 
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/lib/rosidl_generator_py/rosidl_generator_py
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_action.py.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_idl_support.c.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_idl.py.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_msg_support.c.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_msg.py.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action.py.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_support.c.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl.py.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_support.c.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/detectabasura/msg/SixDOFArmControl.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py && /usr/bin/python3 /opt/ros/galactic/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/jetson/guali_ws/build/detectabasura/detectabasura__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/jetson/guali_ws/build/detectabasura/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c
@@ -110,10 +110,10 @@ detectabasura__py/CMakeFiles/detectabasura__py.dir/build: detectabasura__py
 .PHONY : detectabasura__py/CMakeFiles/detectabasura__py.dir/build
 
 detectabasura__py/CMakeFiles/detectabasura__py.dir/clean:
-	cd /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py && $(CMAKE_COMMAND) -P CMakeFiles/detectabasura__py.dir/cmake_clean.cmake
+	cd /home/jetson/guali_ws/build/detectabasura/detectabasura__py && $(CMAKE_COMMAND) -P CMakeFiles/detectabasura__py.dir/cmake_clean.cmake
 .PHONY : detectabasura__py/CMakeFiles/detectabasura__py.dir/clean
 
 detectabasura__py/CMakeFiles/detectabasura__py.dir/depend:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py/CMakeFiles/detectabasura__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/build/detectabasura/detectabasura__py /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura/detectabasura__py /home/jetson/guali_ws/build/detectabasura/detectabasura__py/CMakeFiles/detectabasura__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : detectabasura__py/CMakeFiles/detectabasura__py.dir/depend
 

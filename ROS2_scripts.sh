@@ -1,4 +1,4 @@
-source /home/wheeltec/guali_ws/install/setup.bash
+source /home/jetson/guali_ws/install/setup.bash
 ros2 pkg list | grep detectabasura
 colcon build
 
@@ -16,7 +16,7 @@ export ROS_DISCOVERY_SERVER="$ip_address:11811"
 ###########test talker listener#########
 #ros2 run demo_nodes_cpp talker
 #xterm -geometry 63x10+1720+155 -hold -e "ros2 run detectabasura video_publisher"&
-ros2 run detectabasura video_publisher
+ros2 run detectabasura video_publisher_usb
 
 # Prompt the user to press a key
 echo "Press any key to close all runing programs..."

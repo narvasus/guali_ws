@@ -21,6 +21,7 @@ find_package(OpenCV 4.2 REQUIRED PATHS /usr/share/opencv4)
 
 set(EXEC_NAMES
   video_publisher
+  video_publisher_usb
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

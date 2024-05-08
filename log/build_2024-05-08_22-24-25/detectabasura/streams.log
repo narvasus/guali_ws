@@ -1,0 +1,122 @@
+[0.147s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[0.558s] [  3%] Built target detectabasura__cpp
+[0.592s] [35m[1mScanning dependencies of target video_publisher[0m
+[0.615s] [ 12%] Built target detectabasura__rosidl_generator_c
+[0.742s] [ 21%] Built target detectabasura__rosidl_typesupport_cpp
+[0.767s] [ 30%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[0.782s] [ 39%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[0.871s] [ 48%] Built target detectabasura__rosidl_typesupport_c
+[0.908s] [ 57%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[0.913s] [ 66%] Built target detectabasura__rosidl_typesupport_introspection_c
+[1.028s] [ 69%] [32mBuilding CXX object CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o[0m
+[1.060s] [ 69%] Built target detectabasura
+[1.201s] [ 72%] Built target detectabasura__py
+[1.401s] [ 78%] Built target detectabasura__python
+[1.574s] [ 84%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[1.581s] [ 90%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[1.594s] [ 96%] Built target detectabasura__rosidl_typesupport_c__pyext
+[28.303s] [100%] [32m[1mLinking CXX executable detectabasura/video_publisher[0m
+[31.613s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.406
+[31.649s] [100%] Built target video_publisher
+[31.689s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[31.927s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura
+[31.968s] -- Install configuration: "Release"
+[31.968s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/rosidl_interfaces/detectabasura
+[31.969s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura
+[31.976s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg
+[31.976s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[31.977s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.c
+[31.984s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.h
+[31.985s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.h
+[31.985s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.h
+[31.986s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_generator_c__visibility_control.h
+[31.986s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.h
+[31.987s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.sh
+[31.987s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.dsv
+[31.988s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_generator_c.so
+[31.989s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura
+[31.989s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg
+[31.990s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[31.990s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h
+[31.991s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.991s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_c.so
+[31.992s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura
+[31.992s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg
+[31.992s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[31.993s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_cpp.hpp
+[31.993s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/dds_fastrtps
+[31.993s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.994s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_cpp.so
+[31.994s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura
+[31.995s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg
+[31.995s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[31.995s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.c
+[31.996s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h
+[31.996s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.996s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_c.so
+[31.997s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_c.so
+[31.998s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura
+[31.998s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg
+[31.999s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[31.999s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.hpp
+[32.002s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.hpp
+[32.003s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__traits.hpp
+[32.003s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__builder.hpp
+[32.004s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.hpp
+[32.004s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_generator_cpp__visibility_control.hpp
+[32.005s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura
+[32.005s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg
+[32.005s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail
+[32.006s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_cpp.hpp
+[32.006s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp
+[32.007s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_cpp.so
+[32.007s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_cpp.so
+[32.007s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.sh
+[32.008s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.dsv
+[32.008s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/__init__.py
+[32.158s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg
+[32.159s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control_s.c
+[32.160s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control.py
+[32.161s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/__init__.py
+[32.162s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[32.168s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[32.168s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[32.170s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__python.so
+[32.173s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.idl
+[32.173s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.msg
+[32.175s] -- Installing: /home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher
+[32.178s] -- Set runtime path of "/home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher" to ""
+[32.179s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura
+[32.180s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura
+[32.181s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.sh
+[32.181s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.dsv
+[32.182s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/path.sh
+[32.183s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/path.dsv
+[32.183s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.bash
+[32.184s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.sh
+[32.184s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.zsh
+[32.185s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.dsv
+[32.185s] -- Installing: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv
+[32.186s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/packages/detectabasura
+[32.187s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport.cmake
+[32.188s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport-release.cmake
+[32.188s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport.cmake
+[32.189s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport-release.cmake
+[32.189s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport.cmake
+[32.190s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport-release.cmake
+[32.191s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cppExport.cmake
+[32.191s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport.cmake
+[32.192s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport-release.cmake
+[32.193s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport.cmake
+[32.194s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport-release.cmake
+[32.195s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake-extras.cmake
+[32.196s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.196s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_libraries-extras.cmake
+[32.197s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_targets-extras.cmake
+[32.197s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.199s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.199s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.200s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig.cmake
+[32.200s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig-version.cmake
+[32.201s] -- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.xml
+[32.206s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura

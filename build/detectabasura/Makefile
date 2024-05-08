@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles /home/jetson/guali_ws/build/detectabasura/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -361,6 +361,19 @@ detectabasura__rosidl_typesupport_cpp: cmake_check_build_system
 detectabasura__rosidl_typesupport_cpp/fast:
 	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/build
 .PHONY : detectabasura__rosidl_typesupport_cpp/fast
+
+#=============================================================================
+# Target rules for targets named video_publisher_usb
+
+# Build rule for target.
+video_publisher_usb: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_publisher_usb
+.PHONY : video_publisher_usb
+
+# fast build rule for target.
+video_publisher_usb/fast:
+	$(MAKE) -f CMakeFiles/video_publisher_usb.dir/build.make CMakeFiles/video_publisher_usb.dir/build
+.PHONY : video_publisher_usb/fast
 
 #=============================================================================
 # Target rules for targets named detectabasura__python
@@ -712,6 +725,33 @@ src/video_publisher.cpp.s:
 	$(MAKE) -f CMakeFiles/video_publisher.dir/build.make CMakeFiles/video_publisher.dir/src/video_publisher.cpp.s
 .PHONY : src/video_publisher.cpp.s
 
+src/video_publisher_usb.o: src/video_publisher_usb.cpp.o
+
+.PHONY : src/video_publisher_usb.o
+
+# target to build an object file
+src/video_publisher_usb.cpp.o:
+	$(MAKE) -f CMakeFiles/video_publisher_usb.dir/build.make CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o
+.PHONY : src/video_publisher_usb.cpp.o
+
+src/video_publisher_usb.i: src/video_publisher_usb.cpp.i
+
+.PHONY : src/video_publisher_usb.i
+
+# target to preprocess a source file
+src/video_publisher_usb.cpp.i:
+	$(MAKE) -f CMakeFiles/video_publisher_usb.dir/build.make CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.i
+.PHONY : src/video_publisher_usb.cpp.i
+
+src/video_publisher_usb.s: src/video_publisher_usb.cpp.s
+
+.PHONY : src/video_publisher_usb.s
+
+# target to generate assembly for a file
+src/video_publisher_usb.cpp.s:
+	$(MAKE) -f CMakeFiles/video_publisher_usb.dir/build.make CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.s
+.PHONY : src/video_publisher_usb.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -740,6 +780,7 @@ help:
 	@echo "... detectabasura__rosidl_typesupport_c__pyext"
 	@echo "... detectabasura"
 	@echo "... detectabasura__rosidl_typesupport_cpp"
+	@echo "... video_publisher_usb"
 	@echo "... detectabasura__python"
 	@echo "... detectabasura__py"
 	@echo "... rosidl_generator_c/detectabasura/msg/detail/six_dof_arm_control__functions.o"
@@ -778,6 +819,9 @@ help:
 	@echo "... src/video_publisher.o"
 	@echo "... src/video_publisher.i"
 	@echo "... src/video_publisher.s"
+	@echo "... src/video_publisher_usb.o"
+	@echo "... src/video_publisher_usb.i"
+	@echo "... src/video_publisher_usb.s"
 .PHONY : help
 
 

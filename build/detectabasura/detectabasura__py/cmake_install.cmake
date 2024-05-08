@@ -1,8 +1,8 @@
-# Install script for directory: /home/wheeltec/guali_ws/build/detectabasura/detectabasura__py
+# Install script for directory: /home/jetson/guali_ws/build/detectabasura/detectabasura__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wheeltec/guali_ws/install/detectabasura")
+  set(CMAKE_INSTALL_PREFIX "/home/jetson/guali_ws/install/detectabasura")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

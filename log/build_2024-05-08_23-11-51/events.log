@@ -1,0 +1,391 @@
+[0.000000] (-) TimerEvent: {}
+[0.001714] (detectabasura) JobQueued: {'identifier': 'detectabasura', 'dependencies': OrderedDict()}
+[0.001888] (detectabasura) JobStarted: {'identifier': 'detectabasura'}
+[0.055405] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'cmake'}
+[0.058284] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'build'}
+[0.061449] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/guali_ws/build/detectabasura', '--', '-j4', '-l4'], 'cwd': '/home/jetson/guali_ws/build/detectabasura', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.168 51274 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/jetson/guali_ws/install/detectabasura/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5bb02427-53ec-4d59-9671-082eb9591caa.sock'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('COLCON_PREFIX_PATH', '/home/jetson/guali_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1420123018788'), ('JETSON_CUDNN', '8.2.1.32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('JETSON_OPENCV', '4.6.0'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0ff227bd5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 51274 192.168.1.208 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/usr/local/lib/python3.8/site-packages/cv2:/usr/local/lib/python3.8/site-packages/cv2:/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy')]), 'shell': False}
+[0.095860] (-) TimerEvent: {}
+[0.196670] (-) TimerEvent: {}
+[0.246792] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target video_publisher_usb\x1b[0m\n'}
+[0.291174] (detectabasura) StdoutLine: {'line': b'[  2%] Built target detectabasura__cpp\n'}
+[0.296849] (-) TimerEvent: {}
+[0.354118] (detectabasura) StdoutLine: {'line': b'[ 11%] Built target detectabasura__rosidl_generator_c\n'}
+[0.397039] (-) TimerEvent: {}
+[0.400034] (detectabasura) StdoutLine: {'line': b'[ 17%] Built target video_publisher\n'}
+[0.436278] (detectabasura) StdoutLine: {'line': b'[ 25%] Built target detectabasura__rosidl_typesupport_cpp\n'}
+[0.497219] (-) TimerEvent: {}
+[0.512227] (detectabasura) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o\x1b[0m\n'}
+[0.581797] (detectabasura) StdoutLine: {'line': b'[ 37%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp\n'}
+[0.584804] (detectabasura) StdoutLine: {'line': b'[ 45%] Built target detectabasura__rosidl_typesupport_introspection_c\n'}
+[0.594419] (detectabasura) StdoutLine: {'line': b'[ 54%] Built target detectabasura__rosidl_typesupport_introspection_cpp\n'}
+[0.597543] (-) TimerEvent: {}
+[0.680048] (detectabasura) StdoutLine: {'line': b'[ 62%] Built target detectabasura__rosidl_typesupport_c\n'}
+[0.697757] (-) TimerEvent: {}
+[0.704974] (detectabasura) StdoutLine: {'line': b'[ 71%] Built target detectabasura__rosidl_typesupport_fastrtps_c\n'}
+[0.775040] (detectabasura) StdoutLine: {'line': b'[ 71%] Built target detectabasura\n'}
+[0.797915] (-) TimerEvent: {}
+[0.847920] (detectabasura) StdoutLine: {'line': b'[ 74%] Built target detectabasura__py\n'}
+[0.898100] (-) TimerEvent: {}
+[0.988523] (detectabasura) StdoutLine: {'line': b'[ 80%] Built target detectabasura__python\n'}
+[0.998271] (-) TimerEvent: {}
+[1.099288] (-) TimerEvent: {}
+[1.135237] (detectabasura) StdoutLine: {'line': b'[ 85%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.138756] (detectabasura) StdoutLine: {'line': b'[ 91%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext\n'}
+[1.166188] (detectabasura) StdoutLine: {'line': b'[ 97%] Built target detectabasura__rosidl_typesupport_c__pyext\n'}
+[1.199520] (-) TimerEvent: {}
+[1.300601] (-) TimerEvent: {}
+[1.401757] (-) TimerEvent: {}
+[1.502542] (-) TimerEvent: {}
+[1.603322] (-) TimerEvent: {}
+[1.704495] (-) TimerEvent: {}
+[1.805325] (-) TimerEvent: {}
+[1.907003] (-) TimerEvent: {}
+[2.008161] (-) TimerEvent: {}
+[2.108952] (-) TimerEvent: {}
+[2.210248] (-) TimerEvent: {}
+[2.311429] (-) TimerEvent: {}
+[2.412221] (-) TimerEvent: {}
+[2.513842] (-) TimerEvent: {}
+[2.615476] (-) TimerEvent: {}
+[2.716273] (-) TimerEvent: {}
+[2.817077] (-) TimerEvent: {}
+[2.918220] (-) TimerEvent: {}
+[3.018923] (-) TimerEvent: {}
+[3.119704] (-) TimerEvent: {}
+[3.220493] (-) TimerEvent: {}
+[3.321281] (-) TimerEvent: {}
+[3.422896] (-) TimerEvent: {}
+[3.536411] (-) TimerEvent: {}
+[3.637139] (-) TimerEvent: {}
+[3.737915] (-) TimerEvent: {}
+[3.838593] (-) TimerEvent: {}
+[3.939318] (-) TimerEvent: {}
+[4.039973] (-) TimerEvent: {}
+[4.141687] (-) TimerEvent: {}
+[4.242507] (-) TimerEvent: {}
+[4.344313] (-) TimerEvent: {}
+[4.444974] (-) TimerEvent: {}
+[4.546521] (-) TimerEvent: {}
+[4.647300] (-) TimerEvent: {}
+[4.748097] (-) TimerEvent: {}
+[4.849344] (-) TimerEvent: {}
+[4.950134] (-) TimerEvent: {}
+[5.051308] (-) TimerEvent: {}
+[5.152091] (-) TimerEvent: {}
+[5.253204] (-) TimerEvent: {}
+[5.354910] (-) TimerEvent: {}
+[5.455756] (-) TimerEvent: {}
+[5.557366] (-) TimerEvent: {}
+[5.658098] (-) TimerEvent: {}
+[5.759221] (-) TimerEvent: {}
+[5.860348] (-) TimerEvent: {}
+[5.961216] (-) TimerEvent: {}
+[6.061995] (-) TimerEvent: {}
+[6.163134] (-) TimerEvent: {}
+[6.264282] (-) TimerEvent: {}
+[6.365069] (-) TimerEvent: {}
+[6.466285] (-) TimerEvent: {}
+[6.568059] (-) TimerEvent: {}
+[6.669184] (-) TimerEvent: {}
+[6.770065] (-) TimerEvent: {}
+[6.870783] (-) TimerEvent: {}
+[6.971565] (-) TimerEvent: {}
+[7.072351] (-) TimerEvent: {}
+[7.173128] (-) TimerEvent: {}
+[7.273912] (-) TimerEvent: {}
+[7.374652] (-) TimerEvent: {}
+[7.475784] (-) TimerEvent: {}
+[7.576525] (-) TimerEvent: {}
+[7.677302] (-) TimerEvent: {}
+[7.778060] (-) TimerEvent: {}
+[7.879713] (-) TimerEvent: {}
+[7.980892] (-) TimerEvent: {}
+[8.082153] (-) TimerEvent: {}
+[8.183294] (-) TimerEvent: {}
+[8.284034] (-) TimerEvent: {}
+[8.384788] (-) TimerEvent: {}
+[8.485582] (-) TimerEvent: {}
+[8.587627] (-) TimerEvent: {}
+[8.688427] (-) TimerEvent: {}
+[8.789312] (-) TimerEvent: {}
+[8.890397] (-) TimerEvent: {}
+[8.991145] (-) TimerEvent: {}
+[9.091975] (-) TimerEvent: {}
+[9.193149] (-) TimerEvent: {}
+[9.294261] (-) TimerEvent: {}
+[9.395051] (-) TimerEvent: {}
+[9.495853] (-) TimerEvent: {}
+[9.596608] (-) TimerEvent: {}
+[9.697462] (-) TimerEvent: {}
+[9.798182] (-) TimerEvent: {}
+[9.898882] (-) TimerEvent: {}
+[9.999616] (-) TimerEvent: {}
+[10.100267] (-) TimerEvent: {}
+[10.200990] (-) TimerEvent: {}
+[10.301759] (-) TimerEvent: {}
+[10.402424] (-) TimerEvent: {}
+[10.503159] (-) TimerEvent: {}
+[10.603892] (-) TimerEvent: {}
+[10.704622] (-) TimerEvent: {}
+[10.805351] (-) TimerEvent: {}
+[10.906045] (-) TimerEvent: {}
+[11.006752] (-) TimerEvent: {}
+[11.107479] (-) TimerEvent: {}
+[11.208204] (-) TimerEvent: {}
+[11.308933] (-) TimerEvent: {}
+[11.409732] (-) TimerEvent: {}
+[11.510446] (-) TimerEvent: {}
+[11.611148] (-) TimerEvent: {}
+[11.712190] (-) TimerEvent: {}
+[11.812940] (-) TimerEvent: {}
+[11.913688] (-) TimerEvent: {}
+[12.014406] (-) TimerEvent: {}
+[12.115123] (-) TimerEvent: {}
+[12.215855] (-) TimerEvent: {}
+[12.316910] (-) TimerEvent: {}
+[12.417725] (-) TimerEvent: {}
+[12.518440] (-) TimerEvent: {}
+[12.619160] (-) TimerEvent: {}
+[12.719864] (-) TimerEvent: {}
+[12.820587] (-) TimerEvent: {}
+[12.921381] (-) TimerEvent: {}
+[13.022156] (-) TimerEvent: {}
+[13.122874] (-) TimerEvent: {}
+[13.223590] (-) TimerEvent: {}
+[13.324307] (-) TimerEvent: {}
+[13.425019] (-) TimerEvent: {}
+[13.525708] (-) TimerEvent: {}
+[13.626361] (-) TimerEvent: {}
+[13.727088] (-) TimerEvent: {}
+[13.827871] (-) TimerEvent: {}
+[13.928616] (-) TimerEvent: {}
+[14.029416] (-) TimerEvent: {}
+[14.130132] (-) TimerEvent: {}
+[14.230781] (-) TimerEvent: {}
+[14.331577] (-) TimerEvent: {}
+[14.432282] (-) TimerEvent: {}
+[14.532980] (-) TimerEvent: {}
+[14.633799] (-) TimerEvent: {}
+[14.734546] (-) TimerEvent: {}
+[14.835252] (-) TimerEvent: {}
+[14.935970] (-) TimerEvent: {}
+[15.036683] (-) TimerEvent: {}
+[15.137412] (-) TimerEvent: {}
+[15.238063] (-) TimerEvent: {}
+[15.338841] (-) TimerEvent: {}
+[15.439563] (-) TimerEvent: {}
+[15.540277] (-) TimerEvent: {}
+[15.641000] (-) TimerEvent: {}
+[15.741796] (-) TimerEvent: {}
+[15.842504] (-) TimerEvent: {}
+[15.943217] (-) TimerEvent: {}
+[16.043926] (-) TimerEvent: {}
+[16.144654] (-) TimerEvent: {}
+[16.245380] (-) TimerEvent: {}
+[16.346093] (-) TimerEvent: {}
+[16.446810] (-) TimerEvent: {}
+[16.547479] (-) TimerEvent: {}
+[16.648199] (-) TimerEvent: {}
+[16.748926] (-) TimerEvent: {}
+[16.849726] (-) TimerEvent: {}
+[16.950448] (-) TimerEvent: {}
+[17.051157] (-) TimerEvent: {}
+[17.151880] (-) TimerEvent: {}
+[17.252534] (-) TimerEvent: {}
+[17.353431] (-) TimerEvent: {}
+[17.454163] (-) TimerEvent: {}
+[17.554811] (-) TimerEvent: {}
+[17.655537] (-) TimerEvent: {}
+[17.756197] (-) TimerEvent: {}
+[17.856915] (-) TimerEvent: {}
+[17.957640] (-) TimerEvent: {}
+[18.058344] (-) TimerEvent: {}
+[18.159057] (-) TimerEvent: {}
+[18.259770] (-) TimerEvent: {}
+[18.360507] (-) TimerEvent: {}
+[18.461195] (-) TimerEvent: {}
+[18.561952] (-) TimerEvent: {}
+[18.662660] (-) TimerEvent: {}
+[18.763393] (-) TimerEvent: {}
+[18.864092] (-) TimerEvent: {}
+[18.964827] (-) TimerEvent: {}
+[19.065615] (-) TimerEvent: {}
+[19.166313] (-) TimerEvent: {}
+[19.267024] (-) TimerEvent: {}
+[19.367750] (-) TimerEvent: {}
+[19.468473] (-) TimerEvent: {}
+[19.569181] (-) TimerEvent: {}
+[19.669859] (-) TimerEvent: {}
+[19.770555] (-) TimerEvent: {}
+[19.871255] (-) TimerEvent: {}
+[19.971960] (-) TimerEvent: {}
+[20.072777] (-) TimerEvent: {}
+[20.173480] (-) TimerEvent: {}
+[20.274118] (-) TimerEvent: {}
+[20.374827] (-) TimerEvent: {}
+[20.475544] (-) TimerEvent: {}
+[20.576256] (-) TimerEvent: {}
+[20.676990] (-) TimerEvent: {}
+[20.777747] (-) TimerEvent: {}
+[20.878451] (-) TimerEvent: {}
+[20.979163] (-) TimerEvent: {}
+[21.079879] (-) TimerEvent: {}
+[21.180596] (-) TimerEvent: {}
+[21.281403] (-) TimerEvent: {}
+[21.382101] (-) TimerEvent: {}
+[21.482804] (-) TimerEvent: {}
+[21.583501] (-) TimerEvent: {}
+[21.684215] (-) TimerEvent: {}
+[21.784939] (-) TimerEvent: {}
+[21.885668] (-) TimerEvent: {}
+[21.986396] (-) TimerEvent: {}
+[22.087124] (-) TimerEvent: {}
+[22.187840] (-) TimerEvent: {}
+[22.288489] (-) TimerEvent: {}
+[22.389655] (-) TimerEvent: {}
+[22.490365] (-) TimerEvent: {}
+[22.582507] (detectabasura) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable detectabasura/video_publisher_usb\x1b[0m\n'}
+[22.590522] (-) TimerEvent: {}
+[22.691180] (-) TimerEvent: {}
+[22.791886] (-) TimerEvent: {}
+[22.892803] (-) TimerEvent: {}
+[22.994113] (-) TimerEvent: {}
+[23.095558] (-) TimerEvent: {}
+[23.197430] (-) TimerEvent: {}
+[23.298660] (-) TimerEvent: {}
+[23.399883] (-) TimerEvent: {}
+[23.500739] (-) TimerEvent: {}
+[23.601483] (-) TimerEvent: {}
+[23.702570] (-) TimerEvent: {}
+[23.803811] (-) TimerEvent: {}
+[23.905161] (-) TimerEvent: {}
+[24.005967] (-) TimerEvent: {}
+[24.107114] (-) TimerEvent: {}
+[24.207912] (-) TimerEvent: {}
+[24.309614] (-) TimerEvent: {}
+[24.410724] (-) TimerEvent: {}
+[24.511923] (-) TimerEvent: {}
+[24.613082] (-) TimerEvent: {}
+[24.713998] (-) TimerEvent: {}
+[24.814703] (-) TimerEvent: {}
+[24.915610] (-) TimerEvent: {}
+[25.016429] (-) TimerEvent: {}
+[25.117301] (-) TimerEvent: {}
+[25.154688] (detectabasura) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.406\n'}
+[25.190835] (detectabasura) StdoutLine: {'line': b'[100%] Built target video_publisher_usb\n'}
+[25.217456] (-) TimerEvent: {}
+[25.230994] (detectabasura) CommandEnded: {'returncode': 0}
+[25.317683] (-) TimerEvent: {}
+[25.419177] (-) TimerEvent: {}
+[25.436294] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'install'}
+[25.475422] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/guali_ws/build/detectabasura'], 'cwd': '/home/jetson/guali_ws/build/detectabasura', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.168 51274 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('JETSON_CUDA', '10.2.300'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/home/jetson/guali_ws/install/detectabasura/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5bb02427-53ec-4d59-9671-082eb9591caa.sock'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('COLCON_PREFIX_PATH', '/home/jetson/guali_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1420123018788'), ('JETSON_CUDNN', '8.2.1.32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('JETSON_OPENCV', '4.6.0'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0ff227bd5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 51274 192.168.1.208 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/usr/local/lib/python3.8/site-packages/cv2:/usr/local/lib/python3.8/site-packages/cv2:/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy')]), 'shell': False}
+[25.511767] (detectabasura) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[25.514307] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/rosidl_interfaces/detectabasura\n'}
+[25.514898] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura\n'}
+[25.515377] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[25.518461] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[25.518948] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.c\n'}
+[25.520835] (-) TimerEvent: {}
+[25.522760] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.h\n'}
+[25.524463] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.h\n'}
+[25.524921] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__functions.h\n'}
+[25.527534] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.530248] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.h\n'}
+[25.530787] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.sh\n'}
+[25.532752] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/library_path.dsv\n'}
+[25.533348] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_generator_c.so\n'}
+[25.533878] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura\n'}
+[25.534360] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[25.534767] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[25.535167] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_c.h\n'}
+[25.535632] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.536028] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_c.so\n'}
+[25.536402] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura\n'}
+[25.536781] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[25.537170] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[25.537646] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.538036] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/dds_fastrtps\n'}
+[25.538419] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.538777] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.539181] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura\n'}
+[25.539583] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[25.539959] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[25.540335] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.c\n'}
+[25.540709] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_c.h\n'}
+[25.541095] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.553826] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_c.so\n'}
+[25.554404] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_c.so\n'}
+[25.554915] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura\n'}
+[25.555386] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[25.555829] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[25.556281] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__struct.hpp\n'}
+[25.556735] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.hpp\n'}
+[25.557177] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__traits.hpp\n'}
+[25.557660] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__builder.hpp\n'}
+[25.558124] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/six_dof_arm_control.hpp\n'}
+[25.558561] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.558971] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura\n'}
+[25.559363] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg\n'}
+[25.559778] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail\n'}
+[25.560236] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.560686] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/include/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp\n'}
+[25.561155] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_introspection_cpp.so\n'}
+[25.561693] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__rosidl_typesupport_cpp.so\n'}
+[25.562149] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.sh\n'}
+[25.562618] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/pythonpath.dsv\n'}
+[25.563048] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/__init__.py\n'}
+[25.621003] (-) TimerEvent: {}
+[25.697948] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg\n'}
+[25.700087] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control_s.c\n'}
+[25.700531] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/_six_dof_arm_control.py\n'}
+[25.700898] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/msg/__init__.py\n'}
+[25.701356] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[25.704231] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[25.704662] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages/detectabasura/detectabasura_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[25.705561] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__python.so\n'}
+[25.706578] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.idl\n'}
+[25.707166] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.msg\n'}
+[25.717915] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher\n'}
+[25.718586] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher_usb\n'}
+[25.719050] (detectabasura) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher_usb" to ""\n'}
+[25.719491] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura\n'}
+[25.719851] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura\n'}
+[25.720183] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.sh\n'}
+[25.720606] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/ament_prefix_path.dsv\n'}
+[25.721027] (-) TimerEvent: {}
+[25.721452] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/path.sh\n'}
+[25.722135] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/environment/path.dsv\n'}
+[25.722519] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.bash\n'}
+[25.722860] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.sh\n'}
+[25.723186] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.zsh\n'}
+[25.723523] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/local_setup.dsv\n'}
+[25.723854] (detectabasura) StdoutLine: {'line': b'-- Installing: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv\n'}
+[25.724178] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/packages/detectabasura\n'}
+[25.725125] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport.cmake\n'}
+[25.725806] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cExport-release.cmake\n'}
+[25.726368] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport.cmake\n'}
+[25.726971] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[25.727744] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport.cmake\n'}
+[25.728366] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cExport-release.cmake\n'}
+[25.728998] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_generator_cppExport.cmake\n'}
+[25.729977] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[25.730609] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[25.731227] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport.cmake\n'}
+[25.731811] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasura__rosidl_typesupport_cppExport-release.cmake\n'}
+[25.732323] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake-extras.cmake\n'}
+[25.732841] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.733452] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.734195] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.734735] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.735264] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[25.735880] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[25.736442] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig.cmake\n'}
+[25.736915] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/cmake/detectabasuraConfig-version.cmake\n'}
+[25.737482] (detectabasura) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.xml\n'}
+[25.743972] (detectabasura) CommandEnded: {'returncode': 0}
+[25.821200] (-) TimerEvent: {}
+[25.923093] (-) TimerEvent: {}
+[26.024255] (-) TimerEvent: {}
+[26.126623] (-) TimerEvent: {}
+[26.155713] (detectabasura) JobEnded: {'identifier': 'detectabasura', 'rc': 0}
+[26.159146] (-) EventReactorShutdown: {}

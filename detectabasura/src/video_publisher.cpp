@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     auto calibration_publisher = node->create_publisher<std_msgs::msg::String>("stereo_calibration", 1);
 
     // Read calibration data
-    std::string file_path = "/home/wheeltec/guali_ws/calibrationdata/ost.txt";
+    std::string file_path = "/home/jetson/guali_ws/camera_parameters_cli/ost.txt";
     std::ifstream file(file_path);
     std::string calibration_data;
     if (file.is_open())

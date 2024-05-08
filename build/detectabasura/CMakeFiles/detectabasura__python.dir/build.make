@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wheeltec/guali_ws/detectabasura
+CMAKE_SOURCE_DIR = /home/jetson/guali_ws/detectabasura
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wheeltec/guali_ws/build/detectabasura
+CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
 
 # Include any dependencies generated for this target.
 include CMakeFiles/detectabasura__python.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/detectabasura__python.dir/flags.make
 
 CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o: CMakeFiles/detectabasura__python.dir/flags.make
 CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o: rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o   -c /home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.o   -c /home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c
 
 CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c > CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c > CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.i
 
 CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c -o CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c -o CMakeFiles/detectabasura__python.dir/rosidl_generator_py/detectabasura/msg/_six_dof_arm_control_s.c.s
 
 # Object files for target detectabasura__python
 detectabasura__python_OBJECTS = \
@@ -82,12 +82,12 @@ rosidl_generator_py/detectabasura/libdetectabasura__python.so: CMakeFiles/detect
 rosidl_generator_py/detectabasura/libdetectabasura__python.so: libdetectabasura__rosidl_generator_c.so
 rosidl_generator_py/detectabasura/libdetectabasura__python.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
 rosidl_generator_py/detectabasura/libdetectabasura__python.so: libdetectabasura__rosidl_typesupport_c.so
-rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/galactic/lib/librosidl_typesupport_c.so
-rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/galactic/lib/librosidl_runtime_c.so
-rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/galactic/lib/librcpputils.so
-rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/galactic/lib/librcutils.so
+rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
+rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
+rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/foxy/lib/librcpputils.so
+rosidl_generator_py/detectabasura/libdetectabasura__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/detectabasura/libdetectabasura__python.so: CMakeFiles/detectabasura__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/detectabasura/libdetectabasura__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/detectabasura/libdetectabasura__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/detectabasura__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +100,6 @@ CMakeFiles/detectabasura__python.dir/clean:
 .PHONY : CMakeFiles/detectabasura__python.dir/clean
 
 CMakeFiles/detectabasura__python.dir/depend:
-	cd /home/wheeltec/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/detectabasura /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura /home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__python.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jetson/guali_ws/build/detectabasura && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/detectabasura /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura /home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__python.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/detectabasura__python.dir/depend
 

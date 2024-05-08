@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wheeltec/guali_ws/build/detectabasura/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp" "/home/wheeltec/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_c.dir/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o"
+  "/home/jetson/guali_ws/build/detectabasura/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp" "/home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_c.dir/rosidl_typesupport_c/detectabasura/msg/six_dof_arm_control__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rosidl_typesupport_c"
   "/usr/include/opencv4"
   "/usr/lib/aarch64-linux-gnu/cmake/yaml-cpp/../../../../../include"
-  "/opt/ros/galactic/include"
+  "/opt/ros/foxy/include"
   )
 
 # Targets to which this target links.

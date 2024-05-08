@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake /home/jetson/guali_ws/detectabasura -DCMAKE_INSTALL_PREFIX=/home/jetson/guali_ws/install/detectabasura
+Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/guali_ws/install/deteccionresiduos:/opt/ros/foxy /usr/bin/cmake /home/jetson/guali_ws/detectabasura -DCMAKE_INSTALL_PREFIX=/home/jetson/guali_ws/install/detectabasura

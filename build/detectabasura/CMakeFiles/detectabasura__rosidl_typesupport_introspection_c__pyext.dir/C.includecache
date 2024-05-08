@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/_detectabasura_s.ep.rosidl_typesupport_introspection_c.c
 Python.h
 -
 stdbool.h
@@ -14,45 +14,45 @@ stdbool.h
 stdint.h
 -
 rosidl_runtime_c/visibility_control.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/visibility_control.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/visibility_control.h
 rosidl_runtime_c/message_type_support_struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/message_type_support_struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/service_type_support_struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/action_type_support_struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/action_type_support_struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/rosidl_runtime_c/action_type_support_struct.h
 detectabasura/msg/detail/six_dof_arm_control__type_support.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/detectabasura/msg/detail/six_dof_arm_control__type_support.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/detectabasura/msg/detail/six_dof_arm_control__type_support.h
 detectabasura/msg/detail/six_dof_arm_control__struct.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/detectabasura/msg/detail/six_dof_arm_control__struct.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/detectabasura/msg/detail/six_dof_arm_control__struct.h
 detectabasura/msg/detail/six_dof_arm_control__functions.h
-/home/wheeltec/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/detectabasura/msg/detail/six_dof_arm_control__functions.h
+/home/jetson/guali_ws/build/detectabasura/rosidl_generator_py/detectabasura/detectabasura/msg/detail/six_dof_arm_control__functions.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/action_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/action_type_support_struct.h
 rosidl_runtime_c/message_type_support_struct.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/service_type_support_struct.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/message_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/service_type_support_struct.h
+/opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/visibility_control.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
-/opt/ros/galactic/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
-/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
-/opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
+/opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
 /usr/include/python3.8/Python.h
 patchlevel.h
