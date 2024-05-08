@@ -6,8 +6,8 @@
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/install.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/test.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/video_publisher_cli.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/uninstall.dir
-/home/jetson/guali_ws/build/detectabasura/CMakeFiles/video_publisher.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura_uninstall.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/install/local.dir

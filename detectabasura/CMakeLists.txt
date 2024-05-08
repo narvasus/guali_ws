@@ -20,7 +20,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(OpenCV 4.2 REQUIRED PATHS /usr/share/opencv4)
 
 set(EXEC_NAMES
-  video_publisher
+  video_publisher_cli
   video_publisher_usb
 )
 

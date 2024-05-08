@@ -41,7 +41,7 @@
 /home/jetson/guali_ws/install/detectabasura/lib/libdetectabasura__python.so
 /home/jetson/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.idl
 /home/jetson/guali_ws/install/detectabasura/share/detectabasura/msg/SixDOFArmControl.msg
-/home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher
+/home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher_cli
 /home/jetson/guali_ws/install/detectabasura/lib/detectabasura/video_publisher_usb
 /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/package_run_dependencies/detectabasura
 /home/jetson/guali_ws/install/detectabasura/share/ament_index/resource_index/parent_prefix_path/detectabasura

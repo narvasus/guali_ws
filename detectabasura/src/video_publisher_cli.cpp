@@ -64,28 +64,6 @@ int main(int argc, char *argv[])
     rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr image_right_pub =
         node->create_publisher<sensor_msgs::msg::Image>("image_right", 10);
 
-    // Publisher for calibration data
-    auto calibration_publisher = node->create_publisher<std_msgs::msg::String>("stereo_calibration", 1);
-
-    // Read calibration data
-    std::string file_path = "/home/wheeltec/guali_ws/camera_parameters_cli/ost.txt";
-    std::ifstream file(file_path);
-    std::string calibration_data;
-    if (file.is_open())
-    {
-        calibration_data = std::string((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
-        file.close();
-        std::cout << "Successfully read ost.txt" << std::endl;
-    }
-    else
-    {
-        std::cerr << "Failed to open calibration file: " << file_path << std::endl;
-    }
-
-    // Create ROS message for calibration data
-    auto calibration_msg = std::make_shared<std_msgs::msg::String>();
-    calibration_msg->data = calibration_data;
-
     rclcpp::Rate loop_rate(120); // Adjust the publishing rate as needed 120 works
     while (rclcpp::ok())
     {
@@ -97,9 +75,6 @@ int main(int argc, char *argv[])
         // Display and publish frames
         publishImage(camera1_frame, "image_left", sensor_msgs::image_encodings::BGR8, image_left_pub);
         publishImage(camera0_frame, "image_right", sensor_msgs::image_encodings::BGR8, image_right_pub);
-
-        // Publish calibration data
-        calibration_publisher->publish(*calibration_msg);
 
         rclcpp::spin_some(node);
         loop_rate.sleep();

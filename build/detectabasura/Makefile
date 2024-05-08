@@ -194,6 +194,19 @@ detectabasura__rosidl_typesupport_fastrtps_c__pyext/fast:
 .PHONY : detectabasura__rosidl_typesupport_fastrtps_c__pyext/fast
 
 #=============================================================================
+# Target rules for targets named video_publisher_cli
+
+# Build rule for target.
+video_publisher_cli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_publisher_cli
+.PHONY : video_publisher_cli
+
+# fast build rule for target.
+video_publisher_cli/fast:
+	$(MAKE) -f CMakeFiles/video_publisher_cli.dir/build.make CMakeFiles/video_publisher_cli.dir/build
+.PHONY : video_publisher_cli/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -205,19 +218,6 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named video_publisher
-
-# Build rule for target.
-video_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 video_publisher
-.PHONY : video_publisher
-
-# fast build rule for target.
-video_publisher/fast:
-	$(MAKE) -f CMakeFiles/video_publisher.dir/build.make CMakeFiles/video_publisher.dir/build
-.PHONY : video_publisher/fast
 
 #=============================================================================
 # Target rules for targets named detectabasura__rosidl_typesupport_fastrtps_c
@@ -698,32 +698,32 @@ rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_contro
 	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
 
-src/video_publisher.o: src/video_publisher.cpp.o
+src/video_publisher_cli.o: src/video_publisher_cli.cpp.o
 
-.PHONY : src/video_publisher.o
+.PHONY : src/video_publisher_cli.o
 
 # target to build an object file
-src/video_publisher.cpp.o:
-	$(MAKE) -f CMakeFiles/video_publisher.dir/build.make CMakeFiles/video_publisher.dir/src/video_publisher.cpp.o
-.PHONY : src/video_publisher.cpp.o
+src/video_publisher_cli.cpp.o:
+	$(MAKE) -f CMakeFiles/video_publisher_cli.dir/build.make CMakeFiles/video_publisher_cli.dir/src/video_publisher_cli.cpp.o
+.PHONY : src/video_publisher_cli.cpp.o
 
-src/video_publisher.i: src/video_publisher.cpp.i
+src/video_publisher_cli.i: src/video_publisher_cli.cpp.i
 
-.PHONY : src/video_publisher.i
+.PHONY : src/video_publisher_cli.i
 
 # target to preprocess a source file
-src/video_publisher.cpp.i:
-	$(MAKE) -f CMakeFiles/video_publisher.dir/build.make CMakeFiles/video_publisher.dir/src/video_publisher.cpp.i
-.PHONY : src/video_publisher.cpp.i
+src/video_publisher_cli.cpp.i:
+	$(MAKE) -f CMakeFiles/video_publisher_cli.dir/build.make CMakeFiles/video_publisher_cli.dir/src/video_publisher_cli.cpp.i
+.PHONY : src/video_publisher_cli.cpp.i
 
-src/video_publisher.s: src/video_publisher.cpp.s
+src/video_publisher_cli.s: src/video_publisher_cli.cpp.s
 
-.PHONY : src/video_publisher.s
+.PHONY : src/video_publisher_cli.s
 
 # target to generate assembly for a file
-src/video_publisher.cpp.s:
-	$(MAKE) -f CMakeFiles/video_publisher.dir/build.make CMakeFiles/video_publisher.dir/src/video_publisher.cpp.s
-.PHONY : src/video_publisher.cpp.s
+src/video_publisher_cli.cpp.s:
+	$(MAKE) -f CMakeFiles/video_publisher_cli.dir/build.make CMakeFiles/video_publisher_cli.dir/src/video_publisher_cli.cpp.s
+.PHONY : src/video_publisher_cli.cpp.s
 
 src/video_publisher_usb.o: src/video_publisher_usb.cpp.o
 
@@ -766,8 +766,8 @@ help:
 	@echo "... install"
 	@echo "... detectabasura__rosidl_typesupport_fastrtps_c__pyext"
 	@echo "... test"
+	@echo "... video_publisher_cli"
 	@echo "... uninstall"
-	@echo "... video_publisher"
 	@echo "... detectabasura__rosidl_typesupport_fastrtps_c"
 	@echo "... detectabasura_uninstall"
 	@echo "... install/local"
@@ -816,9 +816,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.s"
-	@echo "... src/video_publisher.o"
-	@echo "... src/video_publisher.i"
-	@echo "... src/video_publisher.s"
+	@echo "... src/video_publisher_cli.o"
+	@echo "... src/video_publisher_cli.i"
+	@echo "... src/video_publisher_cli.s"
 	@echo "... src/video_publisher_usb.o"
 	@echo "... src/video_publisher_usb.i"
 	@echo "... src/video_publisher_usb.s"
