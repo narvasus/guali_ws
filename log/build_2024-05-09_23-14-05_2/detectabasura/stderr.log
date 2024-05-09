@@ -1,0 +1,4 @@
+/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp: In member function ‘void SerialPublisher::callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)’:
+/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp:57:14: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+         write(serial_fd_, data.c_str(), data.length());
+         ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

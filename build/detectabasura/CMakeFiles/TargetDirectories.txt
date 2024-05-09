@@ -1,6 +1,7 @@
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/install/strip.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/rebuild_cache.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/edit_cache.dir
+/home/jetson/guali_ws/build/detectabasura/CMakeFiles/serialMCU.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/list_install_components.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir
 /home/jetson/guali_ws/build/detectabasura/CMakeFiles/install.dir

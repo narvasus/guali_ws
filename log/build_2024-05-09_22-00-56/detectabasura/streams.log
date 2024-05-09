@@ -1,0 +1,49 @@
+[0.089s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[0.765s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.930s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.930s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.289s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.553s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.523s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.385s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.114s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[5.685s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[6.049s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.935s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[7.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.729s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.735s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[7.863s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.865s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.865s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[8.292s] -- Configuring done
+[8.852s] -- Generating done
+[8.899s] -- Build files have been written to: /home/jetson/guali_ws/build/detectabasura
+[9.060s] [35m[1mScanning dependencies of target serialMCU[0m
+[9.174s] [  8%] Built target detectabasura__rosidl_generator_c
+[9.181s] [ 10%] Built target detectabasura__cpp
+[9.354s] [ 18%] Built target detectabasura__rosidl_typesupport_cpp
+[9.563s] [ 21%] [32mBuilding CXX object CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o[0m
+[9.584s] [ 27%] Built target video_publisher_cli
+[9.610s] [ 32%] Built target video_publisher_usb
+[9.714s] [ 40%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[9.815s] [ 48%] Built target detectabasura__rosidl_typesupport_introspection_c
+[9.824s] [ 56%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[9.852s] [ 64%] Built target detectabasura__rosidl_typesupport_c
+[9.992s] [ 72%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[10.146s] [ 72%] Built target detectabasura
+[10.319s] [ 75%] Built target detectabasura__py
+[10.477s] [01m[K/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/String.hpp: No such file or directory
+[10.478s]  #include [01;31m[K"std_msgs/msg/String.hpp"[m[K
+[10.479s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.479s] compilation terminated.
+[10.487s] make[2]: *** [CMakeFiles/serialMCU.dir/build.make:63: CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o] Error 1
+[10.488s] make[1]: *** [CMakeFiles/Makefile2:127: CMakeFiles/serialMCU.dir/all] Error 2
+[10.488s] make[1]: *** Waiting for unfinished jobs....
+[10.525s] [ 81%] Built target detectabasura__python
+[10.532s] make: *** [Makefile:141: all] Error 2
+[10.539s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4

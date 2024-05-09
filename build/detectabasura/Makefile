@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named serialMCU
+
+# Build rule for target.
+serialMCU: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 serialMCU
+.PHONY : serialMCU
+
+# fast build rule for target.
+serialMCU/fast:
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/build
+.PHONY : serialMCU/fast
+
+#=============================================================================
 # Target rules for targets named detectabasura__rosidl_typesupport_introspection_c__pyext
 
 # Build rule for target.
@@ -698,6 +711,33 @@ rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_contro
 	$(MAKE) -f CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/detectabasura__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.cpp.s
 
+src/serialMCU.o: src/serialMCU.cpp.o
+
+.PHONY : src/serialMCU.o
+
+# target to build an object file
+src/serialMCU.cpp.o:
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o
+.PHONY : src/serialMCU.cpp.o
+
+src/serialMCU.i: src/serialMCU.cpp.i
+
+.PHONY : src/serialMCU.i
+
+# target to preprocess a source file
+src/serialMCU.cpp.i:
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/src/serialMCU.cpp.i
+.PHONY : src/serialMCU.cpp.i
+
+src/serialMCU.s: src/serialMCU.cpp.s
+
+.PHONY : src/serialMCU.s
+
+# target to generate assembly for a file
+src/serialMCU.cpp.s:
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/src/serialMCU.cpp.s
+.PHONY : src/serialMCU.cpp.s
+
 src/video_publisher_cli.o: src/video_publisher_cli.cpp.o
 
 .PHONY : src/video_publisher_cli.o
@@ -761,6 +801,7 @@ help:
 	@echo "... install/strip"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... serialMCU"
 	@echo "... list_install_components"
 	@echo "... detectabasura__rosidl_typesupport_introspection_c__pyext"
 	@echo "... install"
@@ -816,6 +857,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/detectabasura/msg/detail/six_dof_arm_control__type_support.s"
+	@echo "... src/serialMCU.o"
+	@echo "... src/serialMCU.i"
+	@echo "... src/serialMCU.s"
 	@echo "... src/video_publisher_cli.o"
 	@echo "... src/video_publisher_cli.i"
 	@echo "... src/video_publisher_cli.s"

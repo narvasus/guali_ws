@@ -725,6 +725,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/serialMCU.dir/DependInfo.cmake"
   "CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/video_publisher_cli.dir/DependInfo.cmake"

@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target serialMCU[0m
+[  2%] Built target detectabasura__cpp
+[ 10%] Built target detectabasura__rosidl_generator_c
+[ 16%] Built target video_publisher_cli
+[ 35%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[ 35%] Built target detectabasura__rosidl_typesupport_cpp
+[ 37%] Built target video_publisher_usb
+[ 40%] [32mBuilding CXX object CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o[0m
+[ 48%] Built target detectabasura__rosidl_typesupport_introspection_c
+[ 56%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[ 64%] Built target detectabasura__rosidl_typesupport_c
+[ 72%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[ 72%] Built target detectabasura
+[ 75%] Built target detectabasura__py
+[01m[K/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/String.hpp: No such file or directory
+ #include [01;31m[K<std_msgs/msg/String.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[ 81%] Built target detectabasura__python
+[ 91%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target detectabasura__rosidl_typesupport_c__pyext
+[ 97%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+make[2]: *** [CMakeFiles/serialMCU.dir/build.make:63: CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:127: CMakeFiles/serialMCU.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,27 @@
+[0.080s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[0.264s] [35m[1mScanning dependencies of target serialMCU[0m
+[0.334s] [  2%] Built target detectabasura__cpp
+[0.353s] [ 10%] Built target detectabasura__rosidl_generator_c
+[0.401s] [ 16%] Built target video_publisher_cli
+[0.912s] [ 35%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[0.915s] [ 35%] Built target detectabasura__rosidl_typesupport_cpp
+[0.929s] [ 37%] Built target video_publisher_usb
+[1.020s] [ 40%] [32mBuilding CXX object CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o[0m
+[1.129s] [ 48%] Built target detectabasura__rosidl_typesupport_introspection_c
+[1.138s] [ 56%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[1.147s] [ 64%] Built target detectabasura__rosidl_typesupport_c
+[1.257s] [ 72%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[1.331s] [ 72%] Built target detectabasura
+[1.407s] [ 75%] Built target detectabasura__py
+[1.508s] [01m[K/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/String.hpp: No such file or directory
+[1.508s]  #include [01;31m[K<std_msgs/msg/String.hpp>[m[K
+[1.509s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.509s] compilation terminated.
+[1.519s] [ 81%] Built target detectabasura__python
+[1.640s] [ 91%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[1.641s] [ 91%] Built target detectabasura__rosidl_typesupport_c__pyext
+[1.641s] [ 97%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[2.495s] make[2]: *** [CMakeFiles/serialMCU.dir/build.make:63: CMakeFiles/serialMCU.dir/src/serialMCU.cpp.o] Error 1
+[2.496s] make[1]: *** [CMakeFiles/Makefile2:127: CMakeFiles/serialMCU.dir/all] Error 2
+[2.504s] make: *** [Makefile:141: all] Error 2
+[2.516s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4

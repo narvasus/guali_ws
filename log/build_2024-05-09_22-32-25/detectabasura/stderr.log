@@ -1,0 +1,10 @@
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera0_capture[m[K’ was not declared in this scope
+     [01;31m[Kcamera0_capture[m[K.release();
+     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera1_capture[m[K’ was not declared in this scope
+     [01;31m[Kcamera1_capture[m[K.release();
+     [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/video_publisher_usb.dir/build.make:63: CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:583: CMakeFiles/video_publisher_usb.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

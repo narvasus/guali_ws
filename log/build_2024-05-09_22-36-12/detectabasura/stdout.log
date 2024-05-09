@@ -1,0 +1,18 @@
+[  2%] Built target detectabasura__cpp
+[ 10%] Built target detectabasura__rosidl_generator_c
+[ 16%] Built target serialMCU
+[ 24%] Built target detectabasura__rosidl_typesupport_cpp
+[35m[1mScanning dependencies of target video_publisher_usb[0m
+[ 29%] Built target video_publisher_cli
+[ 37%] Built target detectabasura__rosidl_typesupport_introspection_c
+[ 40%] [32mBuilding CXX object CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o[0m
+[ 48%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[ 64%] Built target detectabasura__rosidl_typesupport_c
+[ 72%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[ 72%] Built target detectabasura
+[ 75%] Built target detectabasura__py
+[ 81%] Built target detectabasura__python
+[ 86%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target detectabasura__rosidl_typesupport_c__pyext

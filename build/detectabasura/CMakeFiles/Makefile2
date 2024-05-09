@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/jetson/guali_ws/build/detectabasura
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/serialMCU.dir/all
 all: CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/all
 all: CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/all
 all: CMakeFiles/video_publisher_cli.dir/all
@@ -77,6 +78,7 @@ preinstall: detectabasura__py/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/serialMCU.dir/clean
 clean: CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir/clean
 clean: CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/clean
 clean: CMakeFiles/video_publisher_cli.dir/clean
@@ -115,6 +117,33 @@ detectabasura__py/preinstall:
 detectabasura__py/clean: detectabasura__py/CMakeFiles/detectabasura__py.dir/clean
 
 .PHONY : detectabasura__py/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/serialMCU.dir
+
+# All Build rule for target.
+CMakeFiles/serialMCU.dir/all:
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/depend
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=32,33 "Built target serialMCU"
+.PHONY : CMakeFiles/serialMCU.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/serialMCU.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/serialMCU.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jetson/guali_ws/build/detectabasura/CMakeFiles 0
+.PHONY : CMakeFiles/serialMCU.dir/rule
+
+# Convenience name for target.
+serialMCU: CMakeFiles/serialMCU.dir/rule
+
+.PHONY : serialMCU
+
+# clean rule for target.
+CMakeFiles/serialMCU.dir/clean:
+	$(MAKE) -f CMakeFiles/serialMCU.dir/build.make CMakeFiles/serialMCU.dir/clean
+.PHONY : CMakeFiles/serialMCU.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/detectabasura__rosidl_typesupport_introspection_c__pyext.dir
@@ -188,7 +217,7 @@ CMakeFiles/detectabasura__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 CMakeFiles/video_publisher_cli.dir/all:
 	$(MAKE) -f CMakeFiles/video_publisher_cli.dir/build.make CMakeFiles/video_publisher_cli.dir/depend
 	$(MAKE) -f CMakeFiles/video_publisher_cli.dir/build.make CMakeFiles/video_publisher_cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=32,33 "Built target video_publisher_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=34,35 "Built target video_publisher_cli"
 .PHONY : CMakeFiles/video_publisher_cli.dir/all
 
 # Build rule for subdir invocation for target.
@@ -552,7 +581,7 @@ CMakeFiles/detectabasura__rosidl_typesupport_cpp.dir/clean:
 CMakeFiles/video_publisher_usb.dir/all:
 	$(MAKE) -f CMakeFiles/video_publisher_usb.dir/build.make CMakeFiles/video_publisher_usb.dir/depend
 	$(MAKE) -f CMakeFiles/video_publisher_usb.dir/build.make CMakeFiles/video_publisher_usb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=34,35 "Built target video_publisher_usb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jetson/guali_ws/build/detectabasura/CMakeFiles --progress-num=36,37 "Built target video_publisher_usb"
 .PHONY : CMakeFiles/video_publisher_usb.dir/all
 
 # Build rule for subdir invocation for target.

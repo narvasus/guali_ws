@@ -1,0 +1,4 @@
+[01m[K/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp:[m[K In member function ‘[01m[Kvoid SerialPublisher::callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jetson/guali_ws/detectabasura/src/serialMCU.cpp:57:14:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kssize_t write(int, const void*, size_t)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kwrite(serial_fd_, data.c_str(), data.length())[m[K;
+         [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

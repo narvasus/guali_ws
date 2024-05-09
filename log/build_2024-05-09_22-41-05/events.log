@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000520] (detectabasura) JobQueued: {'identifier': 'detectabasura', 'dependencies': OrderedDict()}
+[0.002212] (detectabasura) JobStarted: {'identifier': 'detectabasura'}
+[0.067889] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'cmake'}
+[0.070931] (detectabasura) JobProgress: {'identifier': 'detectabasura', 'progress': 'build'}
+[0.074095] (detectabasura) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/guali_ws/build/detectabasura', '--', '-j4', '-l4'], 'cwd': '/home/jetson/guali_ws/build/detectabasura', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano (Developer Kit Version)'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.168 35852 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('JETSON_CUDA', 'NOT_INSTALLED'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jetson/guali_ws/install/detectabasura/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('TERM_PROGRAM_VERSION', '1.89.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-533f2a3d-258b-4016-be29-62c709ac8a9f.sock'), ('JETSON_TENSORRT', '8.0.1.6'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('JETSON_OPENCV_CUDA', 'YES'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('COLCON_PREFIX_PATH', '/home/jetson/guali_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'P3448-0000'), ('JETSON_SERIAL_NUMBER', '1420123018788'), ('JETSON_CUDNN', '8.2.1.32'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.vscode-server/cli/servers/Stable-b58957e67ee1e712cebf466b995adf4c5307b2bd/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('JETSON_OPENCV', '4.6.0'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano (Developer Kit Version)'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('JETSON_L4T_REVISION', '6.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e0ff227bd5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('JETSON_VULKAN_INFO', '1.2.141'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/guali_ws/build/detectabasura'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.168 35852 192.168.1.208 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('JETSON_VPI', 'ii libnvvpi1 1.1.15 arm64 NVIDIA Vision Programming Interface library'), ('PYTHONPATH', '/usr/local/lib/python3.8/site-packages/cv2:/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages/cv2:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/guali_ws/install/detectabasura:/opt/ros/foxy')]), 'shell': False}
+[0.099014] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.300668] (-) TimerEvent: {}
+[0.363515] (detectabasura) StdoutLine: {'line': b'[  2%] Built target detectabasura__cpp\n'}
+[0.400835] (-) TimerEvent: {}
+[0.409617] (detectabasura) StdoutLine: {'line': b'[ 10%] Built target detectabasura__rosidl_generator_c\n'}
+[0.446393] (detectabasura) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target video_publisher_usb\x1b[0m\n'}
+[0.460359] (detectabasura) StdoutLine: {'line': b'[ 16%] Built target serialMCU\n'}
+[0.485350] (detectabasura) StdoutLine: {'line': b'[ 21%] Built target video_publisher_cli\n'}
+[0.501008] (-) TimerEvent: {}
+[0.597150] (detectabasura) StdoutLine: {'line': b'[ 29%] Built target detectabasura__rosidl_typesupport_cpp\n'}
+[0.601178] (-) TimerEvent: {}
+[0.641827] (detectabasura) StdoutLine: {'line': b'[ 37%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp\n'}
+[0.701357] (-) TimerEvent: {}
+[0.755588] (detectabasura) StdoutLine: {'line': b'[ 45%] Built target detectabasura__rosidl_typesupport_introspection_c\n'}
+[0.762708] (detectabasura) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o\x1b[0m\n'}
+[0.791734] (detectabasura) StdoutLine: {'line': b'[ 56%] Built target detectabasura__rosidl_typesupport_introspection_cpp\n'}
+[0.801542] (-) TimerEvent: {}
+[0.838137] (detectabasura) StdoutLine: {'line': b'[ 64%] Built target detectabasura__rosidl_typesupport_c\n'}
+[0.901739] (-) TimerEvent: {}
+[0.914897] (detectabasura) StdoutLine: {'line': b'[ 72%] Built target detectabasura__rosidl_typesupport_fastrtps_c\n'}
+[0.995138] (detectabasura) StdoutLine: {'line': b'[ 72%] Built target detectabasura\n'}
+[1.001960] (-) TimerEvent: {}
+[1.095565] (detectabasura) StdoutLine: {'line': b'[ 75%] Built target detectabasura__py\n'}
+[1.102144] (-) TimerEvent: {}
+[1.202811] (-) TimerEvent: {}
+[1.218132] (detectabasura) StdoutLine: {'line': b'[ 81%] Built target detectabasura__python\n'}
+[1.302994] (-) TimerEvent: {}
+[1.403675] (-) TimerEvent: {}
+[1.409132] (detectabasura) StdoutLine: {'line': b'[ 86%] Built target detectabasura__rosidl_typesupport_c__pyext\n'}
+[1.417991] (detectabasura) StdoutLine: {'line': b'[ 91%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.453339] (detectabasura) StdoutLine: {'line': b'[ 97%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext\n'}
+[1.503866] (-) TimerEvent: {}
+[1.604563] (-) TimerEvent: {}
+[1.705417] (-) TimerEvent: {}
+[1.806436] (-) TimerEvent: {}
+[1.907248] (-) TimerEvent: {}
+[2.008552] (-) TimerEvent: {}
+[2.109877] (-) TimerEvent: {}
+[2.210982] (-) TimerEvent: {}
+[2.312123] (-) TimerEvent: {}
+[2.414030] (-) TimerEvent: {}
+[2.514784] (-) TimerEvent: {}
+[2.616678] (-) TimerEvent: {}
+[2.717611] (-) TimerEvent: {}
+[2.818889] (-) TimerEvent: {}
+[2.920086] (-) TimerEvent: {}
+[3.021815] (-) TimerEvent: {}
+[3.122800] (-) TimerEvent: {}
+[3.223533] (-) TimerEvent: {}
+[3.324341] (-) TimerEvent: {}
+[3.426040] (-) TimerEvent: {}
+[3.527648] (-) TimerEvent: {}
+[3.635637] (-) TimerEvent: {}
+[3.736447] (-) TimerEvent: {}
+[3.839936] (-) TimerEvent: {}
+[3.940609] (-) TimerEvent: {}
+[4.042193] (-) TimerEvent: {}
+[4.142942] (-) TimerEvent: {}
+[4.244514] (-) TimerEvent: {}
+[4.345312] (-) TimerEvent: {}
+[4.446377] (-) TimerEvent: {}
+[4.547915] (-) TimerEvent: {}
+[4.648620] (-) TimerEvent: {}
+[4.749430] (-) TimerEvent: {}
+[4.851048] (-) TimerEvent: {}
+[4.952756] (-) TimerEvent: {}
+[5.054632] (-) TimerEvent: {}
+[5.156449] (-) TimerEvent: {}
+[5.260419] (-) TimerEvent: {}
+[5.361289] (-) TimerEvent: {}
+[5.468777] (-) TimerEvent: {}
+[5.570338] (-) TimerEvent: {}
+[5.671986] (-) TimerEvent: {}
+[5.773357] (-) TimerEvent: {}
+[5.874007] (-) TimerEvent: {}
+[5.975077] (-) TimerEvent: {}
+[6.075768] (-) TimerEvent: {}
+[6.176527] (-) TimerEvent: {}
+[6.278249] (-) TimerEvent: {}
+[6.379260] (-) TimerEvent: {}
+[6.481193] (-) TimerEvent: {}
+[6.581864] (-) TimerEvent: {}
+[6.682592] (-) TimerEvent: {}
+[6.783320] (-) TimerEvent: {}
+[6.884053] (-) TimerEvent: {}
+[6.985820] (-) TimerEvent: {}
+[7.086514] (-) TimerEvent: {}
+[7.190429] (-) TimerEvent: {}
+[7.291113] (-) TimerEvent: {}
+[7.392275] (-) TimerEvent: {}
+[7.493327] (-) TimerEvent: {}
+[7.595064] (-) TimerEvent: {}
+[7.695750] (-) TimerEvent: {}
+[7.796466] (-) TimerEvent: {}
+[7.897160] (-) TimerEvent: {}
+[7.997844] (-) TimerEvent: {}
+[8.098529] (-) TimerEvent: {}
+[8.199886] (-) TimerEvent: {}
+[8.301408] (-) TimerEvent: {}
+[8.403478] (-) TimerEvent: {}
+[8.505498] (-) TimerEvent: {}
+[8.606789] (-) TimerEvent: {}
+[8.707473] (-) TimerEvent: {}
+[8.808240] (-) TimerEvent: {}
+[8.909886] (-) TimerEvent: {}
+[9.013531] (-) TimerEvent: {}
+[9.114924] (-) TimerEvent: {}
+[9.215584] (-) TimerEvent: {}
+[9.316681] (-) TimerEvent: {}
+[9.418275] (-) TimerEvent: {}
+[9.519900] (-) TimerEvent: {}
+[9.621399] (-) TimerEvent: {}
+[9.722479] (-) TimerEvent: {}
+[9.823527] (-) TimerEvent: {}
+[9.925069] (-) TimerEvent: {}
+[10.025900] (-) TimerEvent: {}
+[10.127319] (-) TimerEvent: {}
+[10.228692] (-) TimerEvent: {}
+[10.329969] (-) TimerEvent: {}
+[10.431090] (-) TimerEvent: {}
+[10.532073] (-) TimerEvent: {}
+[10.632935] (-) TimerEvent: {}
+[10.733649] (-) TimerEvent: {}
+[10.835976] (-) TimerEvent: {}
+[10.936664] (-) TimerEvent: {}
+[10.942423] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.943254] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:28:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera0_capture\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.944015] (detectabasura) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kcamera0_capture\x1b[m\x1b[K = cv::VideoCapture(2);\n'}
+[10.944508] (detectabasura) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.959411] (detectabasura) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:29:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera1_capture\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.960325] (detectabasura) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kcamera1_capture\x1b[m\x1b[K = cv::VideoCapture(3);\n'}
+[10.961177] (detectabasura) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.036850] (-) TimerEvent: {}
+[11.137752] (-) TimerEvent: {}
+[11.238506] (-) TimerEvent: {}
+[11.339613] (-) TimerEvent: {}
+[11.440360] (-) TimerEvent: {}
+[11.541011] (-) TimerEvent: {}
+[11.641714] (-) TimerEvent: {}
+[11.742527] (-) TimerEvent: {}
+[11.844908] (-) TimerEvent: {}
+[11.945958] (-) TimerEvent: {}
+[12.047047] (-) TimerEvent: {}
+[12.147885] (-) TimerEvent: {}
+[12.251874] (-) TimerEvent: {}
+[12.352559] (-) TimerEvent: {}
+[12.453202] (-) TimerEvent: {}
+[12.553903] (-) TimerEvent: {}
+[12.654717] (-) TimerEvent: {}
+[12.755360] (-) TimerEvent: {}
+[12.856065] (-) TimerEvent: {}
+[12.956876] (-) TimerEvent: {}
+[13.058380] (-) TimerEvent: {}
+[13.159107] (-) TimerEvent: {}
+[13.260151] (-) TimerEvent: {}
+[13.361211] (-) TimerEvent: {}
+[13.461938] (-) TimerEvent: {}
+[13.562907] (-) TimerEvent: {}
+[13.663630] (-) TimerEvent: {}
+[13.764918] (-) TimerEvent: {}
+[13.865648] (-) TimerEvent: {}
+[13.966305] (-) TimerEvent: {}
+[14.067086] (-) TimerEvent: {}
+[14.167727] (-) TimerEvent: {}
+[14.268985] (-) TimerEvent: {}
+[14.369629] (-) TimerEvent: {}
+[14.470381] (-) TimerEvent: {}
+[14.571097] (-) TimerEvent: {}
+[14.671768] (-) TimerEvent: {}
+[14.673648] (detectabasura) StderrLine: {'line': b'make[2]: *** [CMakeFiles/video_publisher_usb.dir/build.make:63: CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o] Error 1\n'}
+[14.674808] (detectabasura) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:583: CMakeFiles/video_publisher_usb.dir/all] Error 2\n'}
+[14.675378] (detectabasura) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.681284] (detectabasura) CommandEnded: {'returncode': 2}
+[14.771991] (-) TimerEvent: {}
+[14.872883] (-) TimerEvent: {}
+[14.977880] (-) TimerEvent: {}
+[15.035639] (detectabasura) JobEnded: {'identifier': 'detectabasura', 'rc': 2}
+[15.047138] (-) EventReactorShutdown: {}

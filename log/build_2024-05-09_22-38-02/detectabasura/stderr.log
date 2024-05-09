@@ -1,0 +1,22 @@
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:82:12:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Kclass cv::VideoCapture[m[K’ argument given to ‘[01m[Kdelete[m[K’, expected pointer
+     delete [01;31m[Kcamera0_capture[m[K;
+            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:83:12:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Kclass cv::VideoCapture[m[K’ argument given to ‘[01m[Kdelete[m[K’, expected pointer
+     delete [01;31m[Kcamera1_capture[m[K;
+            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:85:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::VideoCapture camera0_capture[m[K’
+     cv::VideoCapture camera0_capture[01;31m[K([m[K2);
+                                     [01;31m[K^[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:58:22:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::VideoCapture camera0_capture[m[K’ previously declared here
+     cv::VideoCapture [01;36m[Kcamera0_capture[m[K;
+                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:86:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::VideoCapture camera1_capture[m[K’
+     cv::VideoCapture camera1_capture[01;31m[K([m[K3);
+                                     [01;31m[K^[m[K
+[01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:59:22:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::VideoCapture camera1_capture[m[K’ previously declared here
+     cv::VideoCapture [01;36m[Kcamera1_capture[m[K;
+                      [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/video_publisher_usb.dir/build.make:63: CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:583: CMakeFiles/video_publisher_usb.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

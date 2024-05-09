@@ -9,6 +9,7 @@ endif()
 # Find required packages
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(yaml-cpp REQUIRED)
@@ -22,6 +23,7 @@ find_package(OpenCV 4.2 REQUIRED PATHS /usr/share/opencv4)
 set(EXEC_NAMES
   video_publisher_cli
   video_publisher_usb
+  serialMCU
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -32,6 +34,7 @@ foreach(EXEC_NAME ${EXEC_NAMES})
     add_executable(${EXEC_NAME} src/${EXEC_NAME}.cpp)
     ament_target_dependencies(${EXEC_NAME}
       rclcpp
+      std_msgs
       sensor_msgs
       cv_bridge
       OpenCV

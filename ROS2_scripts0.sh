@@ -1,0 +1,1 @@
+killall video_publisher ros2 serialMCU jtop

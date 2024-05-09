@@ -1,0 +1,542 @@
+[1.842s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.842s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7dad9250>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7dad9250>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7dad9790>)
+[1.844s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.845s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa8dd6310>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa8dd6310>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa8dd6850>)
+[2.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.008s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.008s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/guali_ws'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.016s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.018s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/guali_ws'
+[2.018s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['ignore', 'ignore_ament_install']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'ignore'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'ignore_ament_install'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['colcon_pkg']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'colcon_pkg'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['colcon_meta']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'colcon_meta'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['ros']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'ros'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['cmake', 'python']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'cmake'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'python'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['python_setup_py']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'python_setup_py'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['ignore', 'ignore_ament_install']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'ignore'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'ignore_ament_install'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['colcon_pkg']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'colcon_pkg'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['colcon_meta']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'colcon_meta'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['ros']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'ros'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['cmake', 'python']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'cmake'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'python'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['python_setup_py']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'python_setup_py'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['ignore', 'ignore_ament_install']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ignore'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ignore_ament_install'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['colcon_pkg']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'colcon_pkg'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['colcon_meta']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'colcon_meta'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['ros']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ros'
+[2.089s] DEBUG:colcon.colcon_core.package_identification:Package 'detectabasura' with type 'ros.ament_cmake' and name 'detectabasura'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['ignore', 'ignore_ament_install']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'ignore'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'ignore_ament_install'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['colcon_pkg']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'colcon_pkg'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['colcon_meta']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'colcon_meta'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['ros']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'ros'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['cmake', 'python']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'cmake'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'python'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['python_setup_py']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'python_setup_py'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'ignore_ament_install'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['colcon_pkg']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'colcon_pkg'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['colcon_meta']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'colcon_meta'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['ros']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'ros'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['cmake', 'python']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'cmake'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'python'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['python_setup_py']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'python_setup_py'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['ignore', 'ignore_ament_install']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'ignore'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'ignore_ament_install'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['colcon_pkg']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'colcon_pkg'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['colcon_meta']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'colcon_meta'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['ros']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'ros'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['cmake', 'python']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'cmake'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'python'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['python_setup_py']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'python_setup_py'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['ignore', 'ignore_ament_install']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'ignore'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'ignore_ament_install'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['colcon_pkg']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'colcon_pkg'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['colcon_meta']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'colcon_meta'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['ros']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'ros'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['cmake', 'python']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['ignore', 'ignore_ament_install']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'cmake'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'python'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'ignore'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['python_setup_py']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'ignore_ament_install'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'python_setup_py'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['colcon_pkg']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'colcon_pkg'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['ignore', 'ignore_ament_install']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['colcon_meta']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'colcon_meta'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'ignore'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['ros']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'ignore_ament_install'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'ros'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['colcon_pkg']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['cmake', 'python']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'colcon_pkg'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'cmake'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['colcon_meta']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'python'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'colcon_meta'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extensions ['python_setup_py']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['ros']
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_cli) by extension 'python_setup_py'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'ros'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['cmake', 'python']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['ignore', 'ignore_ament_install']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'cmake'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'python'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'ignore'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['python_setup_py']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'ignore_ament_install'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'python_setup_py'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['colcon_pkg']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'colcon_pkg'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['colcon_meta']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'colcon_meta'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'ignore'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['ros']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'ros'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'ignore_ament_install'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['colcon_pkg']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['cmake', 'python']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'colcon_pkg'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'cmake'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['colcon_meta']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'python'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'colcon_meta'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extensions ['python_setup_py']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['ros']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(camera_parameters_usb) by extension 'python_setup_py'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'ros'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['ignore', 'ignore_ament_install']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['cmake', 'python']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'cmake'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ignore'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'python'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ignore_ament_install'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['python_setup_py']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'python_setup_py'
+[2.082s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['colcon_pkg']
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'colcon_pkg'
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['colcon_meta']
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'colcon_meta'
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extensions ['ros']
+[2.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(detectabasura) by extension 'ros'
+[2.093s] DEBUG:colcon.colcon_core.package_identification:Package 'detectabasura' with type 'ros.ament_cmake' and name 'detectabasura'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['ignore', 'ignore_ament_install']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'ignore'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'ignore_ament_install'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['colcon_pkg']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'colcon_pkg'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['colcon_meta']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'colcon_meta'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['ros']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'ros'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['cmake', 'python']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'cmake'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'python'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extensions ['python_setup_py']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU) by extension 'python_setup_py'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['ignore', 'ignore_ament_install']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'ignore'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'ignore_ament_install'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['colcon_pkg']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'colcon_pkg'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['colcon_meta']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'colcon_meta'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['ros']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'ros'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['cmake', 'python']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'cmake'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'python'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extensions ['python_setup_py']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global1) by extension 'python_setup_py'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'ignore_ament_install'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['colcon_pkg']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'colcon_pkg'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['colcon_meta']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'colcon_meta'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['ros']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'ros'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['cmake', 'python']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'cmake'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'python'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extensions ['python_setup_py']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/global2) by extension 'python_setup_py'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['ignore', 'ignore_ament_install']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'ignore'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'ignore_ament_install'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['colcon_pkg']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'colcon_pkg'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['colcon_meta']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'colcon_meta'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['ros']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'ros'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['cmake', 'python']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'cmake'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'python'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extensions ['python_setup_py']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/serialReciveArduino) by extension 'python_setup_py'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['ignore', 'ignore_ament_install']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'ignore'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'ignore_ament_install'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['colcon_pkg']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'colcon_pkg'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['colcon_meta']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'colcon_meta'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['ros']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'ros'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['cmake', 'python']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'cmake'
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'python'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extensions ['python_setup_py']
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/servotest) by extension 'python_setup_py'
+[2.115s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['ignore', 'ignore_ament_install']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'ignore'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'ignore_ament_install'
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['colcon_pkg']
+[2.116s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'colcon_pkg'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['colcon_meta']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'colcon_meta'
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['ros']
+[2.117s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'ros'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['cmake', 'python']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'cmake'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'python'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extensions ['python_setup_py']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(nodeMCU/trhead_test1) by extension 'python_setup_py'
+[2.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jetson/guali_ws/install
+[2.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[2.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jetson/guali_ws/install
+[2.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 257 installed packages in /opt/ros/foxy
+[2.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_args' from command line to 'None'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target' from command line to 'None'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_cache' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_first' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_force_configure' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'ament_cmake_args' from command line to 'None'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_cmake_args' from command line to 'None'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.591s] DEBUG:colcon.colcon_core.verb:Building package 'detectabasura' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/guali_ws/build/detectabasura', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/guali_ws/install/detectabasura', 'merge_install': False, 'path': '/home/jetson/guali_ws/detectabasura', 'symlink_install': False, 'test_result_base': None}
+[2.596s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.619s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/guali_ws/detectabasura' with build type 'ament_cmake'
+[2.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/guali_ws/detectabasura'
+[2.627s] ERROR:colcon.colcon_core.event_reactor:Exception in event handler extension 'console_start_end': [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/event_reactor.py", line 78, in _notify_observers
+    retval = observer(event)
+  File "/usr/lib/python3/dist-packages/colcon_core/event_handler/console_start_end.py", line 38, in __call__
+    print(f'Starting >>> {data.identifier}', flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_args' from command line to 'None'
+[2.604s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_cache' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_clean_first' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'cmake_force_configure' from command line to 'False'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'ament_cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_cmake_args' from command line to 'None'
+[2.605s] Level 5:colcon.colcon_core.verb:set package 'detectabasura' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.606s] DEBUG:colcon.colcon_core.verb:Building package 'detectabasura' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/guali_ws/build/detectabasura', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/guali_ws/install/detectabasura', 'merge_install': False, 'path': '/home/jetson/guali_ws/detectabasura', 'symlink_install': False, 'test_result_base': None}
+[2.610s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.645s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.646s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.631s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/guali_ws/detectabasura' with build type 'ament_cmake'
+[2.632s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/guali_ws/detectabasura'
+[2.639s] ERROR:colcon.colcon_core.event_reactor:Exception in event handler extension 'console_start_end': [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/event_reactor.py", line 78, in _notify_observers
+    retval = observer(event)
+  File "/usr/lib/python3/dist-packages/colcon_core/event_handler/console_start_end.py", line 38, in __call__
+    print(f'Starting >>> {data.identifier}', flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+
+[2.661s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[2.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[3.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[3.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[4.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura
+[4.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura
+[4.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[4.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura
+[4.373s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake module files
+[4.377s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake config files
+[4.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[4.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[4.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[4.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[4.396s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib'
+[4.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'ld_library_path_lib')
+[4.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.ps1'
+[4.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.dsv'
+[4.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.sh'
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[4.414s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages'
+[4.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'pythonpath')
+[4.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.ps1'
+[4.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.dsv'
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.sh'
+[4.430s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.ps1'
+[4.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv'
+[4.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.sh'
+[4.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.bash'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.zsh'
+[4.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[4.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/guali_ws/install/detectabasura/share/colcon-core/packages/detectabasura)
+[4.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/guali_ws/build/detectabasura
+[4.464s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake module files
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake config files
+[4.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[4.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[4.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[4.489s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib'
+[4.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'ld_library_path_lib')
+[4.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.ps1'
+[4.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.dsv'
+[4.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.sh'
+[4.504s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.505s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[4.506s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages'
+[4.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'pythonpath')
+[4.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.ps1'
+[4.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.dsv'
+[4.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.sh'
+[4.522s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.ps1'
+[4.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.sh'
+[4.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.bash'
+[4.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.zsh'
+[4.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/guali_ws/install/detectabasura/share/colcon-core/packages/detectabasura)
+[4.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake module files
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake config files
+[4.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[4.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[4.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[4.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[4.671s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib'
+[4.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'ld_library_path_lib')
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.ps1'
+[4.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.dsv'
+[4.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.sh'
+[4.684s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.685s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[4.686s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages'
+[4.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'pythonpath')
+[4.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.ps1'
+[4.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.dsv'
+[4.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.sh'
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.ps1'
+[4.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.sh'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.bash'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.zsh'
+[4.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/guali_ws/install/detectabasura/share/colcon-core/packages/detectabasura)
+[4.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.726s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.726s] ERROR:colcon.colcon_core.event_reactor:Exception in event handler extension 'console_start_end': [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/event_reactor.py", line 78, in _notify_observers
+    retval = observer(event)
+  File "/usr/lib/python3/dist-packages/colcon_core/event_handler/console_start_end.py", line 64, in __call__
+    print(msg, file=writable, flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+
+[4.747s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.748s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detectabasura)
+[4.790s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.ps1'
+[4.770s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake module files
+[4.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/guali_ws/install/_local_setup_util_ps1.py'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura' for CMake config files
+[4.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'cmake_prefix_path')
+[4.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.ps1'
+[4.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.sh'
+[4.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.ps1'
+[4.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/guali_ws/install/_local_setup_util_sh.py'
+[4.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.dsv'
+[4.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.sh'
+[4.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/cmake_prefix_path.sh'
+[4.791s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib'
+[4.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'ld_library_path_lib')
+[4.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.bash'
+[4.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.bash'
+[4.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.ps1'
+[4.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.dsv'
+[4.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.zsh'
+[4.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/ld_library_path_lib.sh'
+[4.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.zsh'
+[4.805s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.805s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/pkgconfig/detectabasura.pc'
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/lib/python3.8/site-packages'
+[4.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('detectabasura', 'pythonpath')
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.ps1'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.dsv'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/hook/pythonpath.sh'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/guali_ws/install/detectabasura/bin'
+[4.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.ps1'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.dsv'
+[4.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.sh'
+[4.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.bash'
+[4.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/guali_ws/install/detectabasura/share/detectabasura/package.zsh'
+[4.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/guali_ws/install/detectabasura/share/colcon-core/packages/detectabasura)
+[4.849s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.852s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.852s] ERROR:colcon.colcon_core.event_reactor:Exception in event handler extension 'console_start_end': [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/event_reactor.py", line 78, in _notify_observers
+    retval = observer(event)
+  File "/usr/lib/python3/dist-packages/colcon_core/event_handler/console_start_end.py", line 64, in __call__
+    print(msg, file=writable, flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+
+[4.879s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.880s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.880s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.922s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.ps1'
+[4.938s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/guali_ws/install/_local_setup_util_ps1.py'
+[4.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.ps1'
+[4.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.sh'
+[4.955s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/guali_ws/install/_local_setup_util_sh.py'
+[4.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.sh'
+[4.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.bash'
+[4.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.bash'
+[4.975s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/guali_ws/install/local_setup.zsh'
+[4.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/guali_ws/install/setup.zsh'

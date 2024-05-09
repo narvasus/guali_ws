@@ -9,8 +9,8 @@ while true; do
     clear
 
     # Get network statistics
-    netstat_output=$(netstat -i | grep eth0)
-    #netstat_output=$(netstat -i | grep wlan0)
+    #netstat_output=$(netstat -i | grep eth0)
+    netstat_output=$(netstat -i | grep wlan0)
 
     # Extract sent and received bytes
     received_bytes=$(echo "$netstat_output" | awk '{print $3}')

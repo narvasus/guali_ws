@@ -1,0 +1,36 @@
+[0.067s] Invoking command in '/home/jetson/guali_ws/build/detectabasura': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
+[0.301s] [  2%] Built target detectabasura__cpp
+[0.316s] [ 10%] Built target detectabasura__rosidl_generator_c
+[0.371s] [ 16%] Built target serialMCU
+[0.443s] [ 24%] Built target detectabasura__rosidl_typesupport_cpp
+[0.473s] [35m[1mScanning dependencies of target video_publisher_usb[0m
+[0.556s] [ 29%] Built target video_publisher_cli
+[0.726s] [ 37%] Built target detectabasura__rosidl_typesupport_introspection_c
+[0.738s] [ 40%] [32mBuilding CXX object CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o[0m
+[0.740s] [ 48%] Built target detectabasura__rosidl_typesupport_fastrtps_cpp
+[0.813s] [ 56%] Built target detectabasura__rosidl_typesupport_introspection_cpp
+[0.903s] [ 64%] Built target detectabasura__rosidl_typesupport_c
+[0.916s] [ 72%] Built target detectabasura__rosidl_typesupport_fastrtps_c
+[1.006s] [ 72%] Built target detectabasura
+[1.082s] [ 75%] Built target detectabasura__py
+[1.217s] [ 81%] Built target detectabasura__python
+[1.447s] [ 86%] Built target detectabasura__rosidl_typesupport_fastrtps_c__pyext
+[1.484s] [ 91%] Built target detectabasura__rosidl_typesupport_introspection_c__pyext
+[1.513s] [ 97%] Built target detectabasura__rosidl_typesupport_c__pyext
+[10.742s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.742s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:83:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::VideoCapture camera0_capture[m[K’
+[10.743s]      cv::VideoCapture camera0_capture[01;31m[K([m[K2);
+[10.744s]                                      [01;31m[K^[m[K
+[10.745s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:58:22:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::VideoCapture camera0_capture[m[K’ previously declared here
+[10.747s]      cv::VideoCapture [01;36m[Kcamera0_capture[m[K;
+[10.747s]                       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[10.748s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:84:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kcv::VideoCapture camera1_capture[m[K’
+[10.748s]      cv::VideoCapture camera1_capture[01;31m[K([m[K3);
+[10.749s]                                      [01;31m[K^[m[K
+[10.750s] [01m[K/home/jetson/guali_ws/detectabasura/src/video_publisher_usb.cpp:59:22:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::VideoCapture camera1_capture[m[K’ previously declared here
+[10.750s]      cv::VideoCapture [01;36m[Kcamera1_capture[m[K;
+[10.750s]                       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[14.421s] make[2]: *** [CMakeFiles/video_publisher_usb.dir/build.make:63: CMakeFiles/video_publisher_usb.dir/src/video_publisher_usb.cpp.o] Error 1
+[14.422s] make[1]: *** [CMakeFiles/Makefile2:583: CMakeFiles/video_publisher_usb.dir/all] Error 2
+[14.422s] make: *** [Makefile:141: all] Error 2
+[14.429s] Invoked command in '/home/jetson/guali_ws/build/detectabasura' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/guali_ws/build/detectabasura -- -j4 -l4
